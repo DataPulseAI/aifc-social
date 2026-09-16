@@ -1,0 +1,20 @@
+{
+  "name": "AIforCompanies",
+  "wordmark": { "parts": ["AI", "for", "Companies"], "colours": ["green", "ink", "green"] },
+  "domain": "aiforcompanies.co.uk",
+  "colour": {
+    "green":      "#1B4332",
+    "greenLight": "#2D6A4F",
+    "greenPale":  "#D8E5DE",
+    "ink":        "#14171A",
+    "inkSoft":    "#4A5257",
+    "stone":      "#F5F5F2",
+    "stoneDeep":  "#EAEAE4",
+    "white":      "#FFFFFF"
+  },
+  "font": {
+    "display": "Newsreader",
+    "body": "Instrument Sans"
+  },
+  "canvas": { "w": 1080, "h": 1350 }
+}
