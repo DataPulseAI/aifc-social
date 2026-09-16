@@ -92,6 +92,27 @@ Our earlier note said zero to three with a preference for none. Revised: **two, 
 end**, capitalised for screen readers, `#AIforBusiness` rather than `#aiforbusiness`.
 Six or more measurably hurts and always has.
 
+## 4a. The first comment
+
+Available from 16 September 2026, when the Buffer plan moved to Essentials. It saves
+through the API as `metadata.linkedin.firstComment`, tested and confirmed.
+
+**What goes in it.** The extension of the post, not the post's plumbing. The two or three
+things to check this week. The caveat that would have made the body baggy. A question that
+gives a reader somewhere obvious to reply. A first comment from the page also means the
+post is never sitting at zero comments, and threaded replies carry up to 2.4x.
+
+**What never goes in it: a link.** First-comment links are separately deboosted, and that
+is the one thing every source agrees on. The link goes in the body, where `docs/16` puts it.
+Moving it to the comment to dodge a penalty is the exact behaviour the March 2026
+authenticity update targets.
+
+**And the source stays in the body.** It is tempting to push the citation into the comment
+to keep the post clean. Do not. Visible sourcing is most of why this page is worth
+following, and a source nobody scrolls to is a source nobody sees. Put the one-line
+citation in the body and use the comment for the methodology note, the second figure, or
+the thing the reader should now go and do.
+
 ## 5. Links, and a correction worth recording
 
 `docs/02` carries a measured **18.8% penalty** on link posts, from van der Blom's 2026

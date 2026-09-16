@@ -20,6 +20,12 @@ run spent most of its effort discovering there was nothing to do.
 
 ## The shape now
 
+**Note, 16 September 2026.** The Buffer plan moved to Essentials, so the ten-scheduled-post
+cap is gone: the limit is now 5,000 per channel, which is not a limit. The three-day buffer
+that shaped this design was a workaround for that cap and no longer constrains anything.
+What replaced it is an editorial rule rather than a technical one, in section "How far
+ahead to schedule" below.
+
 **Weekly batch, Sunday.** The heavy run. Polls the feeds, reads the week's calendar in
 `docs/03`, writes fifteen to twenty posts across the type mix in `docs/18`, renders every
 asset, reviews them as a set, pushes the assets, and banks the lot in `bank/queue.csv`
@@ -39,6 +45,30 @@ longer fails when a laptop is shut.
 written, rendered and pushed the same way the old daily run did it, and takes a queued
 evergreen slot. The displaced item goes back to the bank at `status=ready`. This should be
 rare. If it happens weekly, the batch is not reading the right feeds.
+
+## How far ahead to schedule
+
+The cap is gone, so the question is now editorial: how long can a post sit in a queue and
+still be true when it publishes.
+
+| Type | Horizon | Why |
+|---|---|---|
+| `news` | 3 days | A news post written on Sunday and published on Friday is five days stale, and the story may have moved. Anything older than this gets rewritten or dropped, not published. |
+| `roundup`, `share` | 5 days | Tied to the week, not the day. |
+| `grid`, `guide`, `carousel`, `promo` | 3 weeks | Evergreen. These are what the queue should be long on. |
+
+So the batch schedules everything it writes, placing news in the first three days and
+evergreen behind it, and the queue naturally runs one to three weeks deep with a
+short-dated head and a long-dated tail.
+
+**The daily drain changes job.** It is now mostly a watchdog: check for errored posts,
+check the head of the queue has not gone stale, and top up from the bank if a slot opened
+because something was deleted or failed. It still runs daily because catching a broken
+image URL within a day is worth more than the minute it costs.
+
+**One rule that matters more now than it did.** A long queue makes it easy to leave
+something scheduled that should not run. If a story is overtaken, delete the post and send
+the bank row back to `ready` or `dropped`. A queue nobody prunes is worse than a short one.
 
 ## The bank
 

@@ -118,6 +118,23 @@ rotating ai-policy, prompt-library, week-four.
 
 ---
 
+## The first comment
+
+Every type may carry one, in the `first_comment` column of `bank/queue.csv`. It is not
+compulsory and a weak one is worse than none.
+
+| Type | What belongs in it |
+|---|---|
+| news | The caveat, the second figure, or what to check this week |
+| grid | The seventh item that did not fit, or how to pick which one to start with |
+| roundup | Which of the four to read first, and why |
+| carousel | The one line that sums up the deck, for people who did not swipe |
+| guide | The common mistake people make on step one |
+| share | Why this particular person's work is worth your time |
+| promo | Nothing. A promo already has a link in the body. Leave the comment empty. |
+
+Never a link. `docs/20` section 4a explains why.
+
 ## Choosing between them
 
 | If the material is | Use |

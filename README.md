@@ -147,18 +147,20 @@ never sees this URL.
 
 ## 5. The queue
 
-Buffer free plan: three channels, ten scheduled posts. The engine treats that as a
-**rolling three-day buffer at three a day**, not a calendar.
+Buffer moved to the Essentials plan on 16 September 2026. Scheduled posts are effectively
+unlimited (5,000 per channel), first comment scheduling is available, and analytics history
+is no longer capped at 30 days.
 
-- Slots are 07:45, 12:15 and 17:15 UK.
-- Weekdays only. B2B engagement on a Saturday is not worth a slot.
-- Top up to ten, never exceed it.
-- A breaking story may delete a queued evergreen post and take its slot. The displaced
-  item goes back to `bank/bank.md`.
-
-The buffer is the retry mechanism. Nothing tries to detect a failed run and re-fire.
-
----
+- Slots are 07:45, 12:15 and 17:15 UK, weekdays only.
+- How far ahead a post may be scheduled is now an editorial question, not a technical one.
+  News gets three days, roundups and shares five, evergreen three weeks. The table is in
+  `docs/19-batch-and-drain.md`.
+- The queue therefore runs one to three weeks deep, short-dated at the head and long-dated
+  at the tail.
+- A breaking story may delete a queued evergreen post and take its slot. The displaced item
+  goes back to `bank/bank.md` or to `status=ready`.
+- Prune it. A long queue makes it easy to leave something scheduled that has been overtaken.
+  Deleting a post and returning its bank row is part of the job, not an exception.
 
 ## 6. The ledger, and why it is not optional
 

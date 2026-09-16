@@ -18,7 +18,7 @@ import { toObjects, fromObjects } from './lib/csv.mjs';
 const FILE = process.env.QUEUE || 'bank/queue.csv';
 export const HEAD = ['id','status','type','priority','headline','body_file','card_file','card_url',
   'asset_type','doc_title','source_publisher','source_date','source_url','archetype','hook_type',
-  'photo_file','destination','mentions','notes','created','post_id'];
+  'photo_file','destination','mentions','first_comment','notes','created','post_id'];
 
 const load = () => {
   if (!existsSync(FILE)) return { head: HEAD, recs: [] };
