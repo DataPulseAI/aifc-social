@@ -28,10 +28,46 @@ becomes a tic by the third time. The task tracks `hook_type` in the ledger for t
 more than one a week about Microsoft specifically, which is the easiest well to keep
 returning to because it publishes the most.
 
-`node lib/freshness.mjs bank/bank.md` runs these against the ledger and prints what is
-at risk. Run it as part of every daily run, not weekly.
+## 2. The procedure. Run it every time.
 
-## 2. The bank is not a queue
+These checks only work if the ledger is written, and the ledger is only written if the
+step below is run. Both halves are mandatory on every daily run.
+
+**Before drafting**, run the guard:
+
+```bash
+node lib/freshness.mjs bank/ledger.csv
+```
+
+It exits 1 and prints what is at risk of repeating. Every line it prints is binding.
+Choose differently rather than explaining why the repetition is acceptable.
+
+**After scheduling**, write the ledger and stamp the photos. Build an `entries.json`
+array, one object per post scheduled, with keys date, time, headline, source_publisher,
+source_date, archetype, hook_type, photo_file, destination, post_id. Then:
+
+```bash
+node record.mjs entries.json
+```
+
+That appends quoted rows to `bank/ledger.csv` and stamps `lastUsed` in
+`photos/index.json`. Copy both changed files to the Mac and push them along with the
+cards. If the push fails, say so explicitly in the run summary, because the next run will
+otherwise repeat the same photos.
+
+**Why this is not optional.** `lib/photos.mjs` scores a photo down by its `lastUsed`
+date. The matcher is otherwise deterministic, so the same tags return the same photo
+every single time. Until 16 September this was a live defect: `lastUsed` was read by the
+matcher and written by nothing, all 264 entries were null, and the page would have been
+visibly recycling a handful of images inside a fortnight.
+
+**Two corrections to older instructions.** The ledger is `bank/ledger.csv`, not
+`bank/ledger.md` and not `ledger.csv` at the repo root. And the guard is run against the
+ledger, not against `bank/bank.md`. If the prompt you were handed says otherwise, the
+prompt is out of date and this file is correct.
+
+
+## 3. The bank is not a queue
 
 The bank exists so a thin news day never forces a weak post. It is not a rota.
 
@@ -43,7 +79,7 @@ against September's numbers reads oddly in November even when the numbers have n
 Top the bank up monthly, not when it empties. An empty bank on a quiet Monday is how
 weak posts get published.
 
-## 3. Originality, and where the line is
+## 4. Originality, and where the line is
 
 We summarise other people's reporting and link to them. That is standard practice and it
 is how the format works. The line is specific and worth stating exactly.
@@ -69,7 +105,7 @@ back.
 them. That is the trade that makes this sustainable rather than parasitic, and it costs
 us nothing.
 
-## 4. Not reading like a machine
+## 5. Not reading like a machine
 
 The full list is in `01-voice.md`. Four things matter most, and all four appear in every
 competitor post we studied, which is why they now read as generated.
@@ -92,7 +128,7 @@ And the positive test, which catches more than the negative list: **if the first
 lines could sit on any other AI account with only the brand name swapped, rewrite them.**
 The fix is nearly always to replace the general claim with the specific thing.
 
-## 5. On detection specifically
+## 6. On detection specifically
 
 LinkedIn has never confirmed that it detects and downranks AI-written text. That claim
 circulates constantly with no primary source. What LinkedIn did announce, in March 2026,
