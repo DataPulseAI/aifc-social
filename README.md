@@ -329,6 +329,7 @@ change the editorial line on one bad week.
 | `no ledger yet, nothing to check` | Wrong path | The ledger is `bank/ledger.csv`, not the repo root |
 | Same photo keeps appearing | `record.mjs` was not run, or its push failed | Section 6 |
 | Playwright cannot find a browser | Version pin mismatch | `executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'` |
+| Push returns 401 | `GH_TOKEN_AIFC` expired, due 16 September 2027 | Regenerate the fine-grained token and update `claude/aifc-credentials.md` |
 
 ---
 
@@ -373,7 +374,8 @@ scratch/              one-off scripts from the build. Nothing reads these.
 - **Buffer**: organisation `6aa9bd84b82395c27e21a9f2`, channel `6aa9c633ea19ca0bde502b5e`,
   account viren@aiforcompanies.co.uk. Free plan.
 - **Assets repo**: `DataPulseAI/aifc-social`, public. Token in the project doc
-  `claude/aifc-credentials.md`, scoped to this repo's contents only.
+  `claude/aifc-credentials.md`, scoped to this repo's contents only. **It expires on
+  16 September 2027.**
 - **Website**: `DataPulseAI/aiforcompanies`, Next.js on AWS Amplify.
 - **Mac path**: `/Users/virensamani/projects/aifc-social`, which `device_bash` sees as
   `$HOME/mnt/projects/aifc-social`.
