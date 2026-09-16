@@ -52,9 +52,9 @@ So the page launches now, in two phases.
 
 | | Mon | Tue | Wed | Thu | Fri |
 |---|---|---|---|---|---|
-| **07:45** | Stat card | Stat card | Quote card | Stat card | Quote card |
-| **12:15** | Tips card | **Carousel** | List card | **Carousel** | Tips card |
-| **17:15** | List card | Quote card | Tips card | Stat card | List card |
+| **Morning** | Stat card | Stat card | Quote card | Stat card | Quote card |
+| **Midday** | Tips card | **Carousel** | List card | **Carousel** | Tips card |
+| **Late** | List card | Quote card | Tips card | Stat card | List card |
 
 Two posts a day rather than three, because without photographs the third slot would be
 padding. Fifteen posts a fortnight, all typographic, all on brand, none of them a

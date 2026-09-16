@@ -129,8 +129,13 @@ First-comment links are separately deboosted, which is the one thing everyone ag
 
 ## 6. Timing
 
-Tuesday to Thursday, 8 to 10am local, is the window both sources name. Our slots are 07:45,
-12:15 and 17:15 UK on weekdays, which puts the strongest post of the day just inside it.
+Tuesday to Thursday is the day band every source agrees on. The hour they do not: Buffer's
+4.8M posts say 4 to 5pm midweek, Sprout's 2 billion engagements say 11am to 5pm, and the
+piece cited above says 8 to 10am. Our three bands span that range by construction, which is
+one of the advantages of posting three times a day rather than once.
+
+Exact times inside each band vary daily and deliberately. See `docs/02`: a fixed minute,
+every day, for months, is an automation signal in its own right.
 
 Do not read anything into a single week. A page at zero followers produces noise, not
 signal, for at least a month.

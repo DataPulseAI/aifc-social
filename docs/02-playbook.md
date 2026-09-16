@@ -130,11 +130,32 @@ optimisation: the major studies contradict each other on the best hour, and one
 100,000 post analysis found no detectable best hour at all once content quality was
 controlled for.
 
-| Slot | Time (UK) | Job | Usual archetype |
+| Slot | Band (UK) | Job | Usual archetype |
 |---|---|---|---|
-| **Morning** | 07:45 | The newsroom slot. What changed | A, I |
-| **Midday** | 12:15 | The useful slot. Something to take away | C, D, E, H |
-| **Late** | 17:15 | The thinking slot. Something to argue with | B, F, G |
+| **Morning** | 07:40 to 08:20 | The newsroom slot. What changed | A, I |
+| **Midday** | 12:10 to 13:10 | The useful slot. Something to take away | C, D, E, H |
+| **Late** | 15:45 to 17:05 | The thinking slot. Something to argue with | B, F, G |
+
+**Bands, not fixed times, and this matters.** Until 16 September 2026 these were exactly
+07:45, 12:15 and 17:15 every weekday. A page that posts at the same second every day for
+months is declaring that a machine is doing it, and the March 2026 authenticity update
+reduces distribution for automation. Buffer's own default slots for this channel are 20:06,
+22:37, 13:18 and 15:46 rather than round numbers, which is almost certainly the same
+reasoning.
+
+So each post gets its own minute inside its band, chosen fresh:
+
+- Never the same minute twice in one week, across all three bands.
+- Avoid :00, :15, :30 and :45. Those read as scheduled because they are.
+- Vary the day's shape as well as the minute. Three posts do not have to sit at the same
+  offset within their bands.
+- Seconds are not settable through Buffer, so the minute is the whole of the variation.
+
+The bands themselves come from where the two largest samples overlap. Buffer's 4.8M posts
+put the best hour at 4pm Tuesday and Wednesday, 5pm Thursday, 3pm Friday. Sprout's 2 billion
+engagements put it at 11am to 5pm midweek. They disagree by up to eight hours on Monday, and
+a separate 100,000-post analysis found no detectable best hour at all once quality was
+controlled for. Treat the band as real and the exact minute as noise worth using for cover.
 
 **Weekends: nothing, decided 16 September 2026.** The original plan here was one Saturday
 post, the week's best carousel re-cut. It was dropped when the schedule moved to batch and

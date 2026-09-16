@@ -102,9 +102,9 @@ Twenty one slots, three a day, with the bands from `06-editorial-model.md`.
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|---|---|---|---|---|---|---|
-| **07:45** | News card | News card | News card | News card | News card | rest | rest |
-| **12:15** | Tips card | **Carousel** | List card | **Carousel** | Tips card | | |
-| **17:15** | Stat card | Myth-bust | Stat card | Permission | Quote card | | |
+| **Morning** | News card | News card | News card | News card | News card | rest | rest |
+| **Midday** | Tips card | **Carousel** | List card | **Carousel** | Tips card | | |
+| **Late** | Stat card | Myth-bust | Stat card | Permission | Quote card | | |
 
 That lands at roughly: 12 wide-band, 6 useful, 3 ours across the week. Two carousels,
 five news cards, and the weekend off.

@@ -21,6 +21,10 @@ study with a published method and sample.
   outperforms one that tells them something true. Statistics earn attention; instructions
   earn saves. Aim for at least half of grids and guides to be things to try rather than
   things that are so. *Added 16 Sep 2026, from Viren, pending our own numbers.*
+- **Post times vary inside a band, they are not fixed.** A page posting at the same second
+  every weekday for months is an automation signal, and the March 2026 authenticity update
+  reduces distribution for automation. Bands and the rule are in `docs/02`.
+  *Added 16 Sep 2026, from Viren.*
 - **No weekend posting.** Two large independent samples agree that weekends underperform,
   and the first-hour mechanic means a good post spent on a Saturday is capped rather than
   merely delayed. Revisit only if our own numbers ever suggest otherwise.
@@ -106,6 +110,7 @@ in.
 | Hashtag sweet spot | 2 to 3, benefits drop after | Usera and Durham, 991 posts, BPCQ 2025 | 16 Sep 2026 |
 | Tagging vs hashtags | Tagging wins outright | Usera and Durham, same | 16 Sep 2026 |
 | Buffer plan moved to Essentials: unlimited scheduling, first comment, unlimited analytics history | 5,000 posts per channel, 250 tags | Buffer account limits, read from the API | 16 Sep 2026 |
+| Best hour on LinkedIn, three large samples | 4 to 5pm midweek; 11am to 5pm midweek; 8 to 10am. They disagree by up to 8 hours | Buffer 4.8M posts; Sprout 2bn engagements; Ordinal | 16 Sep 2026 |
 | Weekend engagement on LinkedIn | "Drops off significantly" vs weekdays | Buffer, 4.8M posts | 16 Sep 2026 |
 | Optimal posting time on Saturday or Sunday | None found on either day | Sprout Social, 2bn engagements across 307,000 profiles | 16 Sep 2026 |
 | Company page format engagement | Document 7.00%, multi-image 6.45%, video 6.00%, image 5.30%, text 4.50%, link 3.25% | `docs/02` | 15 Sep 2026 |

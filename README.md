@@ -151,7 +151,11 @@ Buffer moved to the Essentials plan on 16 September 2026. Scheduled posts are ef
 unlimited (5,000 per channel), first comment scheduling is available, and analytics history
 is no longer capped at 30 days.
 
-- Slots are 07:45, 12:15 and 17:15 UK, weekdays only.
+- Three slots a day, weekdays, as **bands rather than fixed times**: morning 07:40 to 08:20,
+  midday 12:10 to 13:10, late 15:45 to 17:05 UK. Each post takes its own minute inside its
+  band, never the same minute twice in a week and never :00, :15, :30 or :45. A page posting
+  at the same second every day is announcing that a machine does it. `docs/02` has the
+  reasoning and the evidence behind the bands.
 - How far ahead a post may be scheduled is now an editorial question, not a technical one.
   News gets three days, roundups and shares five, evergreen three weeks. The table is in
   `docs/19-batch-and-drain.md`.
