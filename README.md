@@ -47,27 +47,29 @@ part of the task itself. `docs/05-daily-task.md` holds a readable copy.
 
 ---
 
-## 3. The daily run
+## 3. The two runs
 
-Fires at 12:00 UK, every day. In order:
+Changed on 16 September 2026 from a single daily pipeline. `docs/19-batch-and-drain.md`
+explains why. In short: rendering needs a second pass about a third of the time, and doing
+that under daily time pressure was the wrong trade.
 
-1. **Clone and check.** Clone this repo, read `GH_TOKEN_AIFC` from the project doc
-   `claude/aifc-credentials.md`, confirm Viren's Mac is reachable.
-2. **Guard.** `node lib/freshness.mjs bank/ledger.csv`. Every line it prints is binding.
-3. **Failures.** List Buffer posts with status `error`. An errored post usually means its
-   image URL did not resolve.
-4. **Count the queue.** Buffer caps scheduled posts at ten on the free plan. Write only
-   enough to reach ten.
-5. **Source.** Poll the tier 1 feeds. Score against `docs/08`.
-6. **Draft.** Apply the destination rotation. Vary the hook shape.
-7. **Render.** Cards in the cloud sandbox, checked by eye before they go anywhere.
-8. **Publish the cards** through the Mac (section 4).
-9. **Schedule** in Buffer at 07:45, 12:15 or 17:15 UK.
-10. **Record.** `node record.mjs entries.json`, then push. Section 6 explains why this is
-    not optional.
+**Weekly batch, Sunday.** The heavy run. Polls the feeds, writes fifteen to twenty posts
+across the type mix in `docs/18`, renders every asset, reviews them as a set, pushes them,
+and banks the lot in `bank/queue.csv` at `status=ready`. Needs the Mac, because pushing
+needs the Mac.
 
-A run that cannot reach the Mac does nothing except say so. The queue runs three days
-deep, so one or two missed runs cost nothing.
+**Daily drain, noon.** The light run. Reads the bank, sees what Buffer already holds, fills
+the queue to ten, marks what it used. No feeds, no drafting, no rendering, no npm install.
+
+**The drain needs no Mac.** Its cards were pushed on Sunday and are already live. Its only
+state goes to the project doc `claude/aifc-queue-state.md`, which the cloud can write
+directly. The daily path no longer fails when a laptop is shut.
+
+**Breaking news** overrides both, takes a queued slot, and sends the displaced item back to
+the bank. If that happens weekly, the batch is reading the wrong feeds.
+
+Both runs start the same way: clone this repo, read this file, run
+`node lib/freshness.mjs bank/ledger.csv` and treat every line it prints as binding.
 
 ---
 
@@ -324,6 +326,15 @@ gate. Both are the cheap steps that prevent the expensive mistakes.
 
 ## 9. The weekly loop
 
+**The thing outside the engine that matters most.** Company page organic reach fell 60 to
+66% between 2024 and early 2026, and company pages are 1 to 5% of a typical feed. The page
+will not build an audience on its own. The cheap fix is Viren resharing one post a day from
+his personal profile inside the first hour, **with a sentence of his own added**: editing a
+share by even a word or two measured 3x the engagement of an untouched one, across 517,374
+posts. The engine cannot do this part. `docs/20-growth-and-amplification.md` has the
+numbers and the sources.
+
+
 Mondays, as part of the daily run: `get_aggregated_post_metrics` and `list_posts` with
 `includeMetrics: true` for the past week. Write what moved, what did not, and what changes
 as a result, to a project doc `claude/aifc-linkedin-weekly-<date>.md`.
@@ -363,6 +374,7 @@ change the editorial line on one bad week.
 ```
 brand.json            every colour, font and canvas size
 record.mjs            writes the ledger and stamps photo lastUsed. Run it every time.
+queue.mjs             the bank: stats, validate, next, mark. See docs/19.
 ingest.mjs            manifest CSV into photos/index.json
 montage.mjs           contact sheets, for reviewing photos before indexing
 carousels.mjs         worked example of a document post
@@ -370,7 +382,7 @@ wide-day.mjs          worked example of a full day in the house format
 sample-day.mjs        worked example of the stat, checklist and carousel formats
 lib/
   card.mjs            newsCard(story, outPath)
-  templates.mjs       eight card templates
+  templates.mjs       ten card templates, including grid and roundup
   photos.mjs          the matcher, the portrait rule, the freshness penalty
   render.mjs          headless Chromium, 1080x1350 PNGs
   backdrop.mjs        deterministic abstract grounds when no photo fits
@@ -378,7 +390,11 @@ lib/
   fonts.mjs           inlines the brand fonts
   pdf.mjs             slides into one PDF for native document posts
   freshness.mjs       the repetition guard
+  csv.mjs             RFC4180 read and write, shared by the ledger and the bank
 bank/
+  queue.csv           the bank of finished posts waiting to go out
+  posts/<id>.md       the copy for each banked post
+  mentions.csv        verified LinkedIn page URNs, for tagging. Never guess one.
   bank.md             evergreen posts for thin news days
   sources.md          exact source wording, and the things not to say
   ledger.csv          the log. Everything that has gone out.
@@ -434,3 +450,6 @@ scratch/              one-off scripts from the build. Nothing reads these.
 | `15-what-i-can-run.md` | What runs unattended and what needs a person |
 | `16-destinations-and-promotion.md` | The link rotation and the promotional post shape |
 | `17-photo-quality-rules.md` | What may not enter the photo library, and why |
+| `18-post-types-and-tools.md` | The seven post types, the builder for each, and how to choose |
+| `19-batch-and-drain.md` | The weekly batch, the daily drain, and the bank schema |
+| `20-growth-and-amplification.md` | Company page reach, amplifying from the personal profile, tagging, hashtags |
