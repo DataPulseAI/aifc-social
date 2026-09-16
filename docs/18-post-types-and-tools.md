@@ -39,17 +39,24 @@ await renderCard({
   lines: [{t:'What actually stops'},{t:'small firms',accent:true},{t:'using AI'}],
   size: 60,
   items: [{ title: 'Cost of software and setup', body: '53% named it...' }, ...],
-  src: 'Enterprise Nation, 1,320 UK firms, 9 June 2026',
 }, 'out/grid.png');
 ```
+
+The wordmark and the category sit at the foot, under a hairline rule. **The source line
+does not go on the card.** It goes in the post body where it can actually be read, and
+keeping it off the card is what lets the headline run large.
 
 **Sizing is the whole game.** Two columns stay legible to about ten items with two-line
 bodies. Past that the body type falls below what a phone can read in feed and the piece
 should be a carousel instead. The template scales type down as the grid gets denser, with
 floors: do not override `bodySize` below 21.
 
-One accent line in the headline, never two. `src` in the footer whenever the list rests
-on a figure, which it usually should.
+One accent line in the headline, never two.
+
+**Half of these should be things to do, not things that are true.** A grid of statistics
+is a good post; a grid of six jobs to hand your assistant on Monday morning is a better
+one, because the reader can act on it before lunch. Statistics earn attention, instructions
+earn saves. See `docs/21-what-works.md`.
 
 ## 3. roundup
 **Template** `roundup`. **Asset** one image. **New, 16 September 2026.**

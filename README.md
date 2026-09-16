@@ -453,3 +453,4 @@ scratch/              one-off scripts from the build. Nothing reads these.
 | `18-post-types-and-tools.md` | The seven post types, the builder for each, and how to choose |
 | `19-batch-and-drain.md` | The weekly batch, the daily drain, and the bank schema |
 | `20-growth-and-amplification.md` | Company page reach, amplifying from the personal profile, tagging, hashtags |
+| `21-what-works.md` | The knowledge base. Our numbers, outside evidence, and what failed. |
