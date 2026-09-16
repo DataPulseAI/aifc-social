@@ -39,7 +39,25 @@ here as noise: a page from a standing start produces almost no signal.
 
 | Week | Posts | Best performer | Worst | What we changed |
 |---|---|---|---|---|
-| | | | | |
+| To 16 Sep 2026 | 3 published, 8 scheduled | No data | No data | First weekly batch. 16 posts written, 18 banked ready, all 18 scheduled |
+
+**Week to 16 September 2026: there are no numbers yet, and that is the finding.**
+All three published posts return impressions 0, reach 0, reactions 0, comments 0 and
+engagement rate 0. `metricsUpdatedAt` on every one is identical to `createdAt`, so Buffer
+had not refreshed them at the time of the pass. The page published for the first time on
+16 September and the third post went out minutes before the batch ran. There is nothing
+here to break down by post type, hook shape or destination, and constructing one would be
+inventing a signal.
+
+What we can record instead, so next week has something to compare against:
+
+- **Published so far:** three, all `news`, all photo cards, all `stat-in-context` or
+  `contrast`, all with `destination=none`. The first three carry no variation on any of the
+  three axes we want to measure. That is a flaw in the first day, not a finding.
+- **The batch fixes it.** The 18 scheduled posts split 7 news, 4 grids, 2 roundups, 1
+  carousel, 1 guide, 1 share, 2 promos, across five hook shapes and five destination
+  classes. From next week the breakdown is possible because the variation exists.
+- **First real read expected:** the week to 23 September.
 
 For each week the pass should record: impressions and engagement by **post type**, by
 **hook shape**, and by **destination**, plus the single best and worst post and a guess at
@@ -94,7 +112,12 @@ it is full. A failure with a reason beats a success with none.
 
 | What | When | What happened | What we think went wrong |
 |---|---|---|---|
-| | | | |
+| Rendering a whole batch in one pass | 16 Sep 2026 | `work/laptop-desk-u2.jpg` came back for three different stories in the same run | The matcher penalises a photo by `lastUsed`, and `lastUsed` is only stamped by `record.mjs` after scheduling. Within a single batch every card sees an unchanged library. Fixed by adding an `exclude` option to `newsCard`, carrying a running list of files already spoken for |
+| Fishing for a better photo by changing tags | 16 Sep 2026 | Four successive re-rolls on one card returned a Shopify storefront, a "MacBook Pro" mockup, a lone figure in a warehouse and a Cadbury box | Re-rolling treats a library problem as a matching problem. Those frames kept failing because they should not have been in the library. Removing the eight offending entries produced a usable match on the next attempt. Fix the index, do not re-roll |
+| Backgrounding a long job with `nohup` in `device_bash` | 16 Sep 2026 | A `git fetch` appeared to run for twelve minutes and had in fact died immediately. `pgrep` was matching the polling shell's own command line, so every poll reported it still running | Each `device_bash` call is a fresh sandbox with `--unshare-pid`. Nothing backgrounded survives the call, and `pgrep` cannot see other calls. Run long jobs in the foreground inside one call. The same fetch finished in seconds that way |
+| Assuming the three published posts would give a first read | 16 Sep 2026 | Every metric came back zero, never refreshed since creation | A page one day old, and Buffer metrics do not populate immediately. Do not schedule the first analytics pass for the week a page launches |
+| The first day's three posts | 16 Sep 2026 | All three were the same type, the same archetype family and the same destination class | Nothing to compare. A launch day should spread across at least two post types and two destinations, or the first week of data can answer no question at all |
+| Writing a batch against a queue that is already full | 16 Sep 2026 | The `news` horizon in `docs/19` is three days. Every slot inside three days was already taken by the daily runs, so the earliest free slot was five days out | The batch and the drain were both filling the queue from the front. The batch should run before the drain tops up, or reserve the head of the queue for itself |
 
 ## 5. How this file gets updated
 

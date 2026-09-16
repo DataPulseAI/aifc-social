@@ -55,3 +55,28 @@ an admin and finance story on 21 September. The frame carries a Casio calculator
 ThinkPad lid logo and a bank form with account number and IBAN fields, so it breaks rule 5
 on third party branding and rule 3 on literal object metaphors. It was caught by the visual
 check, which is the only thing that would have caught it.
+
+## Record, 16 September 2026, third pass
+
+263 entries in, 255 out, during the first weekly batch. Eight removed:
+
+| File | Why |
+|---|---|
+| `work/meeting-room-u3.jpg` | Third-party name legible on the laptop screen. Rule 5 |
+| `work/meeting-room-u4.jpg` | Large third-party wordmark on the glass partition, plus an Apple lid logo. Rule 5 |
+| `work/laptop-desk-u3.jpg` | A Shopify storefront and its marketing copy legible on the screen. Rule 5 |
+| `work/laptop-desk-u4.jpg` | A stock mockup template with the words "Mockup" and "MacBook Pro" printed on the screen. Rule 5, and it is not a real scene |
+| `work/team-win-u2.jpg` | A Cadbury Celebrations box held centre frame, logo fully legible. Rule 5 |
+| `work/sme-owner-u1.jpg` | Boots shopfront signage legible. A national chain that is not the subject of the story. Rule 5 |
+| `work/paperwork-u3.jpg` | A suited hand signing a generic form on a leather desk pad. Rule 3, the same fault as `paperwork-u2` |
+| `work/training-room-u3.jpg` | A child at a blackboard in a rural school, tagged `classroom, learning, training`. Rule 7, and wrong in any context for this page |
+
+**What this pass taught, which is new.** Screens are the blind spot. Five of the eight
+carry branding on a laptop or a partition rather than on a shopfront, and a screen is
+exactly where the eye goes in a frame that is otherwise about work. When reviewing, look
+at every screen in shot before looking at anything else.
+
+**The second lesson is about tags.** `work/training-room-u3.jpg` was not a bad photograph
+badly licensed. It was a photograph tagged for the wrong audience, and the tags were what
+put it in front of a UK hiring story. A mis-tagged entry is as dangerous as an unusable
+one, because it passes every check except the visual one.
