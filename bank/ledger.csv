@@ -10,3 +10,21 @@ date,time,headline,source_publisher,source_date,archetype,hook_type,photo_file,d
 2026-09-18,17:15,Microsoft published the rules its own AI models must follow,Microsoft,2026-09-14,news,named-thing,work/meeting-room-u1.jpg,/insights/choosing-an-ai-assistant-for-your-team,6aa9f819c9dce8b45315d83d
 2026-09-21,07:45,Bloomberg nearly doubled its AI data centre gas forecast in nine months,BloombergNEF,2026-09-15,stat-in-context,named-thing,work/datacentre-u2.jpg,none,6aa9f8218df35c613718a12a
 2026-09-21,12:15,Seven business tools just became reachable from inside Gemini,Google Workspace Updates,2026-09-15,release-read,number-first,work/meeting-room-u2.jpg,/prompts,6aaa7a20bb0dc2fb6ea12154
+2026-09-21,17:15,"A startup just raised $40m to run 5,000 tests on other companies' AI agents",TechCrunch,2026-09-15,news,named-thing,work/server-rack-u1.jpg,none,6aaad18e0ef3cc67c26e0e8b
+2026-09-22,07:45,ChatGPT has stopped choosing its own thinking mode,OpenAI,2026-09-14,release-read,flat-claim,work/office-open-u1-2.jpg,/prompts,6aaad194fc5a88693189a580
+2026-09-22,12:15,What to say when a client asks if you used AI,ICO,2026-01-08,guide,flat-claim,,/insights/ai-usage-policy-uk-template,6aaad1989c269640efb596f1
+2026-09-22,17:15,Eight things to stop pasting into AI at work,NCSC,2026-09-07,actionable-list,imperative,,none,6aaad1a4fc5a88693189a62f
+2026-09-23,07:45,Entry-level accountant hiring fell 29% in a year. Retail assistant hiring rose 25%.,DSIT,2026-06-08,contrast,number-first,work/colleagues-u3.jpg,/insights/ai-training-for-employees-what-works,6aaad1acfc5a88693189a6bd
+2026-09-23,12:15,Four changes to the tools you already pay for,various,2026-09-15,roundup,flat-claim,,none,6aaad1b4fc5a88693189a70b
+2026-09-23,17:15,Three numbers to count four weeks after any AI training,AIFC,2026-09-16,actionable-list,number-first,work/whiteboard-u2.jpg,/insights/measure-ai-adoption-three-numbers,6aaad1c09c269640efb59879
+2026-09-24,07:45,13% of UK construction firms use AI. In information and communication it is 58%.,ONS,2026-07-20,contrast,number-first,work/construction-u3.jpg,/industries/property-construction,6aaad1c7aa221af9bff724fa
+2026-09-24,12:15,What actually stops small firms using AI,Enterprise Nation,2026-06-09,stat-in-context,flat-claim,,none,6aaad1fa0ef3cc67c26e164c
+2026-09-24,17:15,"""We waste 25% of our week doing things we never should have done""",Fast Company,2026-09-16,quote,quote-first,work/presenting-u2.jpg,none,6aaad1ce9c269640efb59a09
+2026-09-25,07:45,A control that watches what staff paste into web apps reaches Edge in November,Microsoft 365 Roadmap,2026-09-16,release-read,named-thing,work/colleagues-u1.jpg,/insights/microsoft-365-copilot-rollout-plan,6aaad1fcac5727150ae9098a
+2026-09-25,12:15,Before you let an agent near your systems,NCSC,2026-08-20,actionable-list,imperative,,none,6aaad1ff9c269640efb59da8
+2026-09-25,17:15,Six jobs to hand your assistant this week,AIFC,2026-09-16,actionable-list,imperative,,/prompts,6aaad20afc5a88693189ae1f
+2026-09-28,07:45,The ICO has named eight ways an AI agent can put you on the wrong side of data law,ICO,2026-01-08,policy-note,number-first,work/laptop-desk-u1-2.jpg,/industries/professional-services,6aaad2110ef3cc67c26e1858
+2026-09-28,12:15,Four UK documents that would cost you money anywhere else,various,2026-08-20,roundup,flat-claim,,none,6aaad21aaa221af9bff72d49
+2026-09-28,17:15,What UK firms actually use AI for,ONS,2026-07-20,stat-in-context,number-first,,none,6aaad22c0ef3cc67c26e2004
+2026-09-29,07:45,The NCSC will give a small UK business 30 minutes of cyber advice for nothing,NCSC,2026-07-15,share,named-thing,work/factory-u1.jpg,none,6aaad2320ef3cc67c26e212e
+2026-09-29,12:15,Six prompts worth keeping on your desk,AIFC,2026-09-16,actionable-list,imperative,,/resources/prompt-library,6aaad250fc5a88693189ba43
