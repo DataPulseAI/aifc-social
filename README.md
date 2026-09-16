@@ -162,6 +162,10 @@ is no longer capped at 30 days.
 - Prune it. A long queue makes it easy to leave something scheduled that has been overtaken.
   Deleting a post and returning its bank row is part of the job, not an exception.
 
+> **Obsolete instruction warning.** Anything that says to fill the queue "to ten scheduled"
+> predates 16 September 2026 and should be ignored. Ten was the Free plan cap. Schedule the
+> whole batch, placed by the horizons in `docs/19`.  
+
 ## 6. The ledger, and why it is not optional
 
 The engine has no memory except `bank/ledger.csv`. Two things read it:
