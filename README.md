@@ -153,9 +153,9 @@ is no longer capped at 30 days.
 
 - Three slots a day, weekdays, as **bands rather than fixed times**: morning 07:40 to 08:20,
   midday 12:10 to 13:10, late 15:45 to 17:05 UK. Each post takes its own minute inside its
-  band, never the same minute twice in a week and never :00, :15, :30 or :45. A page posting
-  at the same second every day is announcing that a machine does it. `docs/02` has the
-  reasoning and the evidence behind the bands.
+  band and its own seconds, never the same minute twice in a week and never :00, :15,
+  :30 or :45. A page posting at the same second every day is announcing that a machine
+  does it. `docs/02` has the reasoning and the evidence behind the bands.
 - How far ahead a post may be scheduled is now an editorial question, not a technical one.
   News gets three days, roundups and shares five, evergreen three weeks. The table is in
   `docs/19-batch-and-drain.md`.
@@ -182,7 +182,7 @@ The engine has no memory except `bank/ledger.csv`. Two things read it:
 `record.mjs` writes both. Give it an `entries.json` array, one object per scheduled post:
 
 ```json
-[{ "date": "2026-09-16", "time": "07:45", "headline": "...",
+[{ "date": "2026-09-16", "time": "07:52:14", "headline": "...",
    "source_publisher": "NCSC", "source_date": "2026-09-07",
    "archetype": "stat-in-context", "hook_type": "number-first",
    "photo_file": "work/security-w2.jpg", "destination": "none",

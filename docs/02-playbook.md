@@ -149,7 +149,10 @@ So each post gets its own minute inside its band, chosen fresh:
 - Avoid :00, :15, :30 and :45. Those read as scheduled because they are.
 - Vary the day's shape as well as the minute. Three posts do not have to sit at the same
   offset within their bands.
-- Seconds are not settable through Buffer, so the minute is the whole of the variation.
+- Set the seconds too. Buffer stores them (verified 16 September 2026, `editPost` with a
+  `dueAt` carrying seconds reads back unchanged). Its publisher runs on a minute tick so
+  they probably get floored at send, but they cost nothing and they keep the stored
+  schedule from being uniform. Distinct across the week, never :00 and never :30.
 
 The bands themselves come from where the two largest samples overlap. Buffer's 4.8M posts
 put the best hour at 4pm Tuesday and Wednesday, 5pm Thursday, 3pm Friday. Sprout's 2 billion
