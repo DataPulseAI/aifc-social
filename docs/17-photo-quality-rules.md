@@ -1,0 +1,49 @@
+# 17. Photo quality rules
+
+Written 16 September 2026, after the first end to end render put a hooded figure at a
+laptop on an NCSC story about ordinary employees, and a 3D clipart handshake on an ONS
+statistic. Both would have gone out on autopilot. This is the gate that stops that.
+
+## What the library may not contain
+
+Nothing below belongs in `photos/index.json`, whatever its licence.
+
+1. **Security cliches.** Hooded figures, padlocks of any kind, glowing green code rain,
+   anonymous hands in gloves. The stories are about employees and policy, not criminals.
+   A person at a laptop in an ordinary office is the correct picture for a security story.
+2. **3D clipart and CGI renders.** Faceless grey figures, tiny house models held in palms,
+   robot arms rendered in a white void. These read as a 2009 PowerPoint.
+3. **Literal object metaphors.** Clock faces for a story about time, stacks of coins for a
+   story about money, jigsaw pieces for anything. The photo should show the place the story
+   happens, not illustrate its noun.
+4. **Distress imagery.** Head in hands, sticky notes over a face, a silhouette alone in a
+   dark doorway. It reads as mental health content and it is the wrong register for a
+   company page about training.
+5. **Third party branding in frame.** Courier liveries, phone manufacturer product shots,
+   named shopfronts that are not the subject of the story, and signage that pulls the eye
+   away ("TOILETS £3" was in the library). A named UK independent shop is fine when the
+   story is about UK independent shops.
+6. **Sterile handshake stock.** One contextual handshake at a table is the maximum the
+   library holds. Neon handshake icons and white background handshakes are out.
+7. **Non-UK cues on a UK story.** US tax forms on a story about UK paperwork, US Embassy
+   photos for a British workplace. The audience notices.
+
+## Portraits
+
+A portrait asserts the story is about that person. `lib/photos.mjs` only allows one when the
+person is a named subject of the story or their surname is in the headline. Tag overlap is
+never enough. Do not relax this.
+
+## Review cadence
+
+Every photo added to the library gets looked at, as a contact sheet, before it is indexed.
+Batch ingestion without a visual pass is how the fourteen entries removed on 16 September
+got in. `montage.mjs` builds the sheet.
+
+## Record, 16 September 2026
+
+308 entries in, 264 out. Removed: 8 Openverse scene photos (clipart handshake, blurry
+stock, branded phone), 6 of 7 security and privacy frames (hooded figure, four padlocks,
+generic cabling), 7 clock close ups, 6 distress frames, 4 window silhouettes, 2 US tax
+forms, 2 CGI robot arms, 3 handshake stock, 2 branded frames, 2 phone product shots, and
+the "#TEAMWORK" flipchart graphic.
