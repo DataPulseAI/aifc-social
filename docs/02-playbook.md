@@ -136,8 +136,18 @@ controlled for.
 | **Midday** | 12:15 | The useful slot. Something to take away | C, D, E, H |
 | **Late** | 17:15 | The thinking slot. Something to argue with | B, F, G |
 
-Weekends: one post on Saturday morning at most, usually the week's best carousel
-reposted as a fresh asset. Weekend engagement is consistently lower across every study.
+**Weekends: nothing, decided 16 September 2026.** The original plan here was one Saturday
+post, the week's best carousel re-cut. It was dropped when the schedule moved to batch and
+drain, and the evidence supports dropping it. Buffer's analysis of **4.8 million posts**
+says weekend engagement "drops off significantly compared to weekdays". Sprout Social's
+**2 billion engagements across 307,000 profiles** goes further and finds **no optimal
+posting time at all** on either Saturday or Sunday.
+
+The mechanism matters more than the averages. Initial distribution reaches only 2 to 5% of
+followers in the first hour, and that window sets the post's ceiling (`docs/20`). A post
+spent into a thin Saturday morning is not merely slower, it is permanently capped. That is
+a bad trade for the week's best carousel, which is exactly what the old Saturday slot
+called for.
 
 **Spacing rule:** never less than three hours between posts on the same channel. Posts
 distribute over 48 to 72 hours, so a new post competes with the previous one for the

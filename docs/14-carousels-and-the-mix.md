@@ -102,16 +102,18 @@ Twenty one slots, three a day, with the bands from `06-editorial-model.md`.
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |
 |---|---|---|---|---|---|---|---|
-| **07:45** | News card | News card | News card | News card | News card | Carousel repost | rest |
+| **07:45** | News card | News card | News card | News card | News card | rest | rest |
 | **12:15** | Tips card | **Carousel** | List card | **Carousel** | Tips card | | |
 | **17:15** | Stat card | Myth-bust | Stat card | Permission | Quote card | | |
 
 That lands at roughly: 12 wide-band, 6 useful, 3 ours across the week. Two carousels,
-five news cards, and the weekend running light.
+five news cards, and the weekend off.
 
-**The Saturday slot** reposts the week's better carousel as a fresh asset with a different
-cover line, not as a LinkedIn repost. Reshares run about 0.29x reach and are the worst
-performing format on the platform. A re-cut is a new object.
+**The Saturday slot was removed on 16 September 2026.** See `docs/02` for the evidence and
+`docs/21` for the sources. The re-cut principle it rested on still stands and still applies
+on a weekday: when a carousel is worth running again, it goes out as a fresh asset with a
+different cover line, never as a LinkedIn repost. Reshares run about 0.29x reach and are the
+worst performing format on the platform. A re-cut is a new object.
 
 **Balance rules the daily task holds to**, checked against the ledger by
 `lib/freshness.mjs`:
