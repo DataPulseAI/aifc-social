@@ -113,6 +113,24 @@ a source, a photo, a destination or a hook shape. It never returns a row with no
 `validate` fails a row that claims `ready` without a card, a body file or a source, which
 is the check that stops a half-finished batch reaching the feed.
 
+## The guard, recalibrated
+
+Both tools were written against a ten-post rolling queue and misfired the first time a
+full batch landed. Fixed on 16 September 2026.
+
+- `lib/freshness.mjs` capped any archetype at 3 in 7 days and any destination at 6 in 21.
+  With 18 posts scheduled at once those are tripped by arithmetic rather than by a real
+  problem. Both are now proportional: an archetype may take a third of the window, floor
+  of 3, and a destination is judged against the 9-in-21 target in `docs/16` scaled to how
+  many posts are actually in the window.
+- `queue.mjs stats` warned "top the bank up" below six ready. On the Essentials plan the
+  batch schedules everything it writes, so an empty bank straight after a batch is correct.
+  It now warns only when the bank and the queue are both thin, and says so explicitly when
+  the bank is empty but the queue is full.
+
+The rules themselves did not change, only the thresholds. A guard that cries wolf every
+Monday is a guard nobody reads by October.
+
 ## Held and dropped
 
 `held` is for a post that is finished but should not run yet: an embargo, a story that

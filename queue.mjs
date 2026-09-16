@@ -35,8 +35,13 @@ if (cmd === 'stats') {
   console.log('total', recs.length);
   console.log('status', by('status'));
   console.log('type  ', by('type'));
-  const ready = recs.filter(r => r.status === 'ready');
-  console.log('ready ', ready.length, ready.length < 6 ? '  <-- top the bank up' : '');
+  const ready = recs.filter(r => r.status === 'ready').length;
+  const queued = recs.filter(r => r.status === 'queued').length;
+  // On the Essentials plan the batch schedules everything it writes, so an empty bank
+  // straight after a batch is correct, not a warning. What matters is the queue.
+  const thin = ready + queued < 8;
+  console.log('ready ', ready, thin ? '  <-- bank and queue both thin, the next batch is overdue' : '');
+  if (!thin && ready === 0) console.log('       (bank empty but ' + queued + ' scheduled: normal after a batch)');
 
 } else if (cmd === 'next') {
   const n = Number(process.argv[3] || 3);
