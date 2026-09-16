@@ -28,7 +28,9 @@ study with a published method and sample.
   workings go in the post body. The card carries the claim and nothing else.
   *Added 16 Sep 2026.*
 - **One in three photo cards needs a second pass**, almost always for legible third-party
-  branding. Budget the review time. *Added 16 Sep 2026, from the first batch.*
+  branding. Budget the review time. *Added 16 Sep 2026, from the first batch. The first
+  weekly batch ran closer to one in two, 7 of 15, but one week does not move a standing
+  conclusion. Revisit at the end of October.*
 - **Company pages do not build an audience alone.** See `docs/20`. The personal reshare in
   the first hour is the lever. *Added 16 Sep 2026.*
 
@@ -39,7 +41,26 @@ here as noise: a page from a standing start produces almost no signal.
 
 | Week | Posts | Best performer | Worst | What we changed |
 |---|---|---|---|---|
-| | | | | |
+| To 16 Sep 2026 | 3 published, 8 scheduled | No data | No data | First weekly batch run. 16 posts written and banked, 18 ready |
+
+**Week to 16 September 2026: there are no numbers yet, and that is the finding.**
+All three published posts return impressions 0, reach 0, reactions 0, comments 0 and
+engagement rate 0. `metricsUpdatedAt` on every one is identical to `createdAt`, so Buffer
+has not refreshed them since they were queued. The page published for the first time on
+16 September and the third post went out minutes before the batch ran. There is nothing
+here to break down by post type, hook shape or destination, and constructing one would be
+inventing a signal.
+
+What we can record instead, so next week has something to compare against:
+
+- **Published so far:** three, all `news`, all photo cards, all `stat-in-context` or
+  `contrast`, all with `destination=none`. So the first three carry no variation on any of
+  the three axes we want to measure. That is a design flaw in the first day, not a finding.
+- **The batch fixes it.** The 16 banked posts split 7 news, 2 grids, 2 roundups, 1
+  carousel, 1 guide, 1 share, 2 promos, across five hook shapes and five destination
+  classes. From next week the breakdown is possible because the variation exists.
+- **First real read expected:** the week to 23 September, once a fortnight of posts with
+  mixed types and destinations has run.
 
 For each week the pass should record: impressions and engagement by **post type**, by
 **hook shape**, and by **destination**, plus the single best and worst post and a guess at
@@ -94,7 +115,10 @@ it is full. A failure with a reason beats a success with none.
 
 | What | When | What happened | What we think went wrong |
 |---|---|---|---|
-| | | | |
+| Rendering a whole batch in one pass | 16 Sep 2026 | `work/laptop-desk-u2.jpg` came back for three different stories in the same run | The matcher penalises a photo by `lastUsed`, and `lastUsed` is only stamped by `record.mjs` after scheduling. Within a single batch every card sees an unchanged library. Fixed by adding an `exclude` option to `newsCard`, carrying a running list of files already spoken for |
+| Fishing for a better photo by changing tags | 16 Sep 2026 | Four successive re-rolls on one card returned a Shopify screen, a "MacBook Pro" mockup, a lone figure in a warehouse and a Cadbury box | Re-rolling treats a library problem as a matching problem. The frames kept failing because they should not have been in the library. Removing the eight offending entries produced a usable match on the next attempt, and the right move is to fix the index rather than to re-roll |
+| Assuming the three published posts would give a first read | 16 Sep 2026 | Every metric came back zero, with metrics never refreshed since creation | A page one day old, and Buffer's metrics do not populate immediately after a post sends. Do not schedule the first analytics pass for the week a page launches |
+| The first day's three posts | 16 Sep 2026 | All three were the same type, the same archetype family and the same destination class | Nothing to compare. A launch day should spread across at least two post types and two destinations, or the first week of data can answer no question at all |
 
 ## 5. How this file gets updated
 
