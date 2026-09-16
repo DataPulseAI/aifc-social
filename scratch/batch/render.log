@@ -1,0 +1,26 @@
+2026-09-22-agent-audit-40m  photo=work/coworking-u2.jpg  fallback=false  2018ms
+2026-09-22-thinking-mode  photo=work/laptop-desk-u2.jpg  fallback=false  1302ms
+2026-09-23-entry-level-hiring  photo=work/paperwork-u3.jpg  fallback=false  1412ms
+2026-09-23-waste-25-percent  photo=work/meeting-room-u3.jpg  fallback=false  1400ms
+2026-09-24-construction-13  photo=work/construction-u3.jpg  fallback=false  1131ms
+2026-09-24-edge-dlp-november  photo=work/laptop-desk-u2.jpg  fallback=false  1328ms
+2026-09-25-ico-eight-risks  photo=work/laptop-desk-u2.jpg  fallback=false  1317ms
+2026-09-25-stop-pasting-grid  template=grid  743ms
+2026-09-30-what-firms-use-grid  template=grid  720ms
+2026-09-28-tools-roundup  template=roundup  697ms
+2026-10-01-uk-guidance-roundup  template=roundup  694ms
+2026-09-29-ncsc-agent-guide  template=grid  731ms
+2026-10-02-ncsc-free-advice  photo=work/shop-floor-u3.jpg  fallback=false  1372ms
+2026-09-26-five-prompts-promo  template=grid  727ms
+2026-10-01-week-four-promo  photo=work/whiteboard-u2.jpg  fallback=false  1345ms
+2026-09-30-client-asks-ai-carousel slide 1/6
+2026-09-30-client-asks-ai-carousel slide 2/6
+2026-09-30-client-asks-ai-carousel slide 3/6
+2026-09-30-client-asks-ai-carousel slide 4/6
+2026-09-30-client-asks-ai-carousel slide 5/6
+2026-09-30-client-asks-ai-carousel slide 6/6
+pdf {
+  path: 'scratch/batch/out/2026-09-30-client-asks-ai-carousel.pdf',
+  pages: 6
+}
+DONE
