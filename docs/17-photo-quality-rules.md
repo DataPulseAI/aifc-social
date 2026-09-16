@@ -47,3 +47,11 @@ stock, branded phone), 6 of 7 security and privacy frames (hooded figure, four p
 generic cabling), 7 clock close ups, 6 distress frames, 4 window silhouettes, 2 US tax
 forms, 2 CGI robot arms, 3 handshake stock, 2 branded frames, 2 phone product shots, and
 the "#TEAMWORK" flipchart graphic.
+
+## Record, 16 September 2026, second pass
+
+264 entries in, 263 out. Removed `work/paperwork-u2.jpg`, which the matcher returned for
+an admin and finance story on 21 September. The frame carries a Casio calculator, a
+ThinkPad lid logo and a bank form with account number and IBAN fields, so it breaks rule 5
+on third party branding and rule 3 on literal object metaphors. It was caught by the visual
+check, which is the only thing that would have caught it.
