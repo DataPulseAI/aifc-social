@@ -1,1 +1,12 @@
 key,name,vanity_name,urn,id,verified,notes
+ons,Office for National Statistics,office-for-national-statistics,urn:li:organization:17047,17047,buffer-picker 2026-09-19,Copy usually says ONS. Full name must appear in body for the tag to bind.
+ncsc,National Cyber Security Centre,national-cyber-security-centre,urn:li:organization:25047749,25047749,buffer-picker 2026-09-19,UK page (ncsc.gov.uk). Namesakes exist in NZ and Ireland. Copy usually says NCSC.
+ico,Information Commissioner's Office,information-commissioner's-office,urn:li:organization:1611379,1611379,buffer-picker 2026-09-19,Vanity slug contains an apostrophe as LinkedIn returns it. Leave as is.
+dsit,"Department for Science, Innovation and Technology",scitechgovuk,urn:li:organization:10872416,10872416,buffer-picker 2026-09-19,Copy usually says DSIT.
+mckinsey,McKinsey & Company,mckinsey,urn:li:organization:1371,1371,buffer-picker 2026-09-19,
+microsoft,Microsoft,microsoft,urn:li:organization:1035,1035,buffer-picker 2026-09-19,Also the page for Microsoft 365 and Copilot items.
+openai,OpenAI,openai,urn:li:organization:11130470,11130470,buffer-picker 2026-09-19,
+google,Google,google,urn:li:organization:1441,1441,buffer-picker 2026-09-19,Parent page. Workspace Updates posts say Google Workspace; add that page separately if wanted.
+fsb,Federation of Small Businesses (FSB),federation-of-small-businesses,urn:li:organization:44201,44201,buffer-picker 2026-09-19,Display name includes the bracket.
+seedshub,Seeds Hub,seedshub,urn:li:organization:18969759,18969759,buffer-picker 2026-09-19,October session. Tag in the photo posts.
+bloomberg,Bloomberg,bloomberg,urn:li:organization:2494,2494,buffer-picker 2026-09-19,
