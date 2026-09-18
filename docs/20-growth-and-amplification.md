@@ -77,8 +77,30 @@ against the exact final string.
 
 **A wrong URN produces a broken post, so we never guess one.** Verified pages live in
 `bank/mentions.csv` with their URN and vanity name. A page that is not in that file gets
-plain-text credit and a link instead, which costs almost nothing. Adding one is a manual
-job: open the page on LinkedIn, take the numeric id, verify it, add the row.
+plain-text credit and a link instead, which costs almost nothing.
+
+**Adding a page.** Do not read ids out of page source. Type `@` in Buffer's web composer,
+pick the page from LinkedIn's own picker, save the post as a draft, then read it back with
+`get_post`. The `metadata.linkedin.annotations` array returns the URN, numeric id, vanity
+name and display name exactly as LinkedIn holds them. Copy them into the csv, open
+`linkedin.com/company/<id>/` once to confirm it is the right organisation (the NCSC, ONS
+and ICO all have namesakes abroad), then delete the draft. Eleven pages were added this
+way on 19 September 2026.
+
+**The key column.** A bank row asks for a tag by putting the csv `key` in its `mentions`
+column, comma separated, two at most. No code reads the csv. The drain looks the key up at
+run time, builds the annotation and computes `start` and `length` against the final body.
+
+**The display name must appear verbatim in the body, or the tag does not bind.** The
+offset is found by searching the body for the csv `name`. Three sources are habitually
+abbreviated in our copy and would silently never tag: the NCSC, DSIT and the ONS. Rule,
+from 19 September 2026: when a post carries a mention key, the first reference in the body
+uses the page's full display name as written in the csv, and any later reference may
+abbreviate. "National Cyber Security Centre" on first mention, "NCSC" after. The same
+applies to the source line if that is the only place the name appears. The FSB display
+name includes the bracket, "Federation of Small Businesses (FSB)", and Google's page is
+the parent, so a Workspace post tags nothing unless it says "Google" in full or a Workspace
+row is added.
 
 ## 4. Hashtags
 
