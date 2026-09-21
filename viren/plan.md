@@ -16,7 +16,10 @@ the full version of whatever the post gave away, with no form on the free pages.
 the profile and the featured links, which is where someone who wants us goes. A post that tries
 to do stage three's job fails at stage one.
 
-## The six formats
+## The formats
+
+The full reference, with the evidence for each and what makes it fail, is in `formats.md`.
+Short version:
 
 **The grid** (`grid.mjs`). One topic, covered to exhaustion, on one saveable image. Twenty-five
 cards, colour-grouped, each a title and one line. This is the format that gets kept. One a
@@ -37,11 +40,16 @@ Once a fortnight, alternating with the grid.
 bracketed number, one lowercase line over each. No graphic anywhere. This is the format that
 reads as a person rather than a brand, and it is the only one that cannot be built without
 Viren. Placeholders render a dashed panel naming the file they want; nothing ships on one.
+The hybrid is usually the better trade: one photograph on the cover, designed slides after it.
+That costs one picture instead of nine.
 
 **The voice card** (`render.mjs`, `tweet`). Near-black, his face, the tick, two or three lines.
 Carries a belief or a moment. This one is Viren, not the library.
 
 Above all of them: a photograph of a real room or a real person, whenever one exists.
+
+The name and the link go on a sheet only where they earn their place. A single-idea card is
+stronger with nothing under it, and every renderer now leaves the footer off when it is empty.
 
 ## The week
 

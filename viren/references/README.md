@@ -140,3 +140,34 @@ and our profile.
 **Taken:** the format entire, as the `photo` and `photocover` slide types in
 `viren/carousel.mjs`. **Left:** stock photography. Ours renders a dashed panel naming the
 missing file until a real photograph exists, and nothing ships on a placeholder.
+
+## supplied, third set, 21 September 2026
+
+Two, both saved as images this time.
+
+### ai-powered-leader-online-business-plan.png
+762 reactions, 42 comments, 77 reposts. Virality 5, shareability 5, applicability 3,
+cleanliness 3, saveability 4.
+Six concentric rounded panels, outermost the broadest thinking, working inward to the daily
+action, three or six bullets a ring, a colour per ring. No photograph, no personality, no hook
+in the image at all, and it still travelled further than anything else in the set on reposts.
+The shape is the whole reason: a reader sees the entire system and their own position in it in
+one look.
+**Taken:** the outside-in ring structure, written up as the layers diagram in `formats.md`.
+**Left:** the centre and the bottom bar, which are both the author's own product. The whole
+image points inward at a purchase. Ours would put the reader's own Monday morning in the middle
+and keep the link in the body text, or it is the advert we deleted everything to stop making.
+
+### nicolas-cole-22-writing-rules-carousel.png
+112 reactions, 47 comments. Virality 3, shareability 4, applicability 5, cleanliness 4,
+saveability 5.
+Twenty-four pages. The cover is a photograph of him in the street with the title overlaid in
+yellow, then the slides are flat yellow grounds, each one a numbered bold rule and three short
+lines under it. The length works because every page stands alone and the reader can stop
+anywhere; it would be fatal if the value were back-loaded.
+**Taken:** two things. The hybrid deck, a photograph cover for the stop and designed slides for
+the legibility, which we can build today by mixing `photocover` with the existing body slides.
+And the contract a number sets: twenty-two rules in the title means twenty-two slides, no
+padding, no bonus.
+**Left:** the money frame and the link in the body. The rules themselves are the give; his are
+wrapped in a crash course.

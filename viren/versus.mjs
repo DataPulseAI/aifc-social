@@ -40,7 +40,7 @@ h1 em{font-style:normal;color:${T.greenlight}}
 .cols div{font-size:17px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
 .cols .ca{color:${T.mute}}
 .cols .cb{color:${T.green}}
-.body{flex:1;min-height:0;display:flex;flex-direction:column;gap:${d.gap || 12}px;padding:12px 46px 0}
+.body{flex:1;min-height:0;display:flex;flex-direction:column;gap:${d.gap || 12}px;padding:12px 46px ${d.footLeft || d.footRight ? 0 : 34}px}
 .r{flex:1;min-height:0;background:${T.surface};border:1px solid ${T.rule};border-radius:11px;padding:14px 20px 15px;display:flex;flex-direction:column;overflow:hidden}
 .lead{font-size:15px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:${T.green};background:${T.greentint};align-self:flex-start;padding:4px 10px;border-radius:5px}
 .pair{flex:1;min-height:0;display:grid;grid-template-columns:.84fr ${d.railW || 66}px 1.16fr;align-items:center;margin-top:9px}
@@ -63,7 +63,7 @@ h1 em{font-style:normal;color:${T.greenlight}}
 </div>
 <div class="cols"><div class="ca">${esc(d.leftHead)}</div><div></div><div class="cb">${esc(d.rightHead)}</div></div>
 <div class="body">${d.rows.map(row).join('')}</div>
-<div class="foot"><span><b>${esc(d.footLeft || '')}</b></span><span class="r2">${esc(d.footRight || '')}</span></div>
+${d.footLeft || d.footRight ? `<div class="foot"><span><b>${esc(d.footLeft || '')}</b></span><span class="r2">${esc(d.footRight || '')}</span></div>` : ''}
 </body></html>`;
 
 const browser = await chromium.launch({ executablePath: process.env.PW_CHROME || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome', args: ['--font-render-hinting=none', '--no-sandbox'] });

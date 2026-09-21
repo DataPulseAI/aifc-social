@@ -1,0 +1,66 @@
+{
+  "id": "2026-10-01-seven-habits",
+  "name": "Viren Samani",
+  "short": "Viren Samani",
+  "tagline": "Founder, Convu and AI for Companies",
+  "note": "The hybrid deck: one photograph on the cover so the scroll stops on a face, then designed slides so every rule stays legible. Taken from the twenty-four-page writing carousel. Needs one real photograph at assets/photos/01-desk-morning.jpg; until it is there the cover renders a dashed panel and nothing ships.",
+  "slides": [
+    {
+      "type": "photocover",
+      "img": "01-desk-morning.jpg",
+      "eyebrow": "Seven habits",
+      "headline": "Seven small habits that make the tools actually work",
+      "sub": "None of them is clever. All seven are the difference between an answer you rewrite and one you send."
+    },
+    {
+      "type": "note",
+      "eyebrow": "(01)",
+      "headline": "attach the real file, not a description of it",
+      "lede": "The tidied version you paste in is already an interpretation. Give it the messy original and the mess becomes information."
+    },
+    {
+      "type": "note",
+      "eyebrow": "(02)",
+      "headline": "name the reader before you name the task",
+      "lede": "\"For a finance director with five minutes\" changes the answer more than any clever wording you can add afterwards."
+    },
+    {
+      "type": "note",
+      "eyebrow": "(03)",
+      "headline": "say what to do when the answer is not in there",
+      "lede": "Ask it to write [GAP] or [CHECK] where your notes run out. Asked to mark its guesses, it marks them."
+    },
+    {
+      "type": "note",
+      "eyebrow": "(04)",
+      "headline": "ask for the questions, not the summary",
+      "lede": "A summary tells you what a document says. Ten hard questions tell you what it costs you. Only one of those is worth ten minutes."
+    },
+    {
+      "type": "note",
+      "eyebrow": "(05)",
+      "headline": "say out loud that the numbers must not move",
+      "lede": "Keep every figure and date exactly as written. It is one sentence and it removes the failure that matters most."
+    },
+    {
+      "type": "note",
+      "eyebrow": "(06)",
+      "headline": "hand it the template you already use",
+      "lede": "Your own headings, your own order. Starting from your structure beats any first draft written from nothing."
+    },
+    {
+      "type": "note",
+      "eyebrow": "(07)",
+      "headline": "read the first answer as a draft, not a verdict",
+      "lede": "The second attempt is where the work is. People who get nothing out of these tools almost always stopped after one."
+    },
+    {
+      "type": "close",
+      "eyebrow": "The long version",
+      "headline": "Twenty-five prompts, written out in full",
+      "body": "Each one gives the task in plain words, the prompt itself, what to attach, and what a good answer looks like. Free, no email, no form.",
+      "cta": "aiforcompanies.co.uk/prompts",
+      "foot": "Written for UK teams. None of them needs personal data to work; where a task touches people, the prompt asks for roles and situations, not names."
+    }
+  ]
+}

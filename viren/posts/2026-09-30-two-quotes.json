@@ -1,0 +1,9 @@
+{
+  "template": "prompt",
+  "eyebrow": "Before you choose",
+  "headline": "Two quotes that look the same",
+  "prompt": "Compare these two proposals in a table: first-year cost, exclusions, payment terms, annual uplift, minimum term, notice period, exit costs, liability cap. Quote the clause for each. Where one is silent, write not stated.",
+  "attach": "both proposals, as they were sent to you. Not your summary of them.",
+  "name": "Viren Samani",
+  "tagline": "Founder, Convu and AI for Companies"
+}

@@ -37,7 +37,7 @@ h1 em{font-style:normal;color:${T.greenlight}}
 .legend{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:20px}
 .legend span{font-size:16px;font-weight:600;color:#cfe0d6;display:flex;align-items:center;gap:7px}
 .legend i{width:11px;height:11px;border-radius:3px;display:block}
-.grid{flex:1;min-height:0;display:grid;grid-template-columns:repeat(${COLS},1fr);grid-auto-rows:1fr;gap:${d.gap || 11}px;padding:${d.gap || 11}px ${d.gap || 11}px 0}
+.grid{flex:1;min-height:0;display:grid;grid-template-columns:repeat(${COLS},1fr);grid-auto-rows:1fr;gap:${d.gap || 11}px;padding:${d.gap || 11}px;padding-bottom:${d.footLeft || d.footRight ? 0 : d.gap || 11}px}
 .c{background:#fff;border:1px solid ${T.rule};border-top:4px solid var(--k);border-radius:9px;padding:13px 14px 14px;display:flex;flex-direction:column;overflow:hidden}
 .ch{display:flex;align-items:center;gap:7px;margin-bottom:7px}
 .n{font-size:14px;font-weight:700;color:#fff;background:var(--k);border-radius:5px;min-width:22px;height:20px;display:flex;align-items:center;justify-content:center;padding:0 5px}
@@ -55,7 +55,7 @@ h1 em{font-style:normal;color:${T.greenlight}}
   ${d.legend === false ? '' : `<div class="legend">${Object.entries(fam).map(([k, v]) => `<span><i style="background:${v.colour}"></i>${esc(k)}</span>`).join('')}</div>`}
 </div>
 <div class="grid">${d.cards.map(card).join('')}</div>
-<div class="foot"><span><b>${esc(d.footLeft || '')}</b></span><span class="r">${esc(d.footRight || '')}</span></div>
+${d.footLeft || d.footRight ? `<div class="foot"><span><b>${esc(d.footLeft || '')}</b></span><span class="r">${esc(d.footRight || '')}</span></div>` : ''}
 </body></html>`;
 
 const browser = await chromium.launch({ executablePath: process.env.PW_CHROME || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome', args: ['--font-render-hinting=none', '--no-sandbox'] });

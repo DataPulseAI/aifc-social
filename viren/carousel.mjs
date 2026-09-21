@@ -97,7 +97,7 @@ const body = (d, c, i, total) => `<div class="s light">
     ${(c.items || []).map(it => `<div class="item"><div class="label">${esc(it.label)}</div><div class="prompt">${esc(it.prompt)}</div></div>`).join('')}
     ${c.list ? `<ol class="list">${c.list.map((l, k) => `<li><b>${k + 1}</b><span>${esc(l)}</span></li>`).join('')}</ol>` : ''}
   </div>
-  <div class="foot"><span>${esc(d.short || d.name)}</span><span>${i} / ${total}</span></div>
+  <div class="foot"><span>${d.byline === false ? '' : esc(d.short || d.name)}</span><span>${i} / ${total}</span></div>
 </div>`;
 
 const close = (d, c) => `<div class="s dark close">
@@ -115,8 +115,8 @@ const pslide = (d, c, i, total) => `<div class="s ph${c.type === 'photocover' ? 
   <div class="scrim"></div>
   <div class="inner">
     ${c.type === 'photocover'
-      ? `<div class="eyebrow" style="color:${T.greenlight}">${esc(c.eyebrow || '')}</div><h1>${esc(c.headline)}</h1>${c.sub ? `<div class="sub">${esc(c.sub)}</div>` : ''}<div class="pfoot"><span>${esc(d.name)}</span><span>Swipe</span></div>`
-      : `<div class="n">(${String(c.n || i).padStart(2, '0')})</div><div class="line">${esc(c.text)}</div>${c.note ? `<div class="note">${esc(c.note)}</div>` : ''}<div class="pfoot"><span>${esc(d.short || d.name)}</span><span>${i} / ${total}</span></div>`}
+      ? `<div class="eyebrow" style="color:${T.greenlight}">${esc(c.eyebrow || '')}</div><h1>${esc(c.headline)}</h1>${c.sub ? `<div class="sub">${esc(c.sub)}</div>` : ''}${d.byline === false ? '<div class="pfoot"><span></span><span>Swipe</span></div>' : `<div class="pfoot"><span>${esc(d.name)}</span><span>Swipe</span></div>`}`
+      : `<div class="n">(${String(c.n || i).padStart(2, '0')})</div><div class="line">${esc(c.text)}</div>${c.note ? `<div class="note">${esc(c.note)}</div>` : ''}<div class="pfoot"><span>${d.byline === false ? '' : esc(d.short || d.name)}</span><span>${i} / ${total}</span></div>`}
   </div>
 </div>`;
 
