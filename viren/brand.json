@@ -1,25 +1,33 @@
 {
   "name": "Viren Samani, personal profile",
-  "note": "Started again 21 September 2026, evening. Posts 01 to 04 of the first attempt are in git history and were withdrawn: too corporate, then too specific. The lesson from Lara Acosta, Heather Murray and Viren's own best posts is that a profile post is understood by anyone in an office, in one read, on a phone.",
+  "note": "Recalibrated 21 September 2026, evening. Everything drafted before this point is deleted; it argued for the training instead of giving something away. Green accents from AI for Companies.",
+  "law": [
+    "The post gives the thing away, completely, and never argues for what we sell.",
+    "Never mention training, sessions, a day, or the offer. The profile and the site convert, not the post.",
+    "No statistics about how badly people are doing. No 'X% of workers'. A number appears only when the reader can use it.",
+    "Everything in a post is real and usable today: a prompt that works, a method he runs, a thing that happened.",
+    "Plain English. If a word needs explaining outside tech, it is out.",
+    "One accent, the AI for Companies green. Photos of real rooms and people beat any graphic.",
+    "No hashtags, no question close, no former employer, no assistant."
+  ],
   "tokens": {
-    "paper": "#fbfaf7",
-    "ink": "#111311",
-    "ink2": "#3a3d3a",
-    "mute": "#8a8e88",
-    "rule": "#e4e2dc",
-    "accent": "#d8532b"
+    "paper": "#f5f5f2",
+    "surface": "#ffffff",
+    "raised": "#eff0ec",
+    "rule": "#daddd7",
+    "ink": "#17211c",
+    "ink2": "#3d4843",
+    "mute": "#6b756f",
+    "green": "#1f5a3e",
+    "greendeep": "#143e2b",
+    "greenlight": "#80be9c",
+    "greentint": "#e3ece6",
+    "dark": "#0b0f14"
   },
   "font": {
     "headline": "Instrument Sans 700",
     "body": "Instrument Sans 400/500"
   },
-  "rules": [
-    "Plain English. If a word needs explaining to someone outside tech, it does not go in.",
-    "One idea. A real moment, person, place or number in the first two lines.",
-    "A photo of a real room or a real person beats any graphic. Graphics only for carousels.",
-    "Under 150 words unless it is a story, and a story earns its length with a quoted line.",
-    "No former employer, no assistant, no jargon, no question close, no hashtags. Ask only when there is something real to ask for (a room to fill, a role to fill)."
-  ],
   "canvas": {
     "w": 1080,
     "h": 1350

@@ -1,0 +1,7 @@
+{
+  "template": "prompt",
+  "eyebrow": "Before you sign anything",
+  "headline": "Read a contract properly in ten minutes",
+  "prompt": "Read the attached document. Do not summarise it. Give me the ten questions a careful [your role] should ask before agreeing to it, in order of how much money or risk each one carries. For each, quote the clause or page it comes from so I can check it, and say in one line why it matters. Then list anything you expected to find and did not.",
+  "attach": "the contract, tender or policy as a file. Works in ChatGPT, Claude, Gemini and Copilot."
+}

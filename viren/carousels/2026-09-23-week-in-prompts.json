@@ -1,0 +1,119 @@
+{
+  "id": "2026-09-23-week-in-prompts",
+  "name": "Viren Samani",
+  "short": "Viren Samani",
+  "tagline": "Founder, Convu and AI for Companies",
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "Copy these",
+      "headline": "Your week, in 11 prompts",
+      "sub": "Grouped by the moment you actually need them, not by department. Swap the brackets for your own, attach the real file, go."
+    },
+    {
+      "type": "prompts",
+      "eyebrow": "Monday, 9am",
+      "headline": "The two things already waiting",
+      "items": [
+        {
+          "label": "The thread you were copied into overnight",
+          "prompt": "Summarise this thread for me as the person who has just been copied in. Give me the decision being asked for, who is waiting on whom, any dates, and the one thing I need to do. Under 120 words."
+        },
+        {
+          "label": "The meeting nobody wrote up",
+          "prompt": "List every action agreed, as a table: owner, action in their own words, and the date or trigger mentioned. Mark any action where no owner was named. Do not add actions that were only discussed."
+        }
+      ]
+    },
+    {
+      "type": "prompts",
+      "eyebrow": "Before you write anything",
+      "headline": "Start from your notes, not a blank page",
+      "items": [
+        {
+          "label": "The document you keep putting off",
+          "prompt": "Using the attached template for structure and the attached notes for content, write a first draft. Keep every heading. Where the notes do not cover one, write [GAP: what is missing] rather than inventing content."
+        },
+        {
+          "label": "The thing that is too long for the person reading it",
+          "prompt": "Rewrite this for a reader who is [role] and has five minutes. Keep every fact, figure and date exactly. At the end, list anything you removed that they might still need."
+        }
+      ]
+    },
+    {
+      "type": "prompts",
+      "eyebrow": "Before you sign anything",
+      "headline": "Read it properly, in ten minutes",
+      "items": [
+        {
+          "label": "The contract, tender or policy",
+          "prompt": "Do not summarise this. Give me the ten questions a careful [role] should ask before agreeing to it, hardest first. Quote the clause each comes from. Then list anything you expected to find and did not."
+        },
+        {
+          "label": "Two quotes that look the same",
+          "prompt": "Compare these two proposals in a table: first-year cost, exclusions, payment terms, annual uplift, minimum term, notice, exit costs, liability cap. Quote the clause for each. Where one is silent, write not stated."
+        }
+      ]
+    },
+    {
+      "type": "prompts",
+      "eyebrow": "Before the hard one",
+      "headline": "The conversation you are dreading",
+      "items": [
+        {
+          "label": "Roles and the issue, never names",
+          "prompt": "I need to talk to [role] about [the issue, two sentences]. My aim is [what good looks like]. Give me the three points I must land in order, the two objections most likely to come back with a calm response to each, and one opening sentence that is direct without being hostile. Then tell me the one thing I should not say."
+        }
+      ]
+    },
+    {
+      "type": "prompts",
+      "eyebrow": "Month end",
+      "headline": "The numbers, explained once",
+      "items": [
+        {
+          "label": "Commentary on what moved",
+          "prompt": "From the attached accounts, cover only lines where the variance is more than [£10k or 5%]. For each: the line, the variance in pounds and per cent, and the driver, using only reasons in the notes. Where none is given, write [DRIVER NEEDED]. Largest first."
+        },
+        {
+          "label": "The spreadsheet somebody else built",
+          "prompt": "Explain what this worksheet does for someone who did not build it: what each column means, which cells are inputs and which are calculated. Then list anything inconsistent: mixed formats, totals that do not match their ranges, hard-coded numbers. Change nothing."
+        }
+      ]
+    },
+    {
+      "type": "prompts",
+      "eyebrow": "Friday, 4pm",
+      "headline": "Send it before you forget it",
+      "items": [
+        {
+          "label": "The client update",
+          "prompt": "Write this week's update for [client] from the attached notes. Three headings: What moved. What is blocked. What we need from you. Then one line on next week. Under 200 words. Keep every number exactly; where the notes are unclear, write [CHECK]."
+        },
+        {
+          "label": "The paper going to the board on Monday",
+          "prompt": "Act as a sceptical non-executive with a finance background. List the eight questions you would ask, in order, each with the paragraph it comes from. Then find any claim without a number, any risk without a mitigation, and any recommendation whose cost is not stated."
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "eyebrow": "The part that matters",
+      "headline": "Why these work and clever ones do not",
+      "lede": "Nothing above is a trick. Three things do all the work, and you can add them to any prompt you already use.",
+      "list": [
+        "Name the reader. \"Someone who is a finance director with five minutes\" changes the answer more than any clever wording.",
+        "Tell it what to do when the answer is not there. [GAP], [CHECK], [DRIVER NEEDED]. Asked to mark its guesses, it marks them.",
+        "Attach the real file. Not a description of it, not a tidied version. The actual one, with your own mess in it."
+      ]
+    },
+    {
+      "type": "close",
+      "eyebrow": "The other fourteen",
+      "headline": "All 25 are free. No email, no form.",
+      "body": "Same shape every time: the task in plain words, the prompt, what to attach, and what good output looks like. Filter by the tool you already pay for and the job you actually do.",
+      "cta": "aiforcompanies.co.uk/prompts",
+      "foot": "Written for UK teams. None of them needs personal data to work; where a task touches people, the prompt asks for roles and situations, not names."
+    }
+  ]
+}

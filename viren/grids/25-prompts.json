@@ -1,0 +1,181 @@
+{
+  "kick": "Free. No email, no form.",
+  "title": "25 prompts <em>your team will actually use</em>",
+  "sub": "One for every job that eats a Tuesday. Written for UK teams, in plain words, for whichever assistant you already pay for.",
+  "cols": 5,
+  "titleCard": 18,
+  "bodyCard": 14.5,
+  "footLeft": "Viren Samani",
+  "footRight": "aiforcompanies.co.uk/prompts",
+  "families": {
+    "Everyone": {
+      "short": "All",
+      "colour": "#143e2b",
+      "tint": "#e0eae6"
+    },
+    "Sales and bids": {
+      "short": "Sales",
+      "colour": "#1f5a3e",
+      "tint": "#e3ece6"
+    },
+    "Marketing": {
+      "short": "Mktg",
+      "colour": "#1f5a3e",
+      "tint": "#e3ece6"
+    },
+    "Client service": {
+      "short": "Client",
+      "colour": "#1d7a72",
+      "tint": "#e1f0ee"
+    },
+    "Finance": {
+      "short": "Finance",
+      "colour": "#17566b",
+      "tint": "#e2edf1"
+    },
+    "Operations": {
+      "short": "Ops",
+      "colour": "#5c7a30",
+      "tint": "#ecf0e3"
+    },
+    "HR": {
+      "short": "HR",
+      "colour": "#5c7a30",
+      "tint": "#ecf0e3"
+    },
+    "Leadership": {
+      "short": "Lead",
+      "colour": "#8a6d1f",
+      "tint": "#f3eede"
+    }
+  },
+  "cards": [
+    {
+      "family": "Everyone",
+      "title": "Catch up on a long email thread",
+      "body": "What is being decided, who is waiting on whom, and the one thing you have to do."
+    },
+    {
+      "family": "Everyone",
+      "title": "Turn a meeting into who does what",
+      "body": "Owners, actions and dates, in a table. Anything with no owner gets marked."
+    },
+    {
+      "family": "Everyone",
+      "title": "A first draft from your notes",
+      "body": "Your template, your notes, and honest [GAP] marks where the notes fall short."
+    },
+    {
+      "family": "Everyone",
+      "title": "Read a long document properly",
+      "body": "The ten questions to ask before agreeing, each with the clause it comes from."
+    },
+    {
+      "family": "Everyone",
+      "title": "Rewrite for someone with five minutes",
+      "body": "Every fact kept, the padding gone, and a list of what was cut."
+    },
+    {
+      "family": "Everyone",
+      "title": "Prepare for a difficult conversation",
+      "body": "Three points in order, two likely objections, and one opening sentence."
+    },
+    {
+      "family": "Sales and bids",
+      "title": "Every requirement in a tender",
+      "body": "All of them in a table, in the buyer's words, including the one on page 38."
+    },
+    {
+      "family": "Sales and bids",
+      "title": "A proposal from the first call",
+      "body": "Written in the client's own language, not your standard paragraphs."
+    },
+    {
+      "family": "Sales and bids",
+      "title": "Why you lose deals",
+      "body": "Your own lost-deal notes grouped into the objections that keep coming back."
+    },
+    {
+      "family": "Marketing",
+      "title": "A brief into a four-week plan",
+      "body": "Channels, formats and owners, built only from what the brief actually says."
+    },
+    {
+      "family": "Marketing",
+      "title": "Check a draft against your style",
+      "body": "One voice across the team without someone editing every piece by hand."
+    },
+    {
+      "family": "Marketing",
+      "title": "Case study interview questions",
+      "body": "Questions that get numbers and specifics rather than polite compliments."
+    },
+    {
+      "family": "Client service",
+      "title": "The weekly client update",
+      "body": "What moved, what is blocked, what you need from them. Under 200 words."
+    },
+    {
+      "family": "Client service",
+      "title": "Reply to a complaint properly",
+      "body": "Owns the problem, explains, commits. No grovelling and no deflecting."
+    },
+    {
+      "family": "Client service",
+      "title": "Hand a client to a colleague",
+      "body": "The full handover, pulled from the files and threads that already exist."
+    },
+    {
+      "family": "Finance",
+      "title": "Explain the numbers that moved",
+      "body": "Board-ready commentary on the variances that clear your own threshold."
+    },
+    {
+      "family": "Finance",
+      "title": "A spreadsheet someone else built",
+      "body": "Inputs, calculations, totals, and every place it quietly does not add up."
+    },
+    {
+      "family": "Finance",
+      "title": "Two quotes, compared on small print",
+      "body": "Terms, exclusions, uplifts, notice and exit costs, side by side, clause by clause."
+    },
+    {
+      "family": "Operations",
+      "title": "Write the process down",
+      "body": "One written procedure from three colleagues' different versions of the same job."
+    },
+    {
+      "family": "Operations",
+      "title": "Explain what went wrong",
+      "body": "Timeline, impact and actions from a messy chat log. No blame attached."
+    },
+    {
+      "family": "HR",
+      "title": "A job description for the real role",
+      "body": "Built from what the person actually does all week, in plain inclusive language."
+    },
+    {
+      "family": "HR",
+      "title": "A first month for a new starter",
+      "body": "Week by week, shaped by the role and the team they are joining."
+    },
+    {
+      "family": "Leadership",
+      "title": "Test a board paper first",
+      "body": "The eight questions a sceptical non-executive will ask, in the order they ask them."
+    },
+    {
+      "family": "Leadership",
+      "title": "A ninety-day plan for one team",
+      "body": "Who, which tool, what to build and what to measure. One page."
+    },
+    {
+      "family": "Leadership",
+      "title": "A strategy people can repeat",
+      "body": "Six hundred words anyone can read in five minutes and say back in a meeting."
+    }
+  ],
+  "legend": false,
+  "titleSize": 58
+}
