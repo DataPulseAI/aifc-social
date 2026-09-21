@@ -3,9 +3,12 @@
 Seven types. Each has a builder, a shape, and a reason it exists. The mix is what keeps
 the page from reading like one machine doing one thing, which is exactly what it is.
 
-A week of fifteen posts sits roughly at: seven news, two grids, two roundups, one
-carousel, one guide, one share, two promos. Adjust from the Monday numbers, not from
-taste.
+**The mix moved on 21 September 2026.** `docs/22-the-mix-rewritten.md` governs it: per ten
+posts, three wide, two position, two do-this-Monday, two vendor, one ours, at two posts a
+day. The seven types below are still the builders; the bands in `docs/22` decide which of
+them get written. A position post is a `news` card or text-only, with `source_publisher=AIFC`
+and `archetype=position`. The paragraph that used to sit here (seven news, two grids, two
+roundups, one carousel, one guide, one share, two promos a week) is retired.
 
 ---
 

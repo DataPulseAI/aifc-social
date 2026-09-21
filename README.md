@@ -464,3 +464,4 @@ scratch/              one-off scripts from the build. Nothing reads these.
 | `19-batch-and-drain.md` | The weekly batch, the daily drain, and the bank schema |
 | `20-growth-and-amplification.md` | Company page reach, amplifying from the personal profile, tagging, hashtags |
 | `21-what-works.md` | The knowledge base. Our numbers, outside evidence, and what failed. |
+| `22-the-mix-rewritten.md` | The band mix from 21 September 2026: wide, position, do-this-Monday, vendor, ours. Two a day. The vendor cap and the hard image rule. Wins over 14, 18 and 19 on the mix. |

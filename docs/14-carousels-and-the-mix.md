@@ -98,6 +98,11 @@ version of that worry has no good answer circulating anywhere.
 
 ## 5. The weekly mix
 
+> **Superseded 21 September 2026.** The grid below is the three-a-day schedule from
+> 15 September. `docs/22-the-mix-rewritten.md` replaces it with two posts a day and a band
+> mix (wide, position, do-this-Monday, vendor, ours). The carousel rules in sections 1 to 4
+> and 6 still stand; carousels count in the do-this-Monday band.
+
 Twenty one slots, three a day, with the bands from `06-editorial-model.md`.
 
 | | Mon | Tue | Wed | Thu | Fri | Sat | Sun |

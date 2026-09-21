@@ -27,7 +27,8 @@ What replaced it is an editorial rule rather than a technical one, in section "H
 ahead to schedule" below.
 
 **Weekly batch, Sunday.** The heavy run. Polls the feeds, reads the week's calendar in
-`docs/03`, writes fifteen to twenty posts across the type mix in `docs/18`, renders every
+`docs/03`, writes ten to fourteen posts across the band mix in `docs/22` (two a day, not
+three, from 21 September 2026), renders every
 asset, reviews them as a set, pushes the assets, and banks the lot in `bank/queue.csv`
 with `status=ready`. Needs the Mac, because pushing needs the Mac.
 
@@ -65,6 +66,11 @@ short-dated head and a long-dated tail.
 check the head of the queue has not gone stale, and top up from the bank if a slot opened
 because something was deleted or failed. It still runs daily because catching a broken
 image URL within a day is worth more than the minute it costs.
+
+**Vendor posts are capped.** One Microsoft, one OpenAI and one Google post a week at most,
+and normally all three fold into the one weekly roundup. A standalone release post has to
+pass the Monday test in `docs/22` section 4. The batch on 21 September had six standalone
+vendor release posts in four days; that is the failure this rule exists for.
 
 **One rule that matters more now than it did.** A long queue makes it easy to leave
 something scheduled that should not run. If a story is overtaken, delete the post and send
