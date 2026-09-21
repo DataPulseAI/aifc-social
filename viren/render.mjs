@@ -41,7 +41,40 @@ ${d.rows.map(r => `<div class="row"><div class="then">${esc(r.then)}</div><div c
 </div></body></html>`;
 };
 
-const TEMPLATES = { thennow };
+
+// file: the real file, shown as a file. Dark editor, mono, the filename as the only chrome.
+// lines: array of strings; markdown-ish colouring: '# ' and '## ' headings, '- ' bullets, quoted strings.
+const file = d => {
+  const n = d.lines.length;
+  const fs = d.size || (n > 34 ? 22 : n > 28 ? 24 : 26);
+  const colour = l => {
+    const e = esc(l);
+    if (/^# /.test(l)) return `<span class="h1">${e}</span>`;
+    if (/^## /.test(l)) return `<span class="h2">${e}</span>`;
+    if (/^- /.test(l)) return `<span class="b">-</span> ${e.slice(2).replace(/&quot;([^&]*)&quot;|"([^"]*)"/g, m => `<span class="s">${m}</span>`)}`;
+    return e.replace(/"([^"]*)"/g, m => `<span class="s">${m}</span>`);
+  };
+  return `<!doctype html><html><head><meta charset="utf-8"><style>${FONT_CSS}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1080px;height:1350px;background:${d.bg || '#0f1115'};font-family:'JetBrains Mono';-webkit-font-smoothing:antialiased;padding:56px 52px}
+.win{height:100%;background:#161a20;border:1px solid #262b33;border-radius:18px;overflow:hidden;display:flex;flex-direction:column}
+.bar{display:flex;align-items:center;gap:10px;padding:20px 24px;border-bottom:1px solid #262b33;background:#1b2027}
+.dot{width:14px;height:14px;border-radius:50%;background:#2e343d}
+.tab{margin-left:18px;font-size:21px;color:#c9d1d9;font-weight:500}
+.tab span{color:#6b7480;margin-left:14px;font-weight:400}
+pre{flex:1;padding:34px 36px 36px;font-size:${fs}px;line-height:1.46;color:#c9d1d9;white-space:pre-wrap;font-family:inherit}
+.h1{color:#ffffff;font-weight:500}
+.h2{color:${d.accent || '#f0a35e'};font-weight:500}
+.b{color:#5a6472}
+.s{color:#9ecbff}
+.c{color:#6b7480}
+</style></head><body><div class="win">
+<div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span><div class="tab">${esc(d.filename)}${d.path ? `<span>${esc(d.path)}</span>` : ''}</div></div>
+<pre>${d.lines.map(colour).join('\n')}</pre>
+</div></body></html>`;
+};
+
+const TEMPLATES = { thennow, file };
 
 const id = process.argv[2];
 if (!id) { console.error('usage: node viren/render.mjs <post-id>'); process.exit(1); }

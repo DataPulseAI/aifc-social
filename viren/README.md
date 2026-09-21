@@ -7,7 +7,7 @@ card system on purpose: the page is a publication, the profile is a person.
 - `render.mjs`: `node viren/render.mjs <post-id>` renders `posts/<id>.json` to `out/<id>.png`.
 - `posts/<id>.json`: the card spec. `posts/<id>.md`: the post, the reasoning, the notes for Viren.
 
-Templates so far: `thennow` (the old way struck through, the prompt beside it).
+Templates: `thennow` (the old way struck through, the prompt beside it) and `file` (the real file, shown as a file in a dark editor). `swipe-file.md` holds the strong posts by mechanism and the design principles.
 
 The bar for a post here, from the creator read (`docs/23`, `bank/creators/`): it is about the
 reader, not the buyer; the card is useful on its own; the voice is first person and lived; no
