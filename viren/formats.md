@@ -93,6 +93,22 @@ product. On the reference, the centre panel is the author's own tool and the bot
 domain. That is the whole post pointing inward at a purchase, and it is exactly what we do not
 do. Ours would put the reader's own next action in the centre and the link in the body text.
 
+## 3b. The numbered list card
+
+`list.mjs` · one image · 1080x1350
+
+Five numbered steps, each a bold title, a line of explanation and the exact thing to do, on a
+green chip that reads Do this.
+
+**Evidence.** The single highest-performing image in the whole reference library: 482 reactions,
+178 comments, 44 reposts. The action line is why. The reader leaves with a sentence in their
+mouth rather than a principle in their head.
+
+**Use it for** a method someone can run this week without asking a question.
+
+**It fails when** an item ends in advice. If you cannot write the action line, the item is not
+finished.
+
 ## 4. The prompt card
 
 `render.mjs`, template `prompt` · one image
@@ -172,6 +188,7 @@ mixing `photocover` with the existing body slides.
 | If the thing you have is | Build |
 |---|---|
 | a complete map of a subject | the grid |
+| a method someone runs once, in order | the numbered list card |
 | a distinction people get wrong | the comparison sheet |
 | an order of operations, outside in | the layers diagram, once built |
 | one prompt worth the whole post | the prompt card |

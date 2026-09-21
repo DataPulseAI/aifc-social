@@ -1,0 +1,35 @@
+{
+  "id": "find-your-four",
+  "kick": "Twenty minutes, once",
+  "title": "How to find <em>your</em> four",
+  "titleSize": 66,
+  "sub": "Run this on last week and you come out with a short list that is yours, written down, and reusable by anyone else who does your job.",
+  "items": [
+    {
+      "title": "Start from your own week, not a list of use cases",
+      "body": "Open last week's calendar and sent items. Nothing else.",
+      "action": "List every task over twenty minutes that produced a document or a decision."
+    },
+    {
+      "title": "Cross off anything with no file behind it",
+      "body": "If the input only existed in your head, it is not ready to hand over yet.",
+      "action": "Keep only the rows where you could name the file you would attach."
+    },
+    {
+      "title": "Circle what you did more than once",
+      "body": "Frequency beats difficulty. A ten-minute job you do daily is worth more than an afternoon you spend twice a year."
+    },
+    {
+      "title": "Write each one as a prompt, once",
+      "body": "Name the reader, say what to do with gaps, say what to attach. Three lines, not three paragraphs.",
+      "action": "Keep them in one note, titled by the job rather than by the tool."
+    },
+    {
+      "title": "Delete the ones you never opened",
+      "body": "Review the note in a month. The list should get shorter and better, not longer.",
+      "action": "Only add a fifth when it beats one already on the list."
+    }
+  ],
+  "footLeft": "Viren Samani",
+  "footRight": "aiforcompanies.co.uk/prompts"
+}

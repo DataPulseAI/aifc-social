@@ -17,6 +17,7 @@ here: the post gives the thing away and never argues for what we sell.
 | `posts/week-NN.md` | the posts themselves, written in full, with the reasoning and the score |
 | `posts/*.json` | card specs. `node viren/render.mjs <id>` writes `out/<id>.png` |
 | `grids/*.json` | grid specs. `node viren/grid.mjs <id>` writes `out/<id>.png` |
+| `lists/*.json` | numbered list cards. `node viren/list.mjs <id>` writes `out/<id>.png` |
 | `versus/*.json` | comparison sheets. `node viren/versus.mjs <id>` writes `out/<id>.png` |
 | `carousels/*.json` | decks. `node viren/carousel.mjs <id>` writes `out/<id>.pdf` plus review PNGs |
 | `cards/` | the finished assets, tracked so Buffer can fetch them by raw URL |
@@ -29,7 +30,8 @@ here: the post gives the thing away and never argues for what we sell.
 Four, all 1080x1350, all in the same greens.
 
 `render.mjs` two card templates: `prompt` (one real prompt, deep green) and `tweet` (near-black,
-his face, the tick, a position). `grid.mjs` one topic covered to exhaustion. `versus.mjs` one
+his face, the tick, a position). `grid.mjs` one topic covered to exhaustion. `list.mjs` five numbered steps, each ending in the
+exact thing to do. `versus.mjs` one
 pair held side by side six times. `carousel.mjs` decks, with `cover` / `prompts` / `note` /
 `close` for designed slides and `photocover` / `photo` for photographs.
 
