@@ -1,0 +1,9 @@
+{
+  "eyebrow": "Monday, nine o'clock",
+  "headline": "The thread you were copied into",
+  "prompt": "Summarise this thread for me as the person who has just been copied in. Give me the decision being asked for, who is waiting on whom, any dates, and the one thing I need to do. Under 120 words.",
+  "attach": "the whole thread, forwarded as it stands. Do not trim the quoted replies at the bottom.",
+  "template": "prompt",
+  "name": "Viren Samani",
+  "tagline": "Founder, Convu and AI for Companies"
+}

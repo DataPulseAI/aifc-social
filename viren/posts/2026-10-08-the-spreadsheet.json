@@ -1,0 +1,9 @@
+{
+  "eyebrow": "Somebody else built it",
+  "headline": "The sheet you inherited",
+  "prompt": "Explain what this worksheet does for someone who did not build it: what each column means, which cells are inputs and which are calculated. Then list anything inconsistent: mixed formats, totals that do not match their ranges, hard-coded numbers. Change nothing.",
+  "attach": "the workbook itself, with every tab. The tab nobody uses is usually where the problem is.",
+  "template": "prompt",
+  "name": "Viren Samani",
+  "tagline": "Founder, Convu and AI for Companies"
+}

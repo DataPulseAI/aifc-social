@@ -1,0 +1,9 @@
+{
+  "eyebrow": "After the call",
+  "headline": "The meeting nobody wrote up",
+  "prompt": "List every action agreed, as a table: owner, action in their own words, and the date or trigger mentioned. Mark any action where no owner was named. Do not add actions that were only discussed.",
+  "attach": "the transcript or your own notes, untidied. The half sentences are what tell it who was speaking.",
+  "template": "prompt",
+  "name": "Viren Samani",
+  "tagline": "Founder, Convu and AI for Companies"
+}
