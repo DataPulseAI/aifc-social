@@ -19,6 +19,7 @@ here: the post gives the thing away and never argues for what we sell.
 | `grids/*.json` | grid specs. `node viren/grid.mjs <id>` writes `out/<id>.png` |
 | `versus/*.json` | comparison sheets. `node viren/versus.mjs <id>` writes `out/<id>.png` |
 | `carousels/*.json` | decks. `node viren/carousel.mjs <id>` writes `out/<id>.pdf` plus review PNGs |
+| `cards/` | the finished assets, tracked so Buffer can fetch them by raw URL |
 | `assets/photos/` | real photographs, named as the carousel JSON asks. Nothing stock, ever |
 | `bank/` | Viren's own material: moments, numbers, stories, voice notes. Currently empty |
 | `references/` | everything we learn from, each entry scored, with what we took and what we left |
