@@ -53,7 +53,12 @@ stronger with nothing under it, and every renderer now leaves the footer off whe
 
 ## The week
 
-Five weekdays, 07:30 to 08:30.
+One post a weekday, 07:30, five a week. Never two in a day and never at the weekend.
+
+Each post is pinned to its own time rather than left to Buffer's queue, because the channel's
+posting schedule carries two slots a day including weekends and there is no API to change it.
+If that schedule is ever set to one weekday slot, move everything back to the queue and it
+manages itself.
 
 | Day | Format | Job |
 |---|---|---|

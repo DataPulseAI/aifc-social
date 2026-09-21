@@ -47,10 +47,10 @@ not be), and does every numbered item give the words rather than the advice.
 
 ## Scheduling
 
-Everything runs through Buffer's own queue on the Viren Samani channel. Nothing is pinned to a
-fixed time any more: each post is `addToQueue`, so it takes the next free slot in the channel's
-posting schedule, and changing that schedule re-flows every queued post at once. That makes the
-posting schedule in Buffer the single place timing is decided.
+One post a weekday at 07:30 on the Viren Samani channel, five a week, each pinned to its own
+time. Buffer's own queue is not used: the channel's posting schedule holds two slots a day
+including weekends, and there is no API to change it. If that schedule is ever set to a single
+weekday slot, everything can move back to `addToQueue` and manage itself.
 
 `queue.csv` records what is in the queue, the slot Buffer assigned it, and the Buffer post id.
 It is a log, not the schedule. Rows marked blocked or held are not in Buffer at all.
