@@ -1,0 +1,69 @@
+{
+  "id": "2026-09-30-twenty-minutes",
+  "name": "Viren Samani",
+  "short": "Viren Samani",
+  "tagline": "Founder, Convu and AI for Companies",
+  "eyebrow": "No budget. No slides. No consultant.",
+  "slides": [
+    {
+      "type": "cover",
+      "headline": "The 20-minute AI lesson",
+      "sub": "84% of UK workers had no AI training last year. This is the session you can run on Monday, with what you already pay for."
+    },
+    {
+      "type": "step",
+      "headline": "One person. Not the team.",
+      "body": "Group sessions are where AI adoption goes to die. Everyone watches, nobody touches it. Book twenty minutes with one person and do it again next week with someone else."
+    },
+    {
+      "type": "step",
+      "headline": "Pick the task they dread",
+      "body": "Not an impressive task. A weekly one they would happily never do again. The supplier statement. The board summary. The meeting notes nobody turns into actions."
+    },
+    {
+      "type": "step",
+      "headline": "Open their real file",
+      "body": "Not a sample. Not a demo document. The actual spreadsheet with their client names in it. This is the step everyone skips, and it is the only one that makes it stick."
+    },
+    {
+      "type": "step",
+      "headline": "Type one plain sentence",
+      "body": "No prompt engineering. A sentence you would say to a new starter who is good but has no context.",
+      "quotes": [
+        "Show me every line that appears in one of these lists and not the other.",
+        "Turn these notes into owners and dates. Flag anything with no owner.",
+        "Give me the three numbers that changed since last month, and why."
+      ]
+    },
+    {
+      "type": "step",
+      "headline": "Read the answer out loud",
+      "body": "Together, before anyone copies anything. You are teaching them to check it, not to trust it. Fluent and wrong is the failure mode, and it does not look wrong."
+    },
+    {
+      "type": "step",
+      "headline": "Say what is wrong. Ask again.",
+      "body": "The second prompt is where the skill actually lives. Nobody learns this from watching a demo.",
+      "quotes": [
+        "Close. The dates are in two formats. Treat the first column as day first and do it again."
+      ]
+    },
+    {
+      "type": "step",
+      "headline": "Save the sentence",
+      "body": "Pin it in the chat, put it at the top of the spreadsheet, drop it in the team channel. A prompt nobody can find on Monday was never training."
+    },
+    {
+      "type": "step",
+      "headline": "Next week, they run it",
+      "body": "Same twenty minutes, they sit in your chair and teach someone else. Three rounds of that and the team is training itself, which is the only version that survives you being busy."
+    },
+    {
+      "type": "close",
+      "eyebrow": "That is the whole method",
+      "headline": "It costs nothing. Most teams never do it.",
+      "body": "We do the same thing for a full day, with a whole team, on their own work and their own licences. If they do not leave using it, we do not invoice.",
+      "source": "84% figure: AI Skills for Life and Work, general public survey findings, DCMS and DSIT, 28 January 2026. 591 people in work. aiforcompanies.co.uk"
+    }
+  ]
+}
