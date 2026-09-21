@@ -6,13 +6,29 @@
 //   prompts eyebrow (the moment), headline, items [{label, prompt}]
 //   note    eyebrow, headline, body, optional list []
 //   close   eyebrow, headline, body, foot
+//   photo   img (a file in viren/assets/photos), n, text, optional note. Full bleed, scrim,
+//           a lowercase line over the picture. Learned from the nine-page photo carousels that
+//           travel furthest: the photograph carries the slide, the words stay out of its way.
+//   photocover  img, eyebrow, headline, sub. The same treatment on slide one.
 import { chromium } from 'playwright';
 import { FONT_CSS } from '../lib/fonts.mjs';
-import { readFileSync, mkdirSync, writeFileSync } from 'node:fs';
+import { readFileSync, mkdirSync, writeFileSync, existsSync } from 'node:fs';
 
 const T = JSON.parse(readFileSync(new URL('./brand.json', import.meta.url))).tokens;
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
 const avatar = readFileSync(new URL('./assets/viren-circle.png', import.meta.url)).toString('base64');
+
+// A photograph, or an honest placeholder saying one is missing. Nothing stock, ever.
+const photo = name => {
+  const f = name && new URL(`./assets/photos/${name}`, import.meta.url);
+  if (f && existsSync(f)) {
+    const ext = name.split('.').pop().toLowerCase();
+    const mime = ext === 'png' ? 'png' : ext === 'webp' ? 'webp' : 'jpeg';
+    return `background-image:url(data:image/${mime};base64,${readFileSync(f).toString('base64')})`;
+  }
+  return 'background-image:none';
+};
+const missing = name => !(name && existsSync(new URL(`./assets/photos/${name}`, import.meta.url)));
 
 const css = `
 ${FONT_CSS}
@@ -52,6 +68,17 @@ ol.list li b{color:${T.green};font-weight:700;flex:0 0 auto}
 .close p{font-size:34px;line-height:1.4;color:#c2d3c9;margin-top:32px;max-width:830px;text-wrap:pretty}
 .close .cta{font-size:38px;font-weight:600;color:${T.greenlight};margin-top:38px}
 .close .foot2{margin-top:auto;padding-top:34px;border-top:1px solid #2b5442;font-size:23px;line-height:1.45;color:#8fae9d}
+
+.ph{padding:0;background:${T.greendeep};background-size:cover;background-position:center;color:#fff}
+.ph .scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,20,14,.62) 0%,rgba(8,20,14,.18) 34%,rgba(8,20,14,.52) 68%,rgba(8,20,14,.88) 100%)}
+.ph .inner{position:relative;height:100%;padding:88px 84px 72px;display:flex;flex-direction:column}
+.ph .n{font-size:30px;font-weight:700;color:${T.greenlight};letter-spacing:.02em;font-family:'JetBrains Mono',monospace}
+.ph .line{margin-top:auto;font-size:62px;line-height:1.08;font-weight:600;letter-spacing:-.03em;text-transform:lowercase;text-wrap:balance;max-width:880px}
+.ph .note{font-size:29px;line-height:1.36;color:#cfe0d6;margin-top:26px;font-weight:400;max-width:840px;text-wrap:pretty}
+.ph .pfoot{margin-top:38px;padding-top:26px;border-top:1px solid rgba(255,255,255,.22);display:flex;justify-content:space-between;align-items:baseline;font-size:23px;color:#cfe0d6;font-weight:500}
+.ph.cover h1{margin-top:auto;font-size:98px;line-height:.98;font-weight:700;letter-spacing:-.038em;text-wrap:balance}
+.ph.cover .sub{font-size:33px;line-height:1.34;color:#d5e3db;margin-top:30px;max-width:820px;font-weight:400;text-wrap:pretty}
+.gap{position:absolute;inset:44px;border:3px dashed rgba(128,190,156,.5);border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:26px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:rgba(128,190,156,.7)}
 `;
 
 const cover = (d, c) => `<div class="s dark cover">
@@ -83,13 +110,24 @@ const close = (d, c) => `<div class="s dark close">
   <div class="foot2">${esc(c.foot || '')}</div>
 </div>`;
 
+const pslide = (d, c, i, total) => `<div class="s ph${c.type === 'photocover' ? ' cover' : ''}" style="${photo(c.img)}">
+  ${missing(c.img) ? `<div class="gap">Photograph: ${esc(c.img || 'not set')}</div>` : ''}
+  <div class="scrim"></div>
+  <div class="inner">
+    ${c.type === 'photocover'
+      ? `<div class="eyebrow" style="color:${T.greenlight}">${esc(c.eyebrow || '')}</div><h1>${esc(c.headline)}</h1>${c.sub ? `<div class="sub">${esc(c.sub)}</div>` : ''}<div class="pfoot"><span>${esc(d.name)}</span><span>Swipe</span></div>`
+      : `<div class="n">(${String(c.n || i).padStart(2, '0')})</div><div class="line">${esc(c.text)}</div>${c.note ? `<div class="note">${esc(c.note)}</div>` : ''}<div class="pfoot"><span>${esc(d.short || d.name)}</span><span>${i} / ${total}</span></div>`}
+  </div>
+</div>`;
+
 const id = process.argv[2];
 if (!id) { console.error('usage: node viren/carousel.mjs <id>'); process.exit(1); }
 const d = JSON.parse(readFileSync(new URL(`./carousels/${id}.json`, import.meta.url)));
-const mids = d.slides.filter(s => s.type !== 'cover' && s.type !== 'close');
+const mids = d.slides.filter(s => s.type !== 'cover' && s.type !== 'photocover' && s.type !== 'close');
 const html = `<!doctype html><html><head><meta charset="utf-8"><style>${css}</style></head><body>` +
   d.slides.map(c => c.type === 'cover' ? cover(d, c)
     : c.type === 'close' ? close(d, c)
+    : c.type === 'photo' || c.type === 'photocover' ? pslide(d, c, mids.indexOf(c) + 1, mids.length)
     : body(d, c, mids.indexOf(c) + 1, mids.length)).join('') +
   `</body></html>`;
 

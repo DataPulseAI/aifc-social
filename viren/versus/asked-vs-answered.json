@@ -1,0 +1,43 @@
+{
+  "id": "asked-vs-answered",
+  "kick": "The same job, asked twice",
+  "title": "What you asked <em>vs</em> what you meant",
+  "titleSize": 60,
+  "sub": "Same tool, same file, thirty seconds apart. Everything on the right is a line you can paste today.",
+  "leftHead": "The common version",
+  "rightHead": "The version that works",
+  "rows": [
+    {
+      "lead": "The summary",
+      "left": "Summarise this document.",
+      "right": "Summarise this for a finance director with five minutes. Keep every figure and date exactly as written."
+    },
+    {
+      "lead": "The meeting",
+      "left": "What were the actions from this call?",
+      "right": "List every action as a table: owner, action in their own words, date or trigger. Mark any action where no owner was named."
+    },
+    {
+      "lead": "The contract",
+      "left": "Is there anything risky in here?",
+      "right": "Give me the ten questions a careful buyer should ask before signing, hardest first, quoting the clause each one comes from."
+    },
+    {
+      "lead": "The rewrite",
+      "left": "Make this shorter.",
+      "right": "Cut this to 200 words for someone who has not seen it. Then list anything you removed that they might still need."
+    },
+    {
+      "lead": "The gaps",
+      "left": "Fill in the rest as best you can.",
+      "right": "Where my notes do not cover a heading, write [GAP: what is missing] rather than writing something plausible."
+    },
+    {
+      "lead": "The file",
+      "left": "Here is roughly what the spreadsheet says.",
+      "right": "Attach the real file, mess and all. Describing it is where most wrong answers start."
+    }
+  ],
+  "footLeft": "Viren Samani",
+  "footRight": "aiforcompanies.co.uk/prompts"
+}

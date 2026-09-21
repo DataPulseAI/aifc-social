@@ -73,3 +73,70 @@ The two formats that earn a save are the dense grid and the real artefact. The f
 earns a share is a person saying one true thing plainly. Run both: the grid and the carousel
 carry the value, the card carries the voice, and the photograph carries the week. Nothing in
 any of them argues for what we sell.
+
+## supplied, second set, 21 September 2026
+
+Seven more sent by Viren, all of them high performers. The images themselves were sent into the
+conversation rather than as files, so what is kept here is the annotation, not the picture. If
+the originals are dropped into `supplied/` later the filenames below are the ones to use.
+
+### jaindl-25-ways-to-identify-ai-slop.png
+131 reactions, 124 comments. Virality 4, shareability 5, applicability 4, cleanliness 5,
+saveability 5.
+Cream ground, serif headline, twenty-five numbered pills, each one a quoted phrase and a
+punchline. The same grid we already build, with humour doing the work our colour coding does.
+**Taken:** the quoted-phrase-then-verdict pill. Quoting the thing the reader writes every week
+is the highest-yield opening move on the board. **Left:** the joke register. Ours is dry, not
+comic.
+
+### ameer-7-steps-post-to-client.png
+194 reactions, 235 comments. Virality 5, shareability 4, applicability 2, cleanliness 2,
+saveability 4.
+A hand-drawn purple circle, seven numbered nodes, three arrow sub-points each, handwritten
+marginalia. The comment count is the tell: a diagram people argue with beats one they admire.
+**Taken:** the sub-point under each step, so a list card carries a mechanism and not just a
+label. **Left:** the hand-drawn treatment and the circular layout. It is somebody else's hand
+and it fights a phone screen.
+
+### knight-comfortable-vs-good-culture.png
+83 comments, 75 reposts. Virality 4, shareability 5, applicability 5, cleanliness 5,
+saveability 5.
+Two columns, six paired rows, an icon each side, a vs chip between, and a subtitle explaining
+why the two get confused. The repost count against the reaction count is the highest ratio in
+the set: the comparison sheet is the most forwarded shape there is, because forwarding it makes
+a point for the sender.
+**Taken:** the whole structure. This is `viren/versus.mjs`. **Left:** the icon set, which
+repeats twelve times and says nothing; ours carries the meaning in the marks and the greens.
+
+### vanourek-push-back-on-a-deadline.png
+482 reactions, 178 comments, 44 reposts. The strongest single image in the set.
+Virality 5, shareability 5, applicability 5, cleanliness 4, saveability 5.
+Five numbered items, each a bold title, a short explanation, and an "Action:" line giving the
+exact words to say. The action line is why it travels: the reader leaves with a sentence in
+their mouth, not a principle.
+**Taken:** the action line. Every list card and grid card from here on gives the words, not the
+advice. **Left:** nothing. This one is the bar.
+
+### hormozi-tweet-card.png
+3,828 reactions, 523 comments, 184 reposts. Virality 5, shareability 4, applicability 3,
+cleanliness 5, saveability 2.
+Four parallel lines, enormous type, white ground, no ornament at all.
+**Taken:** confirmation that the voice card needs nothing but the sentence. **Left:** the
+authority it runs on. That reach is his audience, not the format, and copying the shape without
+the audience buys nothing.
+
+### hormozi-5-page-carousel.png
+1,313 reactions. Virality 4, shareability 4, applicability 3, cleanliness 5, saveability 3.
+Cover plus a swipe button, then one tweet-card statement a slide.
+**Taken:** one idea a slide, at full size, with nothing under it. **Left:** the advice-to-my-
+younger-self frame, which needs a track record to carry.
+
+### gray-10-unsexy-habits-photo-carousel.png
+460 reactions, 253 comments. Virality 4, shareability 4, applicability 5, cleanliness 5,
+saveability 4.
+Nine full-bleed photographs, a bracketed number and one lowercase line over each. No graphic
+anywhere. It reads as a person rather than a brand, which is exactly the gap between our sheets
+and our profile.
+**Taken:** the format entire, as the `photo` and `photocover` slide types in
+`viren/carousel.mjs`. **Left:** stock photography. Ours renders a dashed panel naming the
+missing file until a real photograph exists, and nothing ships on a placeholder.
