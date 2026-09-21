@@ -1,0 +1,23 @@
+{
+  "name": "Viren Samani, personal profile",
+  "note": "Separate from the AI for Companies card system on purpose. The page is the publication; the profile is a person. Started from scratch 21 September 2026 after the first profile drafts read as corporate.",
+  "tokens": {
+    "paper":   "#fbfaf7",
+    "ink":     "#111311",
+    "ink2":    "#3a3d3a",
+    "mute":    "#8a8e88",
+    "rule":    "#e4e2dc",
+    "accent":  "#d8532b",
+    "accent2": "#f3e2da",
+    "then":    "#b9bdb7"
+  },
+  "font": { "headline": "Instrument Sans 700", "body": "Instrument Sans 400/500", "serif": "Newsreader 500 for one word at most" },
+  "rules": [
+    "One idea per card, readable at phone width without zooming.",
+    "The card must be useful on its own: a list someone screenshots, not a headline someone scrolls past.",
+    "Type is big and plain. No photographs unless Viren is in them. No stock, no offices, no icons.",
+    "One accent colour, used once or twice. Strikethrough is the signature move: the old way, crossed out.",
+    "Sign every card with the name and the two facts: ex JP Morgan, AI for Companies. Never the logo alone."
+  ],
+  "canvas": { "w": 1080, "h": 1350 }
+}

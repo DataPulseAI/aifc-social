@@ -1,0 +1,17 @@
+{
+  "template": "thennow",
+  "kick": "Five years at JP Morgan.",
+  "headline": "Most of the job was this list.",
+  "thenLabel": "How I did it, 2021",
+  "nowLabel": "What you type now",
+  "rows": [
+    { "then": "Two spreadsheets that should match. Line by line, Friday night.", "now": "Show me every line that appears in one and not the other." },
+    { "then": "A 40-page report into the one paragraph the MD will read.", "now": "Give me the three numbers that changed and why, in five lines." },
+    { "then": "Meeting notes into actions. Nobody owns any of them.", "now": "Turn these notes into owners and dates. Flag anything with no owner." },
+    { "then": "The same client update, rewritten a third time for tone.", "now": "Three versions of this: shorter, warmer, firmer." },
+    { "then": "Which number moved between v6 and v7 of the deck.", "now": "Compare these two files and list every figure that differs." },
+    { "then": "Reading the whole tender to find the questions we dodged.", "now": "List every question in this document we have not answered." }
+  ],
+  "name": "Viren Samani",
+  "sig": "ex JP Morgan · founder, AI for Companies"
+}
