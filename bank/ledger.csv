@@ -1,36 +1,36 @@
-date,time,headline,source_publisher,source_date,archetype,hook_type,photo_file,destination,post_id
-2026-09-16,07:45:00,Seven in ten employees use AI tools their employer never approved,NCSC,2026-09-07,stat-in-context,number-first,work/security-w2.jpg,none,6aa9e856c9dce8b453147615
-2026-09-16,12:15:00,Only 18% of UK businesses use a large language model,ONS,2026-07-20,stat-in-context,number-first,work/high-street-u2-2.jpg,none,6aa9e85fce2285243e070b9c
-2026-09-16,17:15:00,80% say AI made them personally more productive. 37% of companies can point to any profit impact.,McKinsey,2026-08-25,contrast,number-first,places/city-london-u1.jpg,none,6aa9e866ce2285243e070bda
-2026-09-17,07:52:14,What UK firms actually use AI for,ONS,2026-07-20,stat-in-context,number-first,,none,6aaad22c0ef3cc67c26e2004
-2026-09-17,12:38:41,"Nvidia's Huang on slowing AI down: ""We're not going to let that happen""",TechCrunch,2026-09-14,news,quote-first,people/jensen-huang.jpg,none,6aa9f7f0dfcd8cd99b813d2c
-2026-09-17,16:07:26,OpenAI switches off every Custom GPT on 11 December,OpenAI,2026-09-11,release-read,named-thing,work/office-open-u3.jpg,/insights/prompts-your-team-will-reuse,6aa9f7f7dfcd8cd99b813ef0
-2026-09-18,08:11:53,What actually stops small firms using AI,Enterprise Nation,2026-06-09,stat-in-context,flat-claim,,none,6aaad1fa0ef3cc67c26e164c
-2026-09-18,12:19:08,A startup that gets brands mentioned by AI just raised $180m at $1.8bn,TechCrunch,2026-09-15,news,named-thing,work/coworking-u1.jpg,/industries/media-marketing-pr,6aa9f806c9dce8b45315d6b3
-2026-09-21,07:47:22,Bloomberg nearly doubled its AI data centre gas forecast in nine months,BloombergNEF,2026-09-15,stat-in-context,named-thing,work/datacentre-u2.jpg,none,6aa9f8218df35c613718a12a
-2026-09-21,13:02:49,Six prompts worth keeping on your desk,AIFC,2026-09-16,actionable-list,imperative,,/resources/prompt-library,6aaad250fc5a88693189ba43
-2026-09-21,15:56:11,"A startup just raised $40m to run 5,000 tests on other companies' AI agents",TechCrunch,2026-09-15,news,named-thing,work/server-rack-u1.jpg,none,6aaad18e0ef3cc67c26e0e8b
-2026-09-22,08:07:00,Google's own AI broke into three real companies during a safety test,Axios,2026-09-19,news,named-thing,work/datacentre-w2.jpg,none,6ab10ae3896f7a4455b94952
-2026-09-22,12:38:22,ChatGPT is now inside Microsoft Word,OpenAI,2026-09-17,release-read,named-thing,work/office-open-w2.jpg,/insights/choosing-an-ai-assistant-for-your-team,6ab10adbadfe7a7c91e78bdc
-2026-09-23,08:13:00,Stop showing your team AI demos,AIFC,2026-09-21,position,imperative,work/whiteboard-w1.jpg,none,6ab1290c2951e78841843ce0
-2026-09-23,12:27:46,Four changes to the tools you already pay for,various,2026-09-15,roundup,flat-claim,,none,6aaad1b4fc5a88693189a70b
-2026-09-24,08:21:00,Entry-level accountant hiring fell 29% in a year. Retail assistant hiring rose 25%.,DSIT,2026-06-08,contrast,number-first,work/colleagues-u3.jpg,/insights/ai-training-for-employees-what-works,6aaad1acfc5a88693189a6bd
-2026-09-24,16:29:00,"Free ChatGPT accounts are tracked on 1,000 other websites, says a researcher",Buchodi,2026-09-20,news,number-first,work/phone-hand-w1.jpg,none,6ab129169409a02c588efdc5
-2026-09-25,08:04:00,"Before you buy another AI licence, count who opened the last one",AIFC,2026-09-21,position,imperative,work/laptop-desk-w2.jpg,none,6ab1291c2951e78841843f63
-2026-09-25,13:09:00,"""We waste 25% of our week doing things we never should have done""",Fast Company,2026-09-16,quote,quote-first,work/presenting-u2.jpg,none,6aaad1ce9c269640efb59a09
-2026-09-28,08:06:44,The ICO has named eight ways an AI agent can put you on the wrong side of data law,ICO,2026-01-08,policy-note,number-first,work/laptop-desk-u1-2.jpg,/industries/professional-services,6aaad2110ef3cc67c26e1858
-2026-09-28,12:44:12,Four UK documents that would cost you money anywhere else,various,2026-08-20,roundup,flat-claim,,none,6aaad21aaa221af9bff72d49
-2026-09-28,15:53:31,"The government's new AI risk toolkit is a spreadsheet, and it is free",DSIT,2026-09-08,policy-note,flat-claim,work/office-open-u4.jpg,/resources/ai-policy,6aa9f7fedfcd8cd99b813f67
-2026-09-29,07:42:37,The NCSC will give a small UK business 30 minutes of cyber advice for nothing,NCSC,2026-07-15,share,named-thing,work/factory-u1.jpg,none,6aaad2320ef3cc67c26e212e
-2026-09-29,16:18:24,"Four surveys, four numbers",various,2026-09-17,roundup,number-first,,none,6ab10b0b69fbba0eaabee2f0
-2026-09-30,08:12:39,"What stops small firms, and what to do",Simply Business,2026-09-08,actionable-list,number-first,,/insights/ai-usage-policy-uk-template,6ab10b16f9d9e9104e747210
-2026-09-30,16:03:52,Yoshua Bengio has written down why AI agents lie,Yoshua Bengio,2026-09-11,share,named-thing,people/yoshua-bengio.jpg,none,6ab10b29896f7a4455b953eb
-2026-10-01,07:56:18,A prompt is a job description,AIFC,2026-09-21,actionable-list,flat-claim,,/prompts,6ab10b30896f7a4455b954e0
-2026-10-01,13:04:47,Five jobs for the assistant now in Word,OpenAI,2026-09-17,actionable-list,imperative,,/industries/professional-services,6ab10b3badfe7a7c91e79665
-2026-10-01,16:26:41,Before you let an agent near your systems,NCSC,2026-08-20,actionable-list,imperative,,none,6aaad1ff9c269640efb59da8
-2026-10-02,12:22:11,Four Copilot changes with dates on them,Microsoft 365 Roadmap,2026-09-21,roundup,number-first,,/insights/microsoft-365-copilot-rollout-plan,6ab10bf8896f7a4455b96aac
-2026-10-02,16:37:56,Eight things to stop pasting into AI at work,NCSC,2026-09-07,actionable-list,imperative,,none,6aaad1a4fc5a88693189a62f
-2026-10-05,08:14:26,Three numbers to count four weeks after any AI training,AIFC,2026-09-16,actionable-list,number-first,work/whiteboard-u2.jpg,/insights/measure-ai-adoption-three-numbers,6aaad1c09c269640efb59879
-2026-10-05,12:41:08,Six jobs to hand your assistant this week,AIFC,2026-09-16,actionable-list,imperative,,/prompts,6aaad20afc5a88693189ae1f
-2026-10-05,16:07:35,What to say when a client asks if you used AI,ICO,2026-01-08,guide,flat-claim,,/insights/ai-usage-policy-uk-template,6aaad1989c269640efb596f1
-2026-10-06,07:52:19,Four prompts for work you already have,AIFC,2026-09-21,actionable-list,number-first,,/resources/prompt-library,6ab10b5af9d9e9104e747bc2
+date,time,headline,source_publisher,source_date,archetype,hook_type,photo_file,destination,post_id,format,channel
+2026-09-16,07:45:00,Seven in ten employees use AI tools their employer never approved,NCSC,2026-09-07,stat-in-context,number-first,work/security-w2.jpg,none,6aa9e856c9dce8b453147615,,page
+2026-09-16,12:15:00,Only 18% of UK businesses use a large language model,ONS,2026-07-20,stat-in-context,number-first,work/high-street-u2-2.jpg,none,6aa9e85fce2285243e070b9c,,page
+2026-09-16,17:15:00,80% say AI made them personally more productive. 37% of companies can point to any profit impact.,McKinsey,2026-08-25,contrast,number-first,places/city-london-u1.jpg,none,6aa9e866ce2285243e070bda,,page
+2026-09-17,07:52:14,What UK firms actually use AI for,ONS,2026-07-20,stat-in-context,number-first,,none,6aaad22c0ef3cc67c26e2004,,page
+2026-09-17,12:38:41,"Nvidia's Huang on slowing AI down: ""We're not going to let that happen""",TechCrunch,2026-09-14,news,quote-first,people/jensen-huang.jpg,none,6aa9f7f0dfcd8cd99b813d2c,,page
+2026-09-17,16:07:26,OpenAI switches off every Custom GPT on 11 December,OpenAI,2026-09-11,release-read,named-thing,work/office-open-u3.jpg,/insights/prompts-your-team-will-reuse,6aa9f7f7dfcd8cd99b813ef0,,page
+2026-09-18,08:11:53,What actually stops small firms using AI,Enterprise Nation,2026-06-09,stat-in-context,flat-claim,,none,6aaad1fa0ef3cc67c26e164c,,page
+2026-09-18,12:19:08,A startup that gets brands mentioned by AI just raised $180m at $1.8bn,TechCrunch,2026-09-15,news,named-thing,work/coworking-u1.jpg,/industries/media-marketing-pr,6aa9f806c9dce8b45315d6b3,,page
+2026-09-21,07:47:22,Bloomberg nearly doubled its AI data centre gas forecast in nine months,BloombergNEF,2026-09-15,stat-in-context,named-thing,work/datacentre-u2.jpg,none,6aa9f8218df35c613718a12a,,page
+2026-09-21,13:02:49,Six prompts worth keeping on your desk,AIFC,2026-09-16,actionable-list,imperative,,/resources/prompt-library,6aaad250fc5a88693189ba43,,page
+2026-09-21,15:56:11,"A startup just raised $40m to run 5,000 tests on other companies' AI agents",TechCrunch,2026-09-15,news,named-thing,work/server-rack-u1.jpg,none,6aaad18e0ef3cc67c26e0e8b,,page
+2026-09-22,08:07:00,Google's own AI broke into three real companies during a safety test,Axios,2026-09-19,news,named-thing,work/datacentre-w2.jpg,none,6ab10ae3896f7a4455b94952,story,page
+2026-09-22,12:38:22,ChatGPT is now inside Microsoft Word,OpenAI,2026-09-17,release-read,named-thing,work/office-open-w2.jpg,/insights/choosing-an-ai-assistant-for-your-team,6ab10adbadfe7a7c91e78bdc,,page
+2026-09-23,08:13:00,Stop showing your team AI demos,AIFC,2026-09-21,position,imperative,work/whiteboard-w1.jpg,none,6ab1290c2951e78841843ce0,position,page
+2026-09-23,12:27:46,Four changes to the tools you already pay for,various,2026-09-15,roundup,flat-claim,,none,6aaad1b4fc5a88693189a70b,week-read,page
+2026-09-24,08:21:00,Entry-level accountant hiring fell 29% in a year. Retail assistant hiring rose 25%.,DSIT,2026-06-08,contrast,number-first,work/colleagues-u3.jpg,/insights/ai-training-for-employees-what-works,6aaad1acfc5a88693189a6bd,,page
+2026-09-24,16:29:00,"Free ChatGPT accounts are tracked on 1,000 other websites, says a researcher",Buchodi,2026-09-20,news,number-first,work/phone-hand-w1.jpg,none,6ab129169409a02c588efdc5,story,page
+2026-09-25,08:04:00,"Before you buy another AI licence, count who opened the last one",AIFC,2026-09-21,position,imperative,work/laptop-desk-w2.jpg,none,6ab1291c2951e78841843f63,position,page
+2026-09-25,13:09:00,"""We waste 25% of our week doing things we never should have done""",Fast Company,2026-09-16,quote,quote-first,work/presenting-u2.jpg,none,6aaad1ce9c269640efb59a09,,page
+2026-09-28,08:06:44,The ICO has named eight ways an AI agent can put you on the wrong side of data law,ICO,2026-01-08,policy-note,number-first,work/laptop-desk-u1-2.jpg,/industries/professional-services,6aaad2110ef3cc67c26e1858,,page
+2026-09-28,12:44:12,Four UK documents that would cost you money anywhere else,various,2026-08-20,roundup,flat-claim,,none,6aaad21aaa221af9bff72d49,,page
+2026-09-28,15:53:31,"The government's new AI risk toolkit is a spreadsheet, and it is free",DSIT,2026-09-08,policy-note,flat-claim,work/office-open-u4.jpg,/resources/ai-policy,6aa9f7fedfcd8cd99b813f67,,page
+2026-09-29,07:42:37,The NCSC will give a small UK business 30 minutes of cyber advice for nothing,NCSC,2026-07-15,share,named-thing,work/factory-u1.jpg,none,6aaad2320ef3cc67c26e212e,,page
+2026-09-29,16:18:24,"Four surveys, four numbers",various,2026-09-17,roundup,number-first,,none,6ab10b0b69fbba0eaabee2f0,,page
+2026-09-30,08:12:39,"What stops small firms, and what to do",Simply Business,2026-09-08,actionable-list,number-first,,/insights/ai-usage-policy-uk-template,6ab10b16f9d9e9104e747210,,page
+2026-09-30,16:03:52,Yoshua Bengio has written down why AI agents lie,Yoshua Bengio,2026-09-11,share,named-thing,people/yoshua-bengio.jpg,none,6ab10b29896f7a4455b953eb,,page
+2026-10-01,07:56:18,A prompt is a job description,AIFC,2026-09-21,actionable-list,flat-claim,,/prompts,6ab10b30896f7a4455b954e0,,page
+2026-10-01,13:04:47,Five jobs for the assistant now in Word,OpenAI,2026-09-17,actionable-list,imperative,,/industries/professional-services,6ab10b3badfe7a7c91e79665,,page
+2026-10-01,16:26:41,Before you let an agent near your systems,NCSC,2026-08-20,actionable-list,imperative,,none,6aaad1ff9c269640efb59da8,,page
+2026-10-02,12:22:11,Four Copilot changes with dates on them,Microsoft 365 Roadmap,2026-09-21,roundup,number-first,,/insights/microsoft-365-copilot-rollout-plan,6ab10bf8896f7a4455b96aac,,page
+2026-10-02,16:37:56,Eight things to stop pasting into AI at work,NCSC,2026-09-07,actionable-list,imperative,,none,6aaad1a4fc5a88693189a62f,,page
+2026-10-05,08:14:26,Three numbers to count four weeks after any AI training,AIFC,2026-09-16,actionable-list,number-first,work/whiteboard-u2.jpg,/insights/measure-ai-adoption-three-numbers,6aaad1c09c269640efb59879,,page
+2026-10-05,12:41:08,Six jobs to hand your assistant this week,AIFC,2026-09-16,actionable-list,imperative,,/prompts,6aaad20afc5a88693189ae1f,,page
+2026-10-05,16:07:35,What to say when a client asks if you used AI,ICO,2026-01-08,guide,flat-claim,,/insights/ai-usage-policy-uk-template,6aaad1989c269640efb596f1,,page
+2026-10-06,07:52:19,Four prompts for work you already have,AIFC,2026-09-21,actionable-list,number-first,,/resources/prompt-library,6ab10b5af9d9e9104e747bc2,,page

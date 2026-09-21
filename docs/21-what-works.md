@@ -14,6 +14,10 @@ mixing them is how a vendor blog post ends up steering the editorial line.
 
 ## 1. Standing conclusions
 
+> From 21 September 2026 the numbers behind this file come from `node score.mjs` (`docs/24`),
+> and the reading of what other accounts do is in `docs/23`. Add conclusions here; the
+> scorecard holds the tables.
+
 The short list. Anything here has either survived a month of our own data or rests on a
 study with a published method and sample.
 

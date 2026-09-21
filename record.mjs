@@ -5,7 +5,7 @@
  *
  * entries.json is an array of:
  *   { date, time, headline, source_publisher, source_date, archetype,
- *     hook_type, photo_file, destination, post_id }
+ *     hook_type, photo_file, destination, post_id, format, channel }
  *
  * Appends them to bank/ledger.csv and stamps lastUsed on each photo in
  * photos/index.json. Without this step the freshness guard has no memory and
@@ -14,7 +14,9 @@
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 
 const COLS = ['date','time','headline','source_publisher','source_date',
-              'archetype','hook_type','photo_file','destination','post_id'];
+              'archetype','hook_type','photo_file','destination','post_id','format','channel'];
+// format: one of the seven in docs/23 section 4 (monday-count, one-task, correction,
+// position, week-read, library, story). channel: page or profile. Both added 21 Sep 2026.
 const LEDGER = 'bank/ledger.csv';
 const INDEX  = 'photos/index.json';
 

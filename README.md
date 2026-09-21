@@ -384,6 +384,7 @@ change the editorial line on one bad week.
 ```
 brand.json            every colour, font and canvas size
 record.mjs            writes the ledger and stamps photo lastUsed. Run it every time.
+score.mjs             joins the ledger with bank/metrics.csv and writes bank/scorecard.md (docs/24).
 queue.mjs             the bank: stats, validate, next, mark. See docs/19.
 ingest.mjs            manifest CSV into photos/index.json
 montage.mjs           contact sheets, for reviewing photos before indexing
@@ -465,3 +466,5 @@ scratch/              one-off scripts from the build. Nothing reads these.
 | `20-growth-and-amplification.md` | Company page reach, amplifying from the personal profile, tagging, hashtags |
 | `21-what-works.md` | The knowledge base. Our numbers, outside evidence, and what failed. |
 | `22-the-mix-rewritten.md` | The band mix from 21 September 2026: wide, position, do-this-Monday, vendor, ours. Two a day. The vendor cap and the hard image rule. Wins over 14, 18 and 19 on the mix. |
+| `23-what-the-creators-do.md` | Read of 21 creator accounts on 21 September 2026: what performs, what to take, what to refuse, the inform/entertain/retain pillars, the seven formats, the personal-profile track. Notes per creator in `bank/creators/`. |
+| `24-the-loop.md` | How the engine learns: `bank/metrics.csv`, `score.mjs`, `bank/scorecard.md`, the one-slot-a-week rule, the Monday and Sunday cadence. |

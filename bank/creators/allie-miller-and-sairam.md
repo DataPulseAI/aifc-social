@@ -1,0 +1,7 @@
+# Allie K. Miller (2M followers), captured 21 Sep 2026
+28 own posts, 22 image. Median 370 reactions, 115 comments, ~675 chars (SHORT). Zero question closes, zero PS, one ask, 13 links.
+Top: 1,083 workshop with Mark Cuban (personal, "5-year-old Allie would have slapped you"). 899 "Why is nobody talking about this new ChatGPT feature?" (video, the ten small things that eat her day). 861 "a peek at my AI-first morning" (an agent read the inbox overnight; video). 672 Better Homes and Gardens feature, celebrating with the newsstand guy. 557 Bloomberg appearance. 508 "Truly epic AI workflow for people who are sick of typing" (Codex remote on a walk, step list). 428 Dreamforce. 416 China renewables 11x, a number that sounds wrong.
+Read: the biggest account in the roster writes SHORT. Her top posts are her own day ("my AI-first morning", "a workflow I use on a walk"), told as a procedure. Show-your-own-use beats explain-the-feature. Never asks for anything. Her weakness for our purposes: US, celebrity-adjacent, personal-life AI; but the "here is my morning" post is a format a company can run as "here is how our team runs Monday".
+
+# Sairam Sundaresan (AI engineering), captured 21 Sep 2026
+Only 5 posts loaded (page did not paginate). Median 104. Top 368: a three-line dialogue hook ("We need AI!" "Why?" "Everyone else has it.") then "what leadership thinks AI engineering is vs what it actually is". Technical audience; not our reader. One transferable device: the overheard-dialogue hook, three lines, then the correction.

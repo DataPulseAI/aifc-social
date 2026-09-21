@@ -1,0 +1,6 @@
+# Audrey Chia (copywriting and AI, Singapore), captured 21 Sep 2026
+23 own posts. Median 86 reactions. Top 125 "connect your tools to Claude". Personal-struggle posts ~100. One useful artefact: a document post where she asked her favourite creators how they grew, and Heather Murray's answer was "accept some posts will flop, be playful enough to show your silly side". Low reach this month; not a template source.
+
+# Greg Isenberg (Late Checkout), captured 21 Sep 2026
+5 posts loaded. Median 380. Top 601: TEXT ONLY, 565 chars, "The only businesses left to build: 1 to 7" (a numbered opinion list, no image, no link, no question). 408 "I just read what Zuck wrote about Muse connectors. A few things I think this means: 1..." (news plus numbered interpretation). 380 "AGENT HARNESSES ARE THE NEW GPT WRAPPERS. What is a harness? A harness does 4 things" (explainer of a term). 247 nine prompts. 174 startup idea from a personal anecdote.
+Read: pure opinion, text-only, short, numbered, no asks. His top post is the cleanest position post on the roster: a claim list someone can argue with. "I just read X, here is what I think it means, numbered" is the news-plus-position shape that turns a release into a wide post. That is the template for how our page should handle a vendor announcement when it does run one.
