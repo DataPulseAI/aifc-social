@@ -8,6 +8,8 @@ taken and the content is ours.
 | `supplied/` | images Viren sent, scored below |
 | `lara/` | twenty of Lara Acosta's post images, captured 21 Sep 2026, with an index |
 | `authoredup/` | the 310,000-post hook study and eleven worked viral examples |
+| `winners/` | every post that beat its own author's median, with the multiple. The honest ranking |
+| `top-content/` | a hundred posts LinkedIn curated across ten industries, fourteen images annotated |
 
 ## How each reference is scored
 
