@@ -21,7 +21,7 @@ question close, ask only for something real.
 
 ## Hooks
 
-Every hook above is under forty characters and stands alone before "see more", which the
+Every hook below is under forty characters and stands alone before "see more", which the
 AuthoredUp hook study (updated 11 August 2026) found earns the most from a scanning reader. Two
 shapes only: a story dropped mid-scene with a number ("Forty strangers. One Soho pub."), or a
 flat statement someone could argue with ("Most AI training is a demo."). No questions as hooks;
