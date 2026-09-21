@@ -47,7 +47,13 @@ not be), and does every numbered item give the words rather than the advice.
 
 ## Scheduling
 
-`queue.csv` is the source of truth for what goes out when. It is not wired to Buffer: the Buffer
-account has one channel slot and it is used by the Ai for Companies page, so the personal
-profile cannot be connected until that plan allows a second channel. Until then these go out by
-hand at 07:30, and the queue file is what to work from.
+Everything runs through Buffer's own queue on the Viren Samani channel. Nothing is pinned to a
+fixed time any more: each post is `addToQueue`, so it takes the next free slot in the channel's
+posting schedule, and changing that schedule re-flows every queued post at once. That makes the
+posting schedule in Buffer the single place timing is decided.
+
+`queue.csv` records what is in the queue, the slot Buffer assigned it, and the Buffer post id.
+It is a log, not the schedule. Rows marked blocked or held are not in Buffer at all.
+
+The AI for Companies page is a separate channel and is currently locked, so Buffer refuses
+every edit and delete on its twenty-four queued posts.
