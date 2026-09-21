@@ -126,6 +126,9 @@ is one only a real reader can answer (`docs/01` section 6).
 
 ## 5. The personal-profile track
 
+> Revised the same evening: building in public is out at Viren's direction; the Friday slot is
+> the resource (lead magnets, substance given away). The operating version is `docs/26`.
+
 This is the change that would do the most and the one nothing in the engine can do alone.
 Donnelly's own explanation of his $5m: "several team members posting content builds a human
 brand that people can follow". Lara: "people buy from people they trust". Heather Murray, our

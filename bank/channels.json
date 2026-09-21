@@ -1,0 +1,4 @@
+{
+  "page":    { "buffer_channel_id": "6aa9c633ea19ca0bde502b5e", "name": "AI for Companies (LinkedIn page)", "schedulingType": "automatic" },
+  "profile": { "buffer_channel_id": null, "name": "Viren Samani (LinkedIn profile)", "schedulingType": "notification", "note": "Set when Viren connects his profile to Buffer. Until then profile posts are banked as held." }
+}

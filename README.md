@@ -469,3 +469,4 @@ scratch/              one-off scripts from the build. Nothing reads these.
 | `23-what-the-creators-do.md` | Read of 21 creator accounts on 21 September 2026: what performs, what to take, what to refuse, the inform/entertain/retain pillars, the seven formats, the personal-profile track. Notes per creator in `bank/creators/`. |
 | `24-the-loop.md` | How the engine learns: `bank/metrics.csv`, `score.mjs`, `bank/scorecard.md`, the one-slot-a-week rule, the Monday and Sunday cadence. |
 | `25-card-system.md` | The cards, rebuilt on the site's design system on 21 September 2026: tokens, type, one template per format, what the creators' images taught. |
+| `26-profile-track.md` | Viren's own profile as the second channel: the five weekday shapes, the nothing-personal-from-nothing rule, approval-queue scheduling, `bank/moments.md` and `bank/desk-stories.md`. No building in public. |
