@@ -1,20 +1,38 @@
 {
   "name": "AIforCompanies",
-  "wordmark": { "parts": ["AI", "for", "Companies"], "colours": ["green", "ink", "green"] },
+  "wordmark": { "parts": ["AI", "for", "Companies"], "colours": ["grow", "heading", "grow"] },
   "domain": "aiforcompanies.co.uk",
+  "tokens": {
+    "note": "Synced from the AIforCompanies design system (project/tokens.json, light theme) on 21 September 2026. Never a literal hex in a template: name the token.",
+    "ink":       "#f5f5f2",
+    "surface":   "#ffffff",
+    "raised":    "#eff0ec",
+    "line":      "#daddd7",
+    "heading":   "#17211c",
+    "body":      "#3d4843",
+    "muted":     "#6b756f",
+    "grow":      "#1f5a3e",
+    "growsolid": "#1f5a3e",
+    "growdeep":  "#143e2b",
+    "growtint":  "#e3ece6",
+    "onaccent":  "#ffffff",
+    "growlight": "#80be9c"
+  },
   "colour": {
-    "green":      "#1B4332",
-    "greenLight": "#2D6A4F",
-    "greenPale":  "#D8E5DE",
-    "ink":        "#14171A",
-    "inkSoft":    "#4A5257",
-    "stone":      "#F5F5F2",
-    "stoneDeep":  "#EAEAE4",
-    "white":      "#FFFFFF"
+    "note": "Legacy names kept for the carousel builder and older scratch scripts. Values now point at the tokens above.",
+    "green":      "#1f5a3e",
+    "greenLight": "#1f5a3e",
+    "greenPale":  "#e3ece6",
+    "ink":        "#17211c",
+    "inkSoft":    "#3d4843",
+    "stone":      "#f5f5f2",
+    "stoneDeep":  "#eff0ec",
+    "white":      "#ffffff"
   },
   "font": {
     "display": "Newsreader",
-    "body": "Instrument Sans"
+    "body": "Instrument Sans",
+    "note": "Newsreader at 400 and 500 only, never bolder, never italic. Instrument Sans at 400, 500 and 600."
   },
   "canvas": { "w": 1080, "h": 1350 }
 }

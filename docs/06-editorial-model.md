@@ -189,6 +189,11 @@ backdrop covers it and the gap goes on a list.
 
 ## 5. The type decision, and why we diverge from the site
 
+> **Superseded 21 September 2026.** The cards now use the site's design system: Newsreader at
+> 500 for the statement, Instrument Sans for everything else, stone ground, hairlines, type never
+> on a photograph. `docs/25-card-system.md`. The section below is kept as the record of the
+> earlier decision.
+
 The website uses Newsreader, a serif, for headings. **The social cards do not.**
 They are set entirely in Instrument Sans, heavy weights, tight tracking.
 

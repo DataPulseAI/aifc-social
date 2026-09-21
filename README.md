@@ -468,3 +468,4 @@ scratch/              one-off scripts from the build. Nothing reads these.
 | `22-the-mix-rewritten.md` | The band mix from 21 September 2026: wide, position, do-this-Monday, vendor, ours. Two a day. The vendor cap and the hard image rule. Wins over 14, 18 and 19 on the mix. |
 | `23-what-the-creators-do.md` | Read of 21 creator accounts on 21 September 2026: what performs, what to take, what to refuse, the inform/entertain/retain pillars, the seven formats, the personal-profile track. Notes per creator in `bank/creators/`. |
 | `24-the-loop.md` | How the engine learns: `bank/metrics.csv`, `score.mjs`, `bank/scorecard.md`, the one-slot-a-week rule, the Monday and Sunday cadence. |
+| `25-card-system.md` | The cards, rebuilt on the site's design system on 21 September 2026: tokens, type, one template per format, what the creators' images taught. |
