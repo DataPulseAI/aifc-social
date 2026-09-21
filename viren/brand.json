@@ -1,31 +1,24 @@
 {
   "name": "Viren Samani, personal profile",
-  "note": "Separate from the AI for Companies card system on purpose. The page is the publication; the profile is a person. Started from scratch 21 September 2026 after the first profile drafts read as corporate.",
+  "note": "Started again 21 September 2026, evening. Posts 01 to 04 of the first attempt are in git history and were withdrawn: too corporate, then too specific. The lesson from Lara Acosta, Heather Murray and Viren's own best posts is that a profile post is understood by anyone in an office, in one read, on a phone.",
   "tokens": {
     "paper": "#fbfaf7",
     "ink": "#111311",
     "ink2": "#3a3d3a",
     "mute": "#8a8e88",
     "rule": "#e4e2dc",
-    "accent": "#d8532b",
-    "accent2": "#f3e2da",
-    "then": "#b9bdb7"
+    "accent": "#d8532b"
   },
   "font": {
     "headline": "Instrument Sans 700",
-    "body": "Instrument Sans 400/500",
-    "serif": "Newsreader 500 for one word at most",
-    "mono": "JetBrains Mono 400/500 for file cards"
+    "body": "Instrument Sans 400/500"
   },
   "rules": [
-    "One idea per card, readable at phone width without zooming.",
-    "The card must be useful on its own: a thing someone screenshots, not a headline someone scrolls past.",
-    "Prefer the real artefact to a designed card: the actual file, sheet, prompt or screen, shown as itself.",
-    "No former employer on the card or in the post. Authority comes from what exists and is in use.",
-    "Type is big and plain. No photographs unless Viren or a real room is in them. No stock, no icons.",
-    "At most three colours plus greys. The old way struck through is the one flourish on the then/now card.",
-    "Nothing signed on a file card. The post carries the name.",
-    "Never say or imply that posts are drafted with an assistant. The subject of a post is the work, never the writing of the post."
+    "Plain English. If a word needs explaining to someone outside tech, it does not go in.",
+    "One idea. A real moment, person, place or number in the first two lines.",
+    "A photo of a real room or a real person beats any graphic. Graphics only for carousels.",
+    "Under 150 words unless it is a story, and a story earns its length with a quoted line.",
+    "No former employer, no assistant, no jargon, no question close, no hashtags. Ask only when there is something real to ask for (a room to fill, a role to fill)."
   ],
   "canvas": {
     "w": 1080,
