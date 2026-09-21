@@ -1,7 +1,9 @@
 # Viren's profile: the content plan
 
-21 September 2026. Four weeks, three posts a week, Tuesday, Wednesday, Thursday, between 7:30
-and 8:30. Every post below is built from something real: your events, your product, your
+21 September 2026. Four weeks, five posts a week, weekdays, between 7:30 and 8:30. Three are
+built from Viren's own month (a room, a person, a number); two are value posts that need nothing
+from him: one exact problem, solved in plain steps, on a plain card. Week 1 is written in full in
+`posts/week-01.md`. Every post below is built from something real: your events, your product, your
 service, your last month of posts. Nothing needs a former employer or a technical word.
 
 ## What the strong accounts actually do (the whole lesson, short)
@@ -26,6 +28,14 @@ AuthoredUp hook study (updated 11 August 2026) found earns the most from a scann
 shapes only: a story dropped mid-scene with a number ("Forty strangers. One Soho pub."), or a
 flat statement someone could argue with ("Most AI training is a demo."). No questions as hooks;
 a yes-or-no question hands the reader an exit.
+
+## Images, the convention
+
+Tobi Oluwole (read 21 Sep 2026, twenty posts, 140 to 2,077 reactions): every post carries an
+image and there are only three kinds. A real photo of him or his people. A plain dark card with
+his avatar, name and two or three sentences in white. A screenshot of a real message when there
+is proof. Ours are the same three, from the `tweet` template, his photos, and his screenshots.
+Nothing else.
 
 ## The mix
 

@@ -74,7 +74,30 @@ pre{flex:1;padding:34px 36px 36px;font-size:${fs}px;line-height:1.46;color:#c9d1
 </div></body></html>`;
 };
 
-const TEMPLATES = { thennow, file };
+
+// tweet: the conventional card. Dark ground, avatar, name and handle, two or three short sentences in white.
+const tweet = d => {
+  const avatar = readFileSync(new URL('./assets/viren-circle.png', import.meta.url)).toString('base64');
+  const n = d.text.replace(/\n/g,' ').length;
+  const fs = d.size || (n > 260 ? 44 : n > 180 ? 50 : 56);
+  const bg = d.light ? '#ffffff' : '#000000', fg = d.light ? '#111311' : '#ffffff', mute = d.light ? '#6b6f6a' : '#8a8e88';
+  return `<!doctype html><html><head><meta charset="utf-8"><style>${FONT_CSS}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1080px;height:1350px;background:${bg};color:${fg};font-family:'Instrument Sans';-webkit-font-smoothing:antialiased}
+.card{height:100%;padding:150px 110px 120px;display:flex;flex-direction:column;justify-content:center}
+.who{display:flex;align-items:center;gap:22px;margin-bottom:54px}
+.who img{width:104px;height:104px;border-radius:50%;object-fit:cover}
+.who b{display:block;font-size:34px;font-weight:600;letter-spacing:-.01em}
+.who span{display:block;font-size:26px;color:${mute};margin-top:4px}
+p{font-size:${fs}px;line-height:1.28;letter-spacing:-.015em;font-weight:500;margin-bottom:${Math.round(fs*.75)}px;text-wrap:pretty}
+p:last-child{margin-bottom:0}
+</style></head><body><div class="card">
+<div class="who"><img src="data:image/png;base64,${avatar}"><div><b>${esc(d.name || 'Viren Samani')}</b><span>${esc(d.handle || 'linkedin.com/in/viren-samani')}</span></div></div>
+${d.text.split('\n').filter(Boolean).map(l => `<p>${esc(l)}</p>`).join('')}
+</div></body></html>`;
+};
+
+const TEMPLATES = { thennow, file, tweet };
 
 const id = process.argv[2];
 if (!id) { console.error('usage: node viren/render.mjs <post-id>'); process.exit(1); }

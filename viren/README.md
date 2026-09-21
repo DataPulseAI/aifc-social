@@ -7,6 +7,6 @@ attempts, which are in git history.
   why, and what Viren supplies. Start here.
 - `brand.json`: five rules and the palette for carousels.
 - `swipe-file.md`: the strong posts from the creator read, by mechanism.
-- `render.mjs`: card renderer for the rare graphic (`thennow`, `file`). Photos are preferred;
+- `render.mjs`: `tweet` (the conventional card, his avatar, two or three sentences), `file`, `thennow`. Photos first;
   carousels come from the Convu carousel skill in this palette.
 - `posts/`: one `.md` per drafted post, named `YYYY-MM-DD-slug.md`, once drafted from the plan.
