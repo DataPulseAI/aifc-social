@@ -1,4 +1,7 @@
-# 02. The file that stops it sounding like AI
+# 02. The file that stops it sounding like AI (WITHDRAWN)
+
+> Withdrawn 21 September 2026 at Viren's direction: no post carries the sentiment that Claude is
+> used for LinkedIn posts. Kept for the record; the mechanism moved to 03.
 
 Profile post. Card: `viren/out/02-voice-file.png` (spec `02-voice-file.json`, template `file`).
 
