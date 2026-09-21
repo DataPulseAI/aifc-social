@@ -15,6 +15,11 @@ project (`viren-profile-playbook-2026-09-21.md`). This is the part the batch run
 | Thu | position | entertain | the page's Thursday position, rewritten first person | none, text |
 | Fri | resource | retain and convert | the `docs/16` magnet rotation, substance given away, one link last line | `plainlist`, optional |
 | Sat or Sun, optional | person | retain (relatable) | `bank/moments.md`, type `person`, once a fortnight at most | none, text |
+| Sat, alternate weeks | convu | door two | the Convu batch, first person, one post a week at most on the profile | Convu's own assets |
+
+**Convu stays on the profile, at one post a week at most,** in the Saturday slot, alternating with
+the person post. AI for Companies has the weekdays. The About keeps both doors. Convu and AI for
+Companies never share a mailing list, a resource or a post. Viren's direction, 21 September 2026.
 
 **Building in public does not exist on this track.** No follower counts, impressions, "week
 two", or progress reports. A business number appears only when it teaches the reader something
