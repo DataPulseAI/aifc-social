@@ -84,3 +84,23 @@ accents on a consistent base, generous margins, saves and reposts as the measure
 1080x1350 at a 12px floor when drawn at feed width; one type family per card; at most three
 colours plus greys; nothing on the image that the post already says; the file template carries
 no headline at all because the file is the headline.
+
+## Sources for value posts (research pass, 21 September 2026, every item opened)
+
+| Source | Date | The number | Use |
+|---|---|---|---|
+| DCMS and DSIT, AI Skills for Life and Work, public survey (591 in work) | 28 Jan 2026 | 84% of people in work had no AI training in 12 months; 21% confident; 21% more productive | Post 1 |
+| NBER WP 34851, Cruces et al., randomised, 1,174 adults | Feb 2026 | With AI the gap between higher and lower educated participants fell from 0.548 to 0.139 SD, about three quarters | Post 2 |
+| Microsoft Work Trend Index, 20,000 AI users, 10 markets | 5 May 2026 | Organisational factors 67% vs individual 32%; managers modelling AI, 17-point lift in value; 26% say leadership aligned | Post 4 |
+| British Chambers of Commerce, Powering Productivity, 668 firms | 18 Mar 2026 | 54% of SMEs use AI; 2% plan significant training investment; 95% no headcount change | Post 5 (open the PDF before the 95% runs) |
+| DSIT, AI Adoption Research, 3,500 firms | 13 Feb 2026 | Among adopters only 30% of staff use it; 60% cite skills as a barrier | Week 2 |
+| ONS, AI in UK businesses 2023 to 2026 | 20 Jul 2026 | 35% of firms with 10+ staff use AI; 11% have trained more than half their workforce | Week 2 |
+| BCG, AI at Work, ~12,000 people | 2 Jun 2026 | 42% of regular users save eight hours a week; 36% feel adequately upskilled | Week 2 |
+| Anthropic Economic Index, Learning curves | 24 Mar 2026 | Six months of use, 10% higher success rate on like tasks | Week 3 |
+| OpenAI, usage and adoption at work | 22 Jan 2026 | Weekly email time down 31% in a six-month study | Week 3 |
+| Skills England, AI Foundation Skills benchmark | 28 Jan 2026 | Four foundation skills; 10 million workers by 2030 | Week 3, a checklist post |
+| ICO, automated decisions in hiring | 31 Mar 2026 | Wrote to 16 of 30+ employers; test for bias, tell candidates, offer human review | Week 4, not legal advice |
+| Microsoft Copilot Success Kit and Essential Guide | 23 Feb and 15 May 2026 | Free kit; vendor's own advice is a change programme | Week 4 |
+
+Also read, weaker: Gallup (US), Stanford AI Index 2026 chapter 4, BIS WP 1325 (4% productivity,
+gains need training investment), OpenAI enterprise scaling guide. No citable CIPD 2026 item.

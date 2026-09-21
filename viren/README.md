@@ -6,7 +6,8 @@ attempts, which are in git history.
 - `plan.md`: the four-week content plan, three posts a week, each with hook, shape, photo,
   why, and what Viren supplies. Start here.
 - `brand.json`: five rules and the palette for carousels.
-- `swipe-file.md`: the strong posts from the creator read, by mechanism.
+- `swipe-file.md`: the strong posts by mechanism, and the sourced numbers for value posts.
+- `references/lara/`: twenty of Lara Acosta's recent post images with an index; `references/lara-contact.jpg` is the sheet.
 - `render.mjs`: `tweet` (the conventional card, his avatar, two or three sentences), `file`, `thennow`. Photos first;
   carousels come from the Convu carousel skill in this palette.
 - `posts/`: one `.md` per drafted post, named `YYYY-MM-DD-slug.md`, once drafted from the plan.
