@@ -414,7 +414,7 @@ photos/
   work/ people/ places/
 cards/                published card PNGs, served from raw.githubusercontent.com
 docs/                 see below
-scratch/              one-off scripts from the build. Nothing reads these.
+resources/            the gated documents, one folder each (see resources/README.md)
 ```
 
 ---
