@@ -8,7 +8,10 @@
     "Everything in a post is real and usable today: a prompt that works, a method he runs, a thing that happened.",
     "Plain English. If a word needs explaining outside tech, it is out.",
     "One accent, the AI for Companies green. Photos of real rooms and people beat any graphic.",
-    "No hashtags, no question close, no former employer, no assistant."
+    "No hashtags, no question close, no former employer, no assistant.",
+    "No link in the post body. The link goes in the first comment. A link in the body costs roughly 60% of the reach.",
+    "The post has to work with the image closed. Quote the prompt in full in the text; the card is the artefact, not the value.",
+    "No 'free, no email' or 'no form'. If it is useful they will go. Saying it twice sounds like selling."
   ],
   "tokens": {
     "paper": "#f5f5f2",
