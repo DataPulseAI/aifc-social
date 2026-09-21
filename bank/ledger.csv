@@ -12,11 +12,11 @@ date,time,headline,source_publisher,source_date,archetype,hook_type,photo_file,d
 2026-09-21,15:56:11,"A startup just raised $40m to run 5,000 tests on other companies' AI agents",TechCrunch,2026-09-15,news,named-thing,work/server-rack-u1.jpg,none,6aaad18e0ef3cc67c26e0e8b,,page
 2026-09-22,08:07:00,Google's own AI broke into three real companies during a safety test,Axios,2026-09-19,news,named-thing,work/datacentre-w2.jpg,none,6ab10ae3896f7a4455b94952,story,page
 2026-09-22,12:38:22,ChatGPT is now inside Microsoft Word,OpenAI,2026-09-17,release-read,named-thing,work/office-open-w2.jpg,/insights/choosing-an-ai-assistant-for-your-team,6ab10adbadfe7a7c91e78bdc,,page
-2026-09-23,08:13:00,Stop showing your team AI demos,AIFC,2026-09-21,position,imperative,work/whiteboard-w1.jpg,none,6ab1290c2951e78841843ce0,position,page
+2026-09-23,08:13:00,Stop showing your team AI demos,AIFC,2026-09-21,position,imperative,,none,6ab1290c2951e78841843ce0,position,page
 2026-09-23,12:27:46,Four changes to the tools you already pay for,various,2026-09-15,roundup,flat-claim,,none,6aaad1b4fc5a88693189a70b,week-read,page
 2026-09-24,08:21:00,Entry-level accountant hiring fell 29% in a year. Retail assistant hiring rose 25%.,DSIT,2026-06-08,contrast,number-first,work/colleagues-u3.jpg,/insights/ai-training-for-employees-what-works,6aaad1acfc5a88693189a6bd,,page
 2026-09-24,16:29:00,"Free ChatGPT accounts are tracked on 1,000 other websites, says a researcher",Buchodi,2026-09-20,news,number-first,work/phone-hand-w1.jpg,none,6ab129169409a02c588efdc5,story,page
-2026-09-25,08:04:00,"Before you buy another AI licence, count who opened the last one",AIFC,2026-09-21,position,imperative,work/laptop-desk-w2.jpg,none,6ab1291c2951e78841843f63,position,page
+2026-09-25,08:04:00,"Before you buy another AI licence, count who opened the last one",AIFC,2026-09-21,position,imperative,,none,6ab1291c2951e78841843f63,position,page
 2026-09-25,13:09:00,"""We waste 25% of our week doing things we never should have done""",Fast Company,2026-09-16,quote,quote-first,work/presenting-u2.jpg,none,6aaad1ce9c269640efb59a09,,page
 2026-09-28,08:06:44,The ICO has named eight ways an AI agent can put you on the wrong side of data law,ICO,2026-01-08,policy-note,number-first,work/laptop-desk-u1-2.jpg,/industries/professional-services,6aaad2110ef3cc67c26e1858,,page
 2026-09-28,12:44:12,Four UK documents that would cost you money anywhere else,various,2026-08-20,roundup,flat-claim,,none,6aaad21aaa221af9bff72d49,,page
