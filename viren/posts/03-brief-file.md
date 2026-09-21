@@ -1,4 +1,4 @@
-# 03. The file you fill in before anything gets built
+# 03. The file you fill in before anything gets built (WITHDRAWN: failed the research audit, see 04)
 
 Profile post. Card: `viren/out/03-brief-file.png` (spec `03-brief-file.json`, template `file`).
 

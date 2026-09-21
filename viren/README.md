@@ -12,3 +12,12 @@ Templates: `thennow` (the old way struck through, the prompt beside it) and `fil
 The bar for a post here, from the creator read (`docs/23`, `bank/creators/`): it is about the
 reader, not the buyer; the card is useful on its own; the voice is first person and lived; no
 ask, no question close, no link in the post. If Viren would not share it himself, it does not run.
+
+## The gate, added 21 September 2026 (evening)
+
+Before a profile post is shown to Viren it is scored against the swipe file, in a table, in
+its own `.md`: opens on a moment, a peg or a number; hands on, not advice; the artefact is
+real and already in use; one detail the reader could not have written; failure owned where
+there is one; in the niche; no former employer; no assistant-writes-posts; saveable without
+the post. A post that fails two rows is not shown. 01 to 03 would each have failed; 04 is the
+first written through the gate.
