@@ -80,3 +80,47 @@ at every screen in shot before looking at anything else.
 badly licensed. It was a photograph tagged for the wrong audience, and the tags were what
 put it in front of a UK hiring story. A mis-tagged entry is as dangerous as an unusable
 one, because it passes every check except the visual one.
+
+## Record, 21 September 2026, fourth pass
+
+255 entries in, 250 out, during the second weekly batch. Six of fifteen cards needed a
+second pass, and two needed a third, which is worse than the one in three this file
+predicted. Every failure was rule 5 or rule 7.
+
+| File | Why |
+|---|---|
+| `work/shop-floor-u3.jpg` | ENO, Best Star and GXin Permanent Marker packaging legible across three shelves, and Sinhala script throughout. Rules 5 and 7 |
+| `work/laptop-desk-u2.jpg` | A "CISI Accredited Course" banner legible on the wall behind the subject. Rule 5. This is also the file `docs/21` records as coming back for three stories in one run |
+| `work/coworking-u3.jpg` | An Apple logo centre frame on the laptop lid and a Dell logo on the second laptop. Rule 5 |
+| `work/shop-floor-u1-2.jpg` | Pepsi and Sprite bottles legible, Chinese street signage, payment QR codes. Rules 5 and 7 |
+| `work/laptop-desk-u2-2.jpg` | A website mockup template on the screen, lorem ipsum body text, and "MacBook Air" printed on the bezel. Rule 5, and it is not a real scene. Same fault as `laptop-desk-u4` |
+| `work/sme-owner-u2.jpg` | "SALLY LUNN'S Eating House 1680" signage fully legible. A named UK independent business that was not the subject of the story. Rule 5. Caught on review, not removed: see below |
+
+Three entries were re-tagged rather than removed, because the photographs are fine and
+only the tags were wrong: `work/shop-floor-u2-2.jpg`, `work/shop-floor-w2.jpg` and
+`work/office-open-w1.jpg` all lost `uk`, `sme` and `small business`. The first two are
+market traders outside the UK and the third is an office with Chinese signage in the
+ceiling. None of them should surface on a story about UK firms, and all three did.
+
+**What this pass taught, which is new.**
+
+**The retail and shop pool is the weakest part of the library.** Four of the six failures
+came from `shop`, `retail`, `counter` and `sme`. Those tags were seeded with international
+street photography, which is good work and wrong for this audience, and a story about UK
+small businesses is exactly the story most likely to reach for them. Until that pool is
+rebuilt, prefer `team`, `meeting`, `office` and `work` for UK small business stories and
+treat any `shop` match as guilty until looked at.
+
+**Sally Lunn's is the edge case worth stating.** Rule 5 already allows a named UK
+independent shop when the story is about UK independent shops. It does not allow one as
+set dressing. A named business under a headline about shallow AI adoption implies
+something about that business, which is both unfair and a claim we cannot source. The
+test: would the owner of the business in frame be happy to see their sign under this
+sentence.
+
+**Re-rolling is still the wrong instinct and was still the first one.** Three of the six
+second passes were fixed by removing the entry, which is what `docs/21` says to do. Two
+were fixed by changing the tags, and both of those were cases where the tags I chose
+pointed at a contaminated pool rather than cases where the library was at fault. Deciding
+which of the two you are looking at is the judgement, and looking at the photograph is the
+only way to make it.

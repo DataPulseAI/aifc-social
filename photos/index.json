@@ -945,25 +945,6 @@
    "lastUsed": "2026-09-16"
   },
   {
-   "file": "work/laptop-desk-u2.jpg",
-   "subject": null,
-   "tags": [
-    "laptop",
-    "work",
-    "focus",
-    "desk",
-    "writing",
-    "admin"
-   ],
-   "licence": "unsplash",
-   "attribution": "Photo by visualsoflukas on Unsplash",
-   "source_url": "https://unsplash.com/photos/man-sitting-in-front-of-a-computer-N7Bjz9vY67E",
-   "w": 1080,
-   "h": 1620,
-   "added": "2026-09-16",
-   "lastUsed": null
-  },
-  {
    "file": "work/whiteboard-u2.jpg",
    "subject": null,
    "tags": [
@@ -1503,24 +1484,6 @@
    "lastUsed": null
   },
   {
-   "file": "work/coworking-u3.jpg",
-   "subject": null,
-   "tags": [
-    "office",
-    "startup",
-    "desk",
-    "work",
-    "hybrid"
-   ],
-   "licence": "unsplash",
-   "attribution": "Photo by Aviv Rachmadian on Unsplash",
-   "source_url": "https://unsplash.com/photos/woman-in-black-long-sleeve-shirt-using-macbook-u_9ANn3JpVU",
-   "w": 1013,
-   "h": 1800,
-   "added": "2026-09-16",
-   "lastUsed": null
-  },
-  {
    "file": "work/video-call-u1.jpg",
    "subject": null,
    "tags": [
@@ -1711,25 +1674,6 @@
    "licence": "unsplash",
    "attribution": "Photo by Kseniia Ilinykh on Unsplash",
    "source_url": "https://unsplash.com/photos/a-yellow-forklift-in-a-large-warehouse-82ZiY5pzl1c",
-   "w": 1080,
-   "h": 1620,
-   "added": "2026-09-16",
-   "lastUsed": null
-  },
-  {
-   "file": "work/shop-floor-u3.jpg",
-   "subject": null,
-   "tags": [
-    "retail",
-    "shop",
-    "sme",
-    "service",
-    "counter",
-    "owner"
-   ],
-   "licence": "unsplash",
-   "attribution": "Photo by Thilina Alagiyawanna on Unsplash",
-   "source_url": "https://unsplash.com/photos/a-man-smiles-behind-a-counter-in-a-small-shop-A49MazlLOI4",
    "w": 1080,
    "h": 1620,
    "added": "2026-09-16",
@@ -2306,25 +2250,6 @@
    "h": 1350,
    "added": "2026-09-16",
    "lastUsed": "2026-09-16"
-  },
-  {
-   "file": "work/laptop-desk-u2-2.jpg",
-   "subject": null,
-   "tags": [
-    "laptop",
-    "work",
-    "focus",
-    "desk",
-    "writing",
-    "admin"
-   ],
-   "licence": "unsplash",
-   "attribution": "Photo by solidpixels. on Unsplash",
-   "source_url": "https://unsplash.com/photos/a-laptop-computer-sitting-on-top-of-a-wooden-table-iq2RzBMj-Wg",
-   "w": 1080,
-   "h": 1620,
-   "added": "2026-09-16",
-   "lastUsed": null
   },
   {
    "file": "work/laptop-desk-u3-2.jpg",
@@ -2933,31 +2858,11 @@
    "lastUsed": null
   },
   {
-   "file": "work/shop-floor-u1-2.jpg",
-   "subject": null,
-   "tags": [
-    "retail",
-    "shop",
-    "sme",
-    "service",
-    "counter",
-    "owner"
-   ],
-   "licence": "unsplash",
-   "attribution": "Photo by qyy qyyy on Unsplash",
-   "source_url": "https://unsplash.com/photos/elderly-man-smoking-inside-a-small-convenience-store-BsfyYthzrgs",
-   "w": 1080,
-   "h": 1620,
-   "added": "2026-09-16",
-   "lastUsed": null
-  },
-  {
    "file": "work/shop-floor-u2-2.jpg",
    "subject": null,
    "tags": [
     "retail",
     "shop",
-    "sme",
     "service",
     "counter",
     "owner"
@@ -2995,7 +2900,6 @@
    "tags": [
     "retail",
     "shop",
-    "sme",
     "service",
     "counter",
     "owner"
