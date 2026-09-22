@@ -1,19 +1,22 @@
 {
   "page": {
-    "buffer_channel_id": "6aa9c633ea19ca0bde502b5e",
+    "buffer_channel_id": "6ab23cf2ea19ca0bdeb2dce5",
     "name": "AI for Companies (LinkedIn page)",
-    "schedulingType": "automatic"
+    "schedulingType": "automatic",
+    "buffer_account": "viren@mydatapulse.co.uk (MCP server \"Buffer-2\"), org 68c9f323c0a1bc077ff50957",
+    "plan": "free: 10 scheduled posts per channel, no LinkedIn first comment"
   },
   "profile": {
-    "buffer_channel_id": null,
+    "buffer_channel_id": "6ab1a1fcea19ca0bdeab9165",
     "name": "Viren Samani (LinkedIn profile)",
     "schedulingType": "notification",
-    "note": "Set when Viren connects his profile to Buffer. Until then profile posts are banked as held."
+    "buffer_account": "viren@aiforcompanies.co.uk (MCP server \"Buffer\"), org 6aa9bd84b82395c27e21a9f2"
   },
   "convu": {
-    "buffer_channel_id": null,
+    "buffer_channel_id": "6a57acfa80cc80cdcabc4689",
     "name": "Convu (LinkedIn page)",
     "schedulingType": "automatic",
-    "note": "Set when the Convu page is connected to Buffer. Two posts a week from the Convu batch (aifc-playbooks, Convu social batch). Never shares a list or a post with AI for Companies."
-  }
+    "buffer_account": "viren@mydatapulse.co.uk (MCP server \"Buffer-2\"), org 68c9f323c0a1bc077ff50957"
+  },
+  "_note": "The page and the profile live in TWO DIFFERENT Buffer accounts, reached through two different MCP servers. Read buffer_account on every channel before scheduling."
 }
