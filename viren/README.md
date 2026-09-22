@@ -17,6 +17,8 @@ here: the post gives the thing away and never argues for what we sell.
 | `posts/week-NN.md` | the posts themselves, written in full, with the reasoning and the score |
 | `posts/*.json` | card specs. `node viren/render.mjs <id>` writes `out/<id>.png` |
 | `grids/*.json` | grid specs. `node viren/grid.mjs <id>` writes `out/<id>.png` |
+| `banner.mjs` | the LinkedIn profile banner. `node viren/banner.mjs` writes `out/banner.png` |
+| `design-philosophy.md` | Quiet Inventory, the visual philosophy the banner is built to |
 | `lists/*.json` | numbered list cards. `node viren/list.mjs <id>` writes `out/<id>.png` |
 | `versus/*.json` | comparison sheets. `node viren/versus.mjs <id>` writes `out/<id>.png` |
 | `carousels/*.json` | decks. `node viren/carousel.mjs <id>` writes `out/<id>.pdf` plus review PNGs |
