@@ -1,11 +1,54 @@
 # AI for Companies: the LinkedIn content engine
 
-Three posts a day to the AI for Companies LinkedIn company page, sourced, written,
+Two posts a day to the AI for Companies LinkedIn company page, sourced, written,
 illustrated and scheduled without anyone opening Buffer. This file is the operating
 manual. If you are a Claude session picking this up cold, read this first and then the
 docs it points at.
 
-Built 15 and 16 September 2026. Last updated 16 September 2026.
+Built 15 and 16 September 2026. Last updated 22 September 2026.
+
+---
+
+## 0. Read this before you schedule anything. It overrides your prompt.
+
+The scheduled tasks carry prompts that cannot be edited without Viren approving it on his
+Mac, so some of them still say things that stopped being true. **This file wins.** Where a
+task prompt and this section disagree, this section is right, and the task prompts say so
+themselves.
+
+Five things changed on 22 September 2026.
+
+**1. The page moved Buffer accounts, and moving it deleted every scheduled post on it.**
+Twenty-five went at once, with no warning and no export. The bank is the only reason the
+week was recoverable. If a channel ever moves again, schedule nothing that week.
+
+**2. There are now two Buffer accounts and two MCP servers.** Read `bank/channels.json`
+and check `buffer_account` before scheduling. Getting this wrong posts to the wrong account.
+
+| Channel | MCP server | Organisation | Channel id |
+|---|---|---|---|
+| AI for Companies page | `Buffer-2` | `68c9f323c0a1bc077ff50957` | `6ab23cf2ea19ca0bdeb2dce5` |
+| Convu page | `Buffer-2` | `68c9f323c0a1bc077ff50957` | `6a57acfa80cc80cdcabc4689` |
+| Viren Samani profile | `Buffer` | `6aa9bd84b82395c27e21a9f2` | `6ab1a1fcea19ca0bdeab9165` |
+
+The old page channel `6aa9c633ea19ca0bde502b5e` does not exist any more. Any instruction
+naming it is stale.
+
+**3. Buffer-2 is on the free plan. The cap is ten scheduled posts per channel**, verified
+22 September, not ten per organisation. Convu's queue does not eat the page's allowance.
+Anything that says Essentials, 5,000 posts, or no cap is obsolete.
+
+**4. The allocation is ten, and ten is the week.** Two posts a day, Monday to Friday. The
+Sunday batch counts what is already live, fills only the gap, and stops. It never schedules
+an eleventh and never reaches into the following week. **The daily run no longer tops up**:
+it is a watchdog now. `docs/28` has the rule, `docs/22` has the mix.
+
+**5. First comments need a paid plan.** `createPost` refuses them on the page. Keep writing
+`first_comment` into the bank, but do not send it and do not let a run fail on it. Anything
+load-bearing belongs in the body.
+
+Two posts a day, not three. Section 8 below still describes three slots: that is the shape
+of a day, not the count. Use the morning band and one of the other two.
 
 ---
 
