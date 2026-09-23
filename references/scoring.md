@@ -1,7 +1,7 @@
-# references/
+# Scoring: every reference image, marked out of five
 
-Everything we learn from, kept with the reason it is here. Nothing is copied; the mechanism is
-taken and the content is ours.
+Moved from `viren/references/README.md` on 23 September 2026. The library index is now `README.md`
+beside this file. Nothing is copied; the mechanism is taken and the content is ours.
 
 | Folder | What is in it |
 |---|---|
@@ -29,7 +29,7 @@ Fifty numbered cards, five columns, colour-coded, one topic covered to exhaustio
 title bar and a quiet footer. This is the single best format on the board: the reader gets the
 whole map in one image and keeps it. Marked down on cleanliness only because ten colours carry
 no meaning, so the eye works harder than it needs to.
-**Taken:** the grid itself (`viren/grid.mjs`), the title bar, the numbered chips, the one-line
+**Taken:** the grid itself (`../viren/grid.mjs`), the title bar, the numbered chips, the one-line
 body, the footer that names where to go next. **Left:** the ten-colour palette; ours uses six
 that group the families.
 
@@ -63,7 +63,7 @@ Virality 4, shareability 4, applicability 5, cleanliness 5, saveability 2.
 Near-black ground, avatar, name, verified tick, one-line tagline, then two short paragraphs. No
 headline, no logo, no decoration. The cleanest card format on the board and the easiest to run
 every week.
-**Taken:** the whole card, as `tweet` in `viren/render.mjs`, with Viren's face and tagline.
+**Taken:** the whole card, as `tweet` in `../viren/render.mjs`, with Viren's face and tagline.
 **Left:** nothing. Saveability is low by design; this format carries a belief, not a reference,
 which is why it alternates with the grid rather than replacing it.
 
@@ -105,7 +105,7 @@ Two columns, six paired rows, an icon each side, a vs chip between, and a subtit
 why the two get confused. The repost count against the reaction count is the highest ratio in
 the set: the comparison sheet is the most forwarded shape there is, because forwarding it makes
 a point for the sender.
-**Taken:** the whole structure. This is `viren/versus.mjs`. **Left:** the icon set, which
+**Taken:** the whole structure. This is `../viren/versus.mjs`. **Left:** the icon set, which
 repeats twelve times and says nothing; ours carries the meaning in the marks and the greens.
 
 ### vanourek-push-back-on-a-deadline.png
@@ -138,7 +138,7 @@ Nine full-bleed photographs, a bracketed number and one lowercase line over each
 anywhere. It reads as a person rather than a brand, which is exactly the gap between our sheets
 and our profile.
 **Taken:** the format entire, as the `photo` and `photocover` slide types in
-`viren/carousel.mjs`. **Left:** stock photography. Ours renders a dashed panel naming the
+`../viren/carousel.mjs`. **Left:** stock photography. Ours renders a dashed panel naming the
 missing file until a real photograph exists, and nothing ships on a placeholder.
 
 ## supplied, third set, 21 September 2026
@@ -153,7 +153,7 @@ action, three or six bullets a ring, a colour per ring. No photograph, no person
 in the image at all, and it still travelled further than anything else in the set on reposts.
 The shape is the whole reason: a reader sees the entire system and their own position in it in
 one look.
-**Taken:** the outside-in ring structure, written up as the layers diagram in `formats.md`.
+**Taken:** the outside-in ring structure, written up as the layers diagram in `../viren/formats.md`.
 **Left:** the centre and the bottom bar, which are both the author's own product. The whole
 image points inward at a purchase. Ours would put the reader's own Monday morning in the middle
 and keep the link in the body text, or it is the advert we deleted everything to stop making.

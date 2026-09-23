@@ -1,3 +1,5 @@
+> **Read `SYSTEM.md` first.** Since 23 September 2026 it is the one operating document for both channels. This README is the page's mechanics (runs, ledger, photos, Buffer); where it states a cadence, SYSTEM.md wins.
+
 # AI for Companies: the LinkedIn content engine
 
 Two posts a day to the AI for Companies LinkedIn company page, sourced, written,
@@ -509,7 +511,7 @@ resources/            the gated documents, one folder each (see resources/README
 | `20-growth-and-amplification.md` | Company page reach, amplifying from the personal profile, tagging, hashtags |
 | `21-what-works.md` | The knowledge base. Our numbers, outside evidence, and what failed. |
 | `22-the-mix-rewritten.md` | The band mix from 21 September 2026: wide, position, do-this-Monday, vendor, ours. Two a day. The vendor cap and the hard image rule. Wins over 14, 18 and 19 on the mix. |
-| `23-what-the-creators-do.md` | Read of 21 creator accounts on 21 September 2026: what performs, what to take, what to refuse, the inform/entertain/retain pillars, the seven formats, the personal-profile track. Notes per creator in `bank/creators/`. |
+| `23-what-the-creators-do.md` | Read of 21 creator accounts on 21 September 2026: what performs, what to take, what to refuse, the inform/entertain/retain pillars, the seven formats, the personal-profile track. Notes per creator now in `references/creators/` (moved 23 September 2026). |
 | `24-the-loop.md` | How the engine learns: `bank/metrics.csv`, `score.mjs`, `bank/scorecard.md`, the one-slot-a-week rule, the Monday and Sunday cadence. |
 | `25-card-system.md` | The cards, rebuilt on the site's design system on 21 September 2026: tokens, type, one template per format, what the creators' images taught. |
 | `26-profile-track.md` | Viren's own profile as the second channel: the five weekday shapes, the nothing-personal-from-nothing rule, approval-queue scheduling, `bank/moments.md` and `bank/desk-stories.md`. No building in public. |

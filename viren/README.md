@@ -1,3 +1,5 @@
+> The profile's week is set in `../SYSTEM.md` (three posts, Tuesday to Thursday, 07:30 to 08:30, approval queue). The references moved to `../references/` on 23 September 2026.
+
 # viren/
 
 Viren's personal profile. Five posts a week, weekdays, 07:30.
@@ -25,7 +27,7 @@ here: the post gives the thing away and never argues for what we sell.
 | `cards/` | the finished assets, tracked so Buffer can fetch them by raw URL |
 | `assets/photos/` | real photographs, named as the carousel JSON asks. Nothing stock, ever |
 | `bank/` | Viren's own material: moments, numbers, stories, voice notes. Currently empty |
-| `references/` | everything we learn from, each entry scored, with what we took and what we left |
+| `../references/` | everything we learn from, each entry scored, with what we took and what we left |
 
 ## The renderers
 
@@ -42,7 +44,7 @@ anything a stranger might screenshot out of context.
 
 ## The bar
 
-Scored on the five in `references/README.md`: virality, shareability, applicability,
+Scored on the five in `../references/scoring.md`: virality, shareability, applicability,
 cleanliness, saveability. Then: does it sell anything (it must not), is every word plain, is the
 hook under forty characters and complete above the fold, is there a question close (there must
 not be), and does every numbered item give the words rather than the advice.

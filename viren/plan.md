@@ -1,3 +1,5 @@
+> **Superseded 23 September 2026 by `../SYSTEM.md`.** Kept for the reasoning; where this file and SYSTEM.md disagree, SYSTEM.md wins.
+
 # Viren's profile: how it runs
 
 Recalibrated 21 September 2026. Everything drafted before this date is deleted. It argued for
@@ -85,10 +87,10 @@ An empty week means Wednesday and Friday take a value post instead. Nothing is e
 ## The bar, before anything is shown
 
 Every numbered item gives the words, not the advice. If a card says what to do and not what to
-type or say, it is not finished. Taken from the deadline sheet in `references/README.md`, the
+type or say, it is not finished. Taken from the deadline sheet in `../references/scoring.md`, the
 highest-performing single image on the board.
 
-Scored on the five in `references/README.md`: virality, shareability, applicability,
+Scored on the five in `../references/scoring.md`: virality, shareability, applicability,
 cleanliness, saveability. Plus: does it sell anything (it must not), is every word plain, is
 the hook under forty characters and complete above the fold, is there a question close (there
 must not be).

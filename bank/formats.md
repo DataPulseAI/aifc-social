@@ -1,3 +1,5 @@
+> **Cadence note, 23 September 2026.** The templates below stand. The day-of-week assignments and the two-a-day rhythm are superseded by `../SYSTEM.md` section 7: the page runs at most one post a weekday, the Monday count, two republished profile pieces, the Thursday correction and the Friday roundup.
+
 # The seven formats
 
 From docs/23 section 4. The batch writes each slot from the template below. A reader should

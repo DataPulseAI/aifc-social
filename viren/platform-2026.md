@@ -1,3 +1,5 @@
+> **Superseded 23 September 2026 by `../SYSTEM.md`.** Kept for the reasoning; where this file and SYSTEM.md disagree, SYSTEM.md wins.
+
 # What the platform rewards, September 2026
 
 Checked 21 September 2026 against two independent write-ups of 2026 data. Where they agree the

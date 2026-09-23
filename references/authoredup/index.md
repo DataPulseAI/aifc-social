@@ -1,6 +1,6 @@
 # AuthoredUp references, captured 21 September 2026
 
-Kept separate from `../lara/` (image references) and `../../swipe-file.md` (the creator read).
+Kept separate from `lara/` (image references) and the creator notes in `creators/` (the creator read).
 This file is the platform evidence: what 310,000 posts say about openers, and eleven worked
 examples of posts that travelled. Everything below is from the two pages named; nothing is
 inferred.

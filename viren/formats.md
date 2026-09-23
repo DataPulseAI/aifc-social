@@ -205,7 +205,7 @@ the reader decides.
 
 ## Before anything ships
 
-Scored on the five in `references/README.md`. Then: does it sell anything (it must not), is
+Scored on the five in `../references/scoring.md`. Then: does it sell anything (it must not), is
 every word plain, is the hook under forty characters and complete above the fold, is there a
 question close (there must not be), and does every numbered item give the words rather than the
 advice.
