@@ -9,6 +9,10 @@ import { FONT_CSS } from '../lib/fonts.mjs';
 import { readFileSync, mkdirSync } from 'node:fs';
 
 const T = JSON.parse(readFileSync(new URL('./brand.json', import.meta.url))).tokens;
+const avatar = readFileSync(new URL('./assets/viren-circle.png', import.meta.url)).toString('base64');
+const ICONS = { bookmark: '<path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/>', send: '<path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/>' };
+const icon = (n, size = 24, color = '#80be9c') => `<svg viewBox="0 0 24 24" width="${size}" height="${size}" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[n] || ''}</svg>`;
+const keepLine = d => d.keep ? `<span class="keep">${icon(d.keep.icon || 'bookmark')}${esc(d.keep.text)}</span>` : '';
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
 
 const id = process.argv[2];
@@ -40,7 +44,7 @@ h1 em{font-style:normal;color:${T.greenlight}}
 .cols div{font-size:17px;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
 .cols .ca{color:${T.mute}}
 .cols .cb{color:${T.green}}
-.body{flex:1;min-height:0;display:flex;flex-direction:column;gap:${d.gap || 12}px;padding:12px 46px ${d.footLeft || d.footRight ? 0 : 34}px}
+.body{flex:1;min-height:0;display:flex;flex-direction:column;gap:${d.gap || 12}px;padding:12px 46px ${d.footLeft || d.footRight || d.keep ? 0 : 34}px}
 .r{flex:1;min-height:0;background:${T.surface};border:1px solid ${T.rule};border-radius:11px;padding:14px 20px 15px;display:flex;flex-direction:column;overflow:hidden}
 .lead{font-size:15px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:${T.green};background:${T.greentint};align-self:flex-start;padding:4px 10px;border-radius:5px}
 .pair{flex:1;min-height:0;display:grid;grid-template-columns:.84fr ${d.railW || 66}px 1.16fr;align-items:center;margin-top:9px}
@@ -53,7 +57,11 @@ h1 em{font-style:normal;color:${T.greenlight}}
 .rule:before{content:"";position:absolute;top:2px;bottom:2px;width:1px;background:${T.rule}}
 .vs{position:relative;font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:${T.mute};background:${T.paper};border:1px solid ${T.rule};border-radius:20px;padding:4px 11px}
 .foot{flex:0 0 auto;background:${T.greendeep};color:#cfe0d6;padding:22px 46px;display:flex;justify-content:space-between;align-items:center;font-size:21px;font-weight:500;margin-top:${d.gap || 12}px}
-.foot b{color:#fff;font-weight:700}
+.foot b{color:#fff;font-weight:600;font-size:20px}
+.foot .me{display:flex;align-items:center;gap:14px}
+.foot .me img{width:44px;height:44px;border-radius:50%;object-fit:cover}
+.foot .me span{display:block;font-size:16px;color:#9dbdab;margin-top:2px}
+.foot .keep{display:flex;align-items:center;gap:10px;color:#e6efe9;font-weight:500;font-size:19px}
 .foot .r2{color:${T.greenlight};font-weight:700}
 </style></head><body>
 <div class="head">
@@ -63,7 +71,7 @@ h1 em{font-style:normal;color:${T.greenlight}}
 </div>
 <div class="cols"><div class="ca">${esc(d.leftHead)}</div><div></div><div class="cb">${esc(d.rightHead)}</div></div>
 <div class="body">${d.rows.map(row).join('')}</div>
-${d.footLeft || d.footRight ? `<div class="foot"><span><b>${esc(d.footLeft || '')}</b></span><span class="r2">${esc(d.footRight || '')}</span></div>` : ''}
+${d.footLeft || d.footRight || d.keep ? `<div class="foot"><span class="me">${d.footLeft ? `<img src="data:image/png;base64,${avatar}"><span style="display:block"><b>${esc(d.footLeft)}</b>${d.footSub ? `<span>${esc(d.footSub)}</span>` : ''}</span>` : ''}</span>${d.keep ? keepLine(d) : `<span class="r2">${esc(d.footRight || '')}</span>`}</div>` : ''}
 </body></html>`;
 
 const browser = await chromium.launch({ executablePath: process.env.PW_CHROME || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome', args: ['--font-render-hinting=none', '--no-sandbox'] });

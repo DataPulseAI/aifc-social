@@ -1,0 +1,102 @@
+{
+ "id": "ten-seconds",
+ "name": "Viren Samani",
+ "short": "Viren Samani",
+ "tagline": "Founder, Convu & AIforCompanies",
+ "slides": [
+  {
+   "type": "cover",
+   "eyebrow": "After every conversation",
+   "headline": "Still know who you met by Friday.",
+   "sub": "You met twelve people. By Friday you can name two. Forty seconds after each conversation fixes it. Six things, in order. A pen works."
+  },
+  {
+   "type": "note",
+   "eyebrow": "One",
+   "headline": "Write their name and one thing they said.",
+   "lede": "Not the job title. The title is on the badge. The line is what you will recognise them by, and what you open with when you write.",
+   "items": [
+    {
+     "label": "Like this",
+     "prompt": "Sarah, Bristol, hates the word synergy."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "eyebrow": "Two",
+   "headline": "Write what they asked you for.",
+   "lede": "In their words. If they asked for nothing, write that too. It tells you what kind of conversation it was.",
+   "items": [
+    {
+     "label": "Like this",
+     "prompt": "The name of the supplier. The article. Word for word."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "eyebrow": "Three",
+   "headline": "Write what you promised.",
+   "lede": "The exact thing, with the day. Most follow-ups die here: you remember a warm conversation and forget the offer you made inside it.",
+   "items": [
+    {
+     "label": "Like this",
+     "prompt": "Send the deck by Thursday."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "eyebrow": "Four",
+   "headline": "Write the one line you would introduce them with.",
+   "lede": "If you cannot write it, you did not find out who they are. Go back and ask one more question.",
+   "items": [
+    {
+     "label": "Like this",
+     "prompt": "Sarah runs ops for a Bristol logistics firm and knows the market."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "eyebrow": "Five",
+   "headline": "Put the follow-up in the calendar now.",
+   "lede": "Before the next conversation, not at the end of the night. Nine tomorrow, with their line in the reminder, so you know what to say.",
+   "items": [
+    {
+     "label": "Like this",
+     "prompt": "Thu 09:00. Sarah. Synergy. Send deck."
+    }
+   ]
+  },
+  {
+   "type": "note",
+   "eyebrow": "Six",
+   "headline": "Send it tonight. Two lines, their words.",
+   "lede": "The thing they said and the thing you promised. Nothing about you. Almost nobody does this, so you are remembered.",
+   "items": [
+    {
+     "label": "Like this",
+     "prompt": "Good to meet you, Sarah. Deck attached, as promised, and no synergy in it."
+    }
+   ]
+  },
+  {
+   "type": "close",
+   "eyebrow": "That is the whole system",
+   "headline": "A pen works. Convu does it from a voice note.",
+   "body": "Thirty seconds on the walk to the station."
+  },
+  {
+   "type": "end",
+   "headline": "One of these a week. Something you can use before Friday.",
+   "actions": [
+    {
+     "icon": "follow",
+     "text": "Follow for the next one"
+    }
+   ]
+  }
+ ]
+}

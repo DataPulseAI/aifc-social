@@ -1,0 +1,43 @@
+{
+ "template": "answer",
+ "headline": "What comes back.",
+ "lede": "*Eight questions, hardest first,* each tied to the paragraph it comes from.",
+ "textSize": 30,
+ "blockPad": 23,
+ "ledeGap": 44,
+ "items": [
+  {
+   "text": "What does the £240k saving assume about headcount?",
+   "ref": "Paragraph 3"
+  },
+  {
+   "text": "Why is there no mitigation for supplier failure in the risk table?",
+   "ref": "Paragraph 7"
+  },
+  {
+   "text": "What does option B cost? It is recommended without a figure.",
+   "ref": "Paragraph 9"
+  },
+  {
+   "text": "Who owns delivery after month three?",
+   "ref": "Paragraph 5"
+  },
+  {
+   "text": "What happens to the current contract if we choose this?",
+   "ref": "Paragraph 4"
+  },
+  {
+   "text": "Which of the three benefits has a number behind it?",
+   "ref": "Paragraph 6"
+  },
+  {
+   "text": "What did the pilot measure, and against what baseline?",
+   "ref": "Paragraph 2"
+  },
+  {
+   "text": "What would make us stop?",
+   "ref": "Not in the paper"
+  }
+ ],
+ "note": "Illustrative data"
+}

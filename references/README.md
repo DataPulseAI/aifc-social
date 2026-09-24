@@ -10,7 +10,7 @@ says where each one came from and what the evidence is.
 | `creators/` | one note per creator or source, 19 files: post archetypes, hooks, visual pattern, funnel mechanic, what transfers |
 | `scoring.md` | every supplied reference image marked out of five on virality, shareability, applicability, cleanliness, saveability, with what was taken and what was left |
 | `claims.md` | the platform figures we are allowed to quote, each with verdict, edition, source and date. Nothing else gets cited |
-| `winners/` | every post that beat its own author's median, ranked by the multiple. The honest ranking |
+| `winners/` | every post that beat its own author's median, ranked by the multiple; plus `2026-09-23-engagement-pass.md`, `<creator>-contact.jpg` and `img/` (56 top-engagement images from seven creators, captured through the browser at 480px, with per-creator JSON of reactions, comments, reposts, length and hook) |
 | `top-content/` | a hundred posts LinkedIn curated across ten industries, fourteen images annotated, `posts.json` |
 | `lara/` | twenty of Lara Acosta's post images with counts and image type |
 | `supplied/` | the images Viren sent in |

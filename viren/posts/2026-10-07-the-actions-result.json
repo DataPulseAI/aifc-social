@@ -1,0 +1,57 @@
+{
+ "template": "table",
+ "headline": "What comes back.",
+ "headlineSize": 66,
+ "lede": "Six actions agreed. *Two have nobody's name on them.*",
+ "cols": [
+  "Action",
+  "When"
+ ],
+ "rows": [
+  {
+   "k": "Priya",
+   "v": [
+    "Send the revised quote to procurement",
+    "Thu 8 Oct"
+   ]
+  },
+  {
+   "k": "Tom",
+   "v": [
+    "Confirm the Leeds seat count",
+    "Fri 9 Oct"
+   ]
+  },
+  {
+   "k": "Sam",
+   "v": [
+    "Share the pilot survey results",
+    "Mon 12 Oct"
+   ]
+  },
+  {
+   "k": "Viren",
+   "v": [
+    "Book the follow-up with legal",
+    "When the quote lands"
+   ]
+  },
+  {
+   "k": "!No owner",
+   "v": [
+    "Update the risk register",
+    "Before the board"
+   ]
+  },
+  {
+   "k": "!No owner",
+   "v": [
+    "Tell the Leeds team the pilot dates",
+    "not stated"
+   ]
+  }
+ ],
+ "note": "Illustrative data",
+ "fontSize": 30,
+ "rowPad": 36
+}

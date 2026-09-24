@@ -29,3 +29,4 @@ the strings `score.mjs` prints; a file's status is set here instead.
 In `viren/`: `formats.md` stays as the evidence per renderer; `plan.md` and `platform-2026.md`
 are superseded and say so at the top. In `bank/`: `formats.md` keeps the page templates; its
 cadence lines are superseded by SYSTEM.md.
+- `29-cards-that-get-read.md`  the card standard, 24 September 2026. Current.

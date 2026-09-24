@@ -9,6 +9,10 @@ import { FONT_CSS } from '../lib/fonts.mjs';
 import { readFileSync, mkdirSync } from 'node:fs';
 
 const T = JSON.parse(readFileSync(new URL('./brand.json', import.meta.url))).tokens;
+const avatar = readFileSync(new URL('./assets/viren-circle.png', import.meta.url)).toString('base64');
+const ICONS = { bookmark: '<path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"/>', send: '<path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/>' };
+const icon = (n, size = 24, color = '#80be9c') => `<svg viewBox="0 0 24 24" width="${size}" height="${size}" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[n] || ''}</svg>`;
+const keepLine = d => d.keep ? `<span class="keep">${icon(d.keep.icon || 'bookmark')}${esc(d.keep.text)}</span>` : '';
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
 
 const id = process.argv[2];
@@ -33,7 +37,7 @@ body{width:${W}px;height:${H}px;background:${T.paper};font-family:'Instrument Sa
 h1{font-size:${d.titleSize || 68}px;line-height:.99;font-weight:700;letter-spacing:-.035em;margin-top:14px;text-wrap:balance}
 h1 em{font-style:normal;color:${T.greenlight}}
 .sub{font-size:22px;color:#b6cfc0;margin-top:16px;font-weight:400;max-width:840px;line-height:1.36}
-.body{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:space-evenly;padding:8px 48px ${d.footLeft || d.footRight ? 8 : 34}px}
+.body{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:space-evenly;padding:8px 48px ${d.footLeft || d.footRight || d.keep ? 8 : 34}px}
 .it{display:flex;gap:22px;align-items:flex-start;padding:16px 0;border-bottom:1px solid ${T.rule}}
 .it:last-child{border-bottom:none}
 .n{flex:0 0 auto;width:42px;height:42px;border-radius:11px;background:${T.green};color:#fff;font-size:22px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-top:2px}
@@ -43,7 +47,11 @@ h1 em{font-style:normal;color:${T.greenlight}}
 .a{font-size:${d.itemBody || 21}px;line-height:1.3;color:${T.green};margin-top:10px;font-weight:600;text-wrap:pretty}
 .a span{display:inline-block;font-size:14px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;background:${T.greentint};color:${T.green};padding:3px 9px;border-radius:5px;margin-right:11px;vertical-align:2px}
 .foot{flex:0 0 auto;background:${T.greendeep};color:#cfe0d6;padding:22px 48px;display:flex;justify-content:space-between;align-items:center;font-size:21px;font-weight:500}
-.foot b{color:#fff;font-weight:700}
+.foot b{color:#fff;font-weight:600;font-size:20px}
+.foot .me{display:flex;align-items:center;gap:14px}
+.foot .me img{width:44px;height:44px;border-radius:50%;object-fit:cover}
+.foot .me span{display:block;font-size:16px;color:#9dbdab;margin-top:2px}
+.foot .keep{display:flex;align-items:center;gap:10px;color:#e6efe9;font-weight:500;font-size:19px}
 .foot .r{color:${T.greenlight};font-weight:700}
 </style></head><body>
 <div class="head">
@@ -52,7 +60,7 @@ h1 em{font-style:normal;color:${T.greenlight}}
   ${d.sub ? `<div class="sub">${esc(d.sub)}</div>` : ''}
 </div>
 <div class="body">${d.items.map(item).join('')}</div>
-${d.footLeft || d.footRight ? `<div class="foot"><span><b>${esc(d.footLeft || '')}</b></span><span class="r">${esc(d.footRight || '')}</span></div>` : ''}
+${d.footLeft || d.footRight || d.keep ? `<div class="foot"><span class="me">${d.footLeft ? `<img src="data:image/png;base64,${avatar}"><span style="display:block"><b>${esc(d.footLeft)}</b>${d.footSub ? `<span>${esc(d.footSub)}</span>` : ''}</span>` : ''}</span>${d.keep ? keepLine(d) : `<span class="r">${esc(d.footRight || '')}</span>`}</div>` : ''}
 </body></html>`;
 
 const browser = await chromium.launch({ executablePath: process.env.PW_CHROME || '/opt/pw-browsers/chromium-1194/chrome-linux/chrome', args: ['--font-render-hinting=none', '--no-sandbox'] });

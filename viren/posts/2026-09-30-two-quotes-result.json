@@ -1,0 +1,77 @@
+{
+ "template": "table",
+ "headlineSize": 66,
+ "headline": "What comes back.",
+ "cols": [
+  "Proposal A",
+  "Proposal B"
+ ],
+ "rows": [
+  {
+   "k": "First-year cost",
+   "v": [
+    "£18,400 (s.2.1)",
+    "£16,900 (s.3)"
+   ]
+  },
+  {
+   "k": "Onboarding",
+   "v": [
+    "Included (s.2.1)",
+    "Billed separately (s.3)"
+   ]
+  },
+  {
+   "k": "Exclusions",
+   "v": [
+    "Migration, training (Sch. 1)",
+    "not stated"
+   ]
+  },
+  {
+   "k": "Payment terms",
+   "v": [
+    "Annually, in advance (s.5.2)",
+    "Quarterly, 30 days (s.6)"
+   ]
+  },
+  {
+   "k": "Annual uplift",
+   "v": [
+    "CPI + 3%, no cap (s.5.4)",
+    "not stated"
+   ]
+  },
+  {
+   "k": "Minimum term",
+   "v": [
+    "36 months (s.4.1)",
+    "12 months (s.4)"
+   ]
+  },
+  {
+   "k": "Notice period",
+   "v": [
+    "90 days (s.4.3)",
+    "not stated"
+   ]
+  },
+  {
+   "k": "Exit costs",
+   "v": [
+    "not stated",
+    "£950 export fee (Sch. 2)"
+   ]
+  },
+  {
+   "k": "Liability cap",
+   "v": [
+    "12 months' fees (s.11.1)",
+    "Fees paid (s.9)"
+   ]
+  }
+ ],
+ "note": "Illustrative data",
+ "page": true,
+ "lede": "*Four cells say not stated.* Those are your four questions to the supplier before you sign."
+}

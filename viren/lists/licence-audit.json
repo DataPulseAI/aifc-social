@@ -1,0 +1,41 @@
+{
+ "id": "licence-audit",
+ "kick": "One hour, once a month",
+ "title": "Count who opened the last <em>licence</em> before you buy another",
+ "titleSize": 62,
+ "sub": "Every vendor already gives an admin the answer. Copilot, ChatGPT, Gemini and Claude each report last active date and active days per seat.",
+ "items": [
+  {
+   "title": "One row per seat",
+   "body": "Name, tool, last active date, active days in the last 28.",
+   "action": "Pull the usage report from each admin console. Do not ask people; read the report."
+  },
+  {
+   "title": "Three bands, decided before you look at the names",
+   "body": "Never (0 days), Tried (1 to 3), Uses (4 or more). Set them first or you will move them.",
+   "action": "Write the thresholds at the top of the sheet before you sort."
+  },
+  {
+   "title": "One number for the board",
+   "body": "Seats used over seats paid, as a fraction, every month. Not a percentage buried in a slide.",
+   "action": "Put it in the same place on the same page each month."
+  },
+  {
+   "title": "Ask the Uses band one question",
+   "body": "What do you use it for most? Three of the answers will be the same task.",
+   "action": "Write that task down. It is your team library, already proven on your own work."
+  },
+  {
+   "title": "Talk to the bottom three before any vendor",
+   "body": "Ask what they tried, what happened and why they stopped. A second product will not fix a first one nobody was shown.",
+   "action": "Only then decide whether the problem is the tool."
+  }
+ ],
+ "footLeft": "Viren Samani",
+ "footRight": "",
+ "footSub": "Founder, Convu & AIforCompanies",
+ "keep": {
+  "icon": "bookmark",
+  "text": "Save for your next renewal"
+ }
+}

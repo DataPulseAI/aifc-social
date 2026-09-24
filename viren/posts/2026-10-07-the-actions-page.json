@@ -1,0 +1,25 @@
+{
+ "eyebrow": "",
+ "headline": "Straight after a meeting. Every action with an owner, *and the ones nobody picked up.*",
+ "prompt": "List every action agreed, as a table: owner, action in their own words, and the date or trigger mentioned. Mark any action where no owner was named. Do not add actions that were only discussed.",
+ "attach": "the transcript or your own notes, untidied. The half sentences tell it who was speaking.",
+ "template": "prompt",
+ "tagline": "Founder, Convu & AIforCompanies",
+ "page": true,
+ "headlineSize": 68,
+ "tools": [
+  "copilot",
+  "chatgpt",
+  "gemini",
+  "claude"
+ ],
+ "files": [
+  "Transcript",
+  "Notes"
+ ],
+ "category": "Meetings",
+ "keep": {
+  "icon": "bookmark",
+  "text": "Save for your next meeting"
+ }
+}

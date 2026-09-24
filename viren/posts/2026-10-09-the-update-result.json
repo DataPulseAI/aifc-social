@@ -1,0 +1,27 @@
+{
+ "template": "answer",
+ "headline": "What comes back.",
+ "lede": "Every number is from your notes. Where the notes were unclear it wrote *CHECK* instead of guessing.",
+ "textSize": 33,
+ "blockPad": 38,
+ "blocks": [
+  {
+   "label": "What moved",
+   "text": "Phase 1 data migration finished Tuesday. 4,120 records moved, [[CHECK]] duplicates removed."
+  },
+  {
+   "label": "What is blocked",
+   "text": "Single sign-on. Waiting on your IT team to release the test account."
+  },
+  {
+   "label": "What we need from you",
+   "text": "The test account by Wednesday, and a name for the go-live sign-off."
+  },
+  {
+   "label": "Next week",
+   "text": "Finance team training, Thursday 10am. Invites go out Monday."
+  }
+ ],
+ "note": "Illustrative data",
+ "ledeGap": 56
+}

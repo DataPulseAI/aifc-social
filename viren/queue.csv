@@ -1,17 +1,31 @@
 date,day,status,format,asset,hook,post_file,buffer_post_id
-2026-09-22,Tue 21:40,scheduled,grid,viren/cards/25-prompts.png,Nobody needs another list of AI tips.,viren/posts/week-01.md,6ab1a5ec74d4ff403e11b9a4
-2026-09-23,Wed 14:54,scheduled,prompt-card,viren/cards/2026-09-24-ten-questions.png,Do not ask AI to summarise a contract.,viren/posts/week-01.md,6ab1a5fd1177eabccaef97fc
-2026-09-24,Thu 13:30,scheduled,versus,viren/cards/asked-vs-answered.png,Most bad AI answers are bad questions.,viren/posts/week-02.md,6ab1a6218e2aab6eac4d7fe7
-2026-09-25,Fri 13:55,scheduled,voice-card,viren/cards/2026-09-25-twenty-of-25.png,I counted. 20 of our 25 prompts fail without a file.,viren/posts/week-01.md,6ab1a60974d4ff403e11bb58
-2026-09-28,Mon 20:53,scheduled,prompt-card,viren/cards/2026-09-30-two-quotes.png,Two quotes. Same service. Forty pages between them.,viren/posts/week-02.md,6ab1a633826cfc54b85c50b1
-2026-09-29,Tue 21:40,scheduled,voice-card,viren/cards/2026-09-26-never-opened.png,"Most of the AI features I pay for, I have never opened.",viren/posts/week-01.md,6ab1a6148e2aab6eac4d7f69
-2026-09-30,Wed 14:54,scheduled,prompt-card,viren/cards/2026-10-06-the-thread.png,Being copied in late is its own skill.,viren/posts/week-03.md,6ab1ab1974d4ff403e125cf9
-2026-10-01,Thu 13:30,scheduled,voice-card,viren/cards/2026-10-02-written-down.png,Nobody is behind on AI.,viren/posts/week-02.md,6ab1a63c826cfc54b85c5190
-2026-10-02,Fri 13:55,scheduled,text,,The second answer is the one that matters.,viren/posts/week-02.md,6ab1a6b8826cfc54b85c60a5
-2026-10-05,Mon 20:53,scheduled,prompt-card,viren/cards/2026-10-07-the-actions.png,Every meeting has an action nobody owns.,viren/posts/week-03.md,6ab1ab21826cfc54b85cf07b
-2026-10-06,Tue 21:40,scheduled,prompt-card,viren/cards/2026-10-08-the-spreadsheet.png,Somebody else built the model you rely on.,viren/posts/week-03.md,6ab1ab291177eabccaf020ef
-2026-10-07,Wed 14:54,scheduled,prompt-card,viren/cards/2026-10-09-the-update.png,The update you write at four on a Friday.,viren/posts/week-03.md,6ab1ab3274d4ff403e125e5a
-2026-10-08,Thu 13:30,scheduled,prompt-card,viren/cards/2026-10-12-the-board-paper.png,Everybody proofreads. Almost nobody stress-tests.,viren/posts/week-03.md,6ab1ab3ee1612e2f78789b23
-2026-10-09,Fri 13:55,scheduled,list-card,viren/cards/find-your-four.png,Your four are already in your calendar.,viren/posts/bank-find-your-four.md,6ab1ae7d8e2aab6eac4e66b7
+2026-09-22,Tue 21:40,posted,grid,viren/cards/25-prompts.png,Nobody needs another list of AI tips.,viren/posts/week-01.md,6ab1a5ec74d4ff403e11b9a4
+2026-09-23,Wed 14:54,posted,prompt-card,viren/cards/2026-09-24-ten-questions.png,Do not ask AI to summarise a contract.,viren/posts/week-01.md,6ab1a5fd1177eabccaef97fc
+2026-09-24,Thu 13:30,held,versus,viren/cards/asked-vs-answered.png,Most bad AI answers are bad questions.,viren/posts/week-02.md,removed 23 Sep 2026; re-plan under SYSTEM.md
+2026-09-25,Fri 13:55,held,voice-card,viren/cards/2026-09-25-twenty-of-25.png,I counted. 20 of our 25 prompts fail without a file.,viren/posts/week-01.md,removed 23 Sep 2026; re-plan under SYSTEM.md
+2026-09-28,Mon 20:53,held,prompt-card,viren/cards/2026-09-30-two-quotes.png,Two quotes. Same service. Forty pages between them.,viren/posts/week-02.md,removed 23 Sep 2026; re-plan under SYSTEM.md
+2026-09-29,Tue 21:40,held,voice-card,viren/cards/2026-09-26-never-opened.png,"Most of the AI features I pay for, I have never opened.",viren/posts/week-01.md,removed 23 Sep 2026; re-plan under SYSTEM.md
+2026-09-30,Wed 14:54,held,prompt-card,viren/cards/2026-10-06-the-thread.png,Being copied in late is its own skill.,viren/posts/week-03.md,removed 23 Sep 2026; re-plan under SYSTEM.md
+2026-10-01,Thu 13:30,held,voice-card,viren/cards/2026-10-02-written-down.png,Nobody is behind on AI.,viren/posts/week-02.md,removed 23 Sep 2026; re-plan under SYSTEM.md
+2026-10-02,Fri 13:55,held,text,,The second answer is the one that matters.,viren/posts/week-02.md,removed 23 Sep 2026; re-plan under SYSTEM.md
+2026-10-05,Mon 20:53,held,prompt-card,viren/cards/2026-10-07-the-actions.png,Every meeting has an action nobody owns.,viren/posts/week-03.md,removed 23 Sep 2026; re-plan under SYSTEM.md
+2026-10-06,Tue 21:40,held,prompt-card,viren/cards/2026-10-08-the-spreadsheet.png,Somebody else built the model you rely on.,viren/posts/week-03.md,removed 23 Sep 2026; re-plan under SYSTEM.md
+2026-10-07,Wed 14:54,held,prompt-card,viren/cards/2026-10-09-the-update.png,The update you write at four on a Friday.,viren/posts/week-03.md,removed 23 Sep 2026; re-plan under SYSTEM.md
+2026-10-08,Thu 13:30,held,prompt-card,viren/cards/2026-10-12-the-board-paper.png,Everybody proofreads. Almost nobody stress-tests.,viren/posts/week-03.md,removed 23 Sep 2026; re-plan under SYSTEM.md
+2026-10-09,Fri 13:55,held,list-card,viren/cards/find-your-four.png,Your four are already in your calendar.,viren/posts/bank-find-your-four.md,removed 23 Sep 2026; re-plan under SYSTEM.md
 ,,blocked,photo,,Forty strangers. One Soho pub. Nobody pitched.,viren/posts/week-01.md,needs the photograph and the attendance number
 ,,blocked,carousel,viren/cards/2026-10-01-seven-habits.pdf,"Seven habits, none of them clever.",viren/posts/week-02.md,needs assets/photos/01-desk-morning.jpg
+2026-09-29,07:45 profile,ready,image,viren/cards/find-your-four.png,"Your four are already in your calendar.",viren/posts/plan-2026-09-29-final.md,awaiting push then schedule
+2026-09-29,08:15 page,ready,document,viren/cards/2026-09-30-two-quotes-pair.pdf,"Two quotes on your desk. Every gap identified, clause by clause, in one table.",viren/posts/plan-2026-09-29-final.md,awaiting push then schedule
+2026-09-30,07:45 profile,ready,image,viren/cards/undocumented.png,"Nobody is behind on AI.",viren/posts/plan-2026-09-29-final.md,awaiting push then schedule
+2026-10-06,07:45 profile,ready,image,viren/cards/asked-vs-answered.png,"Same file, same tool, two answers.",viren/posts/plan-2026-09-29-final.md,awaiting push then schedule
+2026-10-06,08:15 page,ready,document,viren/cards/2026-10-06-the-thread-pair.pdf,"The thread you were copied into, in 120 words.",viren/posts/plan-2026-09-29-final.md,awaiting push then schedule
+2026-10-07,07:45 profile,ready,image,viren/cards/four-things.png,"Most of the AI features I pay for, I have never opened.",viren/posts/plan-2026-09-29-final.md,awaiting push then schedule
+2026-10-08,07:45 profile,ready,document,viren/cards/ten-seconds.pdf,"You met twelve people. By Friday you can name two. Forty seconds after each conversation f",viren/posts/plan-2026-09-29-final.md,awaiting push then schedule
+2026-10-13,07:45 profile,ready,image,viren/cards/origin.png,"I kept forgetting people worth remembering.",viren/posts/plan-2026-09-29-final.md,awaiting push then schedule
+2026-10-13,08:15 page,ready,document,viren/cards/2026-10-09-the-update-pair.pdf,"""Write this week's update for [client] from the attached notes. Three headings: What move",viren/posts/plan-2026-09-29-final.md,awaiting push then schedule
+2026-10-14,07:45 profile,ready,document,viren/cards/2026-10-12-the-board-paper-pair.pdf,"Everybody proofreads. Almost nobody stress-tests.",viren/posts/plan-2026-09-29-final.md,awaiting push then schedule
+2026-10-15,07:45 profile,ready,image,viren/cards/the-ask.png,"If the team does not leave using it, we do not invoice.",viren/posts/plan-2026-09-29-final.md,awaiting push then schedule
+2026-10-20,07:45 profile,ready,image,viren/cards/second-answer.png,"The second answer is the one that matters.",viren/posts/plan-2026-09-29-final.md,awaiting push then schedule
+2026-10-20,08:15 page,ready,document,viren/cards/2026-10-07-the-actions-pair.pdf,"The meeting nobody wrote up.",viren/posts/plan-2026-09-29-final.md,awaiting push then schedule
+2026-10-21,07:45 profile,ready,document,viren/cards/2026-10-08-the-spreadsheet-pair.pdf,"Somebody else built the model you rely on.",viren/posts/plan-2026-09-29-final.md,awaiting push then schedule

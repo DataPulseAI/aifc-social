@@ -1,9 +1,25 @@
 {
-  "eyebrow": "Before it goes in the pack",
-  "headline": "The paper going to the board",
-  "prompt": "Act as a sceptical non-executive with a finance background. List the eight questions you would ask, in order, each with the paragraph it comes from. Then find any claim without a number, any risk without a mitigation, and any recommendation whose cost is not stated.",
-  "attach": "the paper as it will be sent, appendices included.",
-  "template": "prompt",
-  "name": "Viren Samani",
-  "tagline": "Founder, Convu and AI for Companies"
+ "eyebrow": "",
+ "headline": "A paper going to the board. *The eight questions you will be asked,* before the meeting.",
+ "prompt": "Act as a sceptical non-executive with a finance background. List the eight questions you would ask, in order, each with the paragraph it comes from. Then find any claim without a number, any risk without a mitigation, and any recommendation whose cost is not stated.",
+ "attach": "the paper as it will be sent, appendices included.",
+ "template": "prompt",
+ "name": "Viren Samani",
+ "tagline": "Founder, Convu & AIforCompanies",
+ "headlineSize": 62,
+ "tools": [
+  "copilot",
+  "chatgpt",
+  "gemini",
+  "claude"
+ ],
+ "files": [
+  "PDF",
+  "Word"
+ ],
+ "category": "Board",
+ "keep": {
+  "icon": "bookmark",
+  "text": "Save for the next board pack"
+ }
 }

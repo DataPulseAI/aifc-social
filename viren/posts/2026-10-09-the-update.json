@@ -1,9 +1,25 @@
 {
-  "eyebrow": "Friday, four o'clock",
-  "headline": "The client update",
-  "prompt": "Write this week's update for [client] from the attached notes. Three headings: What moved. What is blocked. What we need from you. Then one line on next week. Under 200 words. Keep every number exactly; where the notes are unclear, write [CHECK].",
-  "attach": "your notes from the week, in whatever state they are in. Bullet fragments are fine.",
-  "template": "prompt",
-  "name": "Viren Samani",
-  "tagline": "Founder, Convu and AI for Companies"
+ "eyebrow": "",
+ "headline": "Friday, 4pm. *The client update in 200 words,* with what you need from them.",
+ "prompt": "Write this week's update for [client] from the attached notes. Three headings: What moved. What is blocked. What we need from you. Then one line on next week. Under 200 words. Keep every number exactly; where the notes are unclear, write [CHECK].",
+ "attach": "your notes from the week, in whatever state they are in. Bullet fragments are fine.",
+ "template": "prompt",
+ "name": "Viren Samani",
+ "tagline": "Founder, Convu & AIforCompanies",
+ "headlineSize": 68,
+ "tools": [
+  "copilot",
+  "chatgpt",
+  "gemini",
+  "claude"
+ ],
+ "files": [
+  "Notes",
+  "Word"
+ ],
+ "category": "Clients",
+ "keep": {
+  "icon": "bookmark",
+  "text": "Save for Friday"
+ }
 }

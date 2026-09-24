@@ -1,9 +1,25 @@
 {
-  "eyebrow": "Somebody else built it",
-  "headline": "The sheet you inherited",
-  "prompt": "Explain what this worksheet does for someone who did not build it: what each column means, which cells are inputs and which are calculated. Then list anything inconsistent: mixed formats, totals that do not match their ranges, hard-coded numbers. Change nothing.",
-  "attach": "the workbook itself, with every tab. The tab nobody uses is usually where the problem is.",
-  "template": "prompt",
-  "name": "Viren Samani",
-  "tagline": "Founder, Convu and AI for Companies"
+ "eyebrow": "",
+ "headline": "A spreadsheet you inherited. What every column does, *and where the totals do not match.*",
+ "prompt": "Explain what this worksheet does for someone who did not build it: what each column means, which cells are inputs and which are calculated. Then list anything inconsistent: mixed formats, totals that do not match their ranges, hard-coded numbers. Change nothing.",
+ "attach": "the workbook itself, every tab. The tab nobody opens is usually where the problem is.",
+ "template": "prompt",
+ "name": "Viren Samani",
+ "tagline": "Founder, Convu & AIforCompanies",
+ "headlineSize": 62,
+ "tools": [
+  "copilot",
+  "chatgpt",
+  "gemini",
+  "claude"
+ ],
+ "files": [
+  "Excel",
+  "Sheets"
+ ],
+ "category": "Numbers",
+ "keep": {
+  "icon": "bookmark",
+  "text": "Save for the next handover"
+ }
 }

@@ -1,0 +1,27 @@
+{
+ "template": "answer",
+ "headline": "What comes back.",
+ "lede": "*Four lines* instead of forty messages.",
+ "textSize": 37,
+ "blockPad": 46,
+ "blocks": [
+  {
+   "label": "The decision",
+   "text": "Whether to extend the pilot to the Leeds office before the renewal on 31 March."
+  },
+  {
+   "label": "Who is waiting on whom",
+   "text": "Priya is waiting on Tom for the Leeds seat count. Tom is waiting on you."
+  },
+  {
+   "label": "Dates",
+   "text": "Renewal 31 March. Seat count needed by Friday 13 March."
+  },
+  {
+   "label": "Your one action",
+   "text": "Tell Tom how many Leeds staff need a seat."
+  }
+ ],
+ "note": "Illustrative data",
+ "ledeGap": 64
+}

@@ -1,0 +1,33 @@
+{
+ "template": "answer",
+ "headline": "What comes back.",
+ "lede": "What the sheet does, in plain words. Then *four places it does not add up.*",
+ "textSize": 31,
+ "blockPad": 27,
+ "ledeGap": 44,
+ "blocks": [
+  {
+   "label": "What it does",
+   "text": "Monthly revenue by client, with a forecast that rolls three months forward."
+  },
+  {
+   "label": "Inputs and calculations",
+   "text": "Columns B to D are typed in. Everything else is a formula."
+  }
+ ],
+ "items": [
+  {
+   "text": "The total in F42 sums F2 to F40. Row 41 is left out."
+  },
+  {
+   "text": "Column D mixes £ and plain numbers in 14 rows."
+  },
+  {
+   "text": "H17 is typed as 0.85. Every other row uses the rate on the Inputs tab."
+  },
+  {
+   "text": "The tab called Old forecast still feeds cell C6."
+  }
+ ],
+ "note": "Illustrative data"
+}

@@ -1,0 +1,24 @@
+{
+ "eyebrow": "",
+ "headline": "Forty messages, copied in at 4.50pm. *The decision, who is waiting on whom, your one action.*",
+ "prompt": "Summarise this thread for me as the person who has just been copied in. Give me the decision being asked for, who is waiting on whom, any dates, and the one thing I need to do. Under 120 words.",
+ "attach": "the whole thread, forwarded as it stands. Leave the quoted replies at the bottom in.",
+ "template": "prompt",
+ "tagline": "Founder, Convu & AIforCompanies",
+ "page": true,
+ "headlineSize": 68,
+ "tools": [
+  "copilot",
+  "gemini",
+  "chatgpt",
+  "claude"
+ ],
+ "files": [
+  "Email thread"
+ ],
+ "category": "Inbox",
+ "keep": {
+  "icon": "bookmark",
+  "text": "Save for your next long thread"
+ }
+}

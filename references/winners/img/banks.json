@@ -1,0 +1,74 @@
+[
+ {
+  "urn": "7434221682770300929",
+  "rx": 1090,
+  "cm": 188,
+  "rp": 51,
+  "chars": 2501,
+  "hook": "Anthropic said no to the Pentagon.",
+  "file": "banks-anthropic-said-no-to-the-pentagon-1090rx-51rp.jpg"
+ },
+ {
+  "urn": "7436758248516571137",
+  "rx": 877,
+  "cm": 261,
+  "rp": 77,
+  "chars": 2399,
+  "hook": "Anthropic just measured which jobs AI is actually replacing.",
+  "file": "banks-anthropic-just-measured-which-jobs-ai-is-877rx-77rp.jpg"
+ },
+ {
+  "urn": "7460298125673562112",
+  "rx": 936,
+  "cm": 243,
+  "rp": 38,
+  "chars": 1616,
+  "hook": "Your AI company is just a wrapper.",
+  "file": "banks-your-ai-company-is-just-a-wrapper-936rx-38rp.jpg"
+ },
+ {
+  "urn": "7457400077091815424",
+  "rx": 810,
+  "cm": 144,
+  "rp": 31,
+  "chars": 2079,
+  "hook": "Google owns the chips, the models, and the cloud.",
+  "file": "banks-google-owns-the-chips-the-models-and-the-810rx-31rp.jpg"
+ },
+ {
+  "urn": "7445805537503604736",
+  "rx": 621,
+  "cm": 159,
+  "rp": 56,
+  "chars": 2109,
+  "hook": "Anthropic just found \"emotions\" inside Claude.",
+  "file": "banks-anthropic-just-found-emotions-inside-cla-621rx-56rp.jpg"
+ },
+ {
+  "urn": "7458490204799246336",
+  "rx": 606,
+  "cm": 349,
+  "rp": 43,
+  "chars": 2013,
+  "hook": "Dario Amodei warned AI would eliminate half of entry-level white-colla",
+  "file": "banks-dario-amodei-warned-ai-would-eliminate-h-606rx-43rp.jpg"
+ },
+ {
+  "urn": "7472979517649649665",
+  "rx": 592,
+  "cm": 137,
+  "rp": 27,
+  "chars": 1762,
+  "hook": "SpaceX just bought Cursor for $60 billion.",
+  "file": "banks-spacex-just-bought-cursor-for-60-billion-592rx-27rp.jpg"
+ },
+ {
+  "urn": "7458123625963978753",
+  "rx": 580,
+  "cm": 134,
+  "rp": 25,
+  "chars": 2548,
+  "hook": "Anthropic just signed a multi-billion-dollar compute deal with Elon Mu",
+  "file": "banks-anthropic-just-signed-a-multi-billion-do-580rx-25rp.jpg"
+ }
+]

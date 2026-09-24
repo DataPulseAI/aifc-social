@@ -28,7 +28,7 @@ the plan, the template) behind a work email. A person who downloads gets a fortn
 stays useful. A conversation that shows a real problem gets a twenty-minute call. The day is
 delivered, the guarantee holds, and the referral feeds the next post. Nothing on LinkedIn sells.
 The furthest a post pushes is the document; most posts push nowhere and are complete in the feed.
-That is the funnel, and every piece is valuable on its own while being one piece of the set.
+That is the funnel, and every piece is valuable on its own while being one piece of the set. Underneath all of it is one message: AI is for everyone, every company, every team.
 
 ## 3. The stages, and what each one is measured by
 
@@ -45,6 +45,8 @@ Stage 6 feeds stage 1. Every bank row carries `stage` (1, 2 or 3). The guard war
 one post in five pushes to stage 3 or any post pushes to 4 or 5.
 
 ## 4. The two channels, and what each is for
+
+**Viren's profile runs two tracks at once (decided 23 September 2026, evening).** Reach: a person who builds product and applies frameworks, judged on reposts, saves, followers and connection requests. Leads: the referral and outreach engine for AIforCompanies, judged on conversations logged and the first paid session. Builder and person content leads the profile; buyer utility (prompt cards, corrections, the weekly read) lives on the page. The page runs two a week, not five. The plan for both tracks is `_local/Viren-plan-2026-09-29-reach-and-leads.xlsx` (untracked, because the Outreach tab names people); `content-plan-2026-09-29.xlsx` at the root is the superseded first cut.
 
 **Viren's profile is the front door.** His median post reaches 28 times the page's on
 impressions and 40 times on reach (audit, 23 September 2026). Personal profile content runs at
@@ -75,8 +77,36 @@ is where replies decide distribution.
 
 ## 6. The post archetypes
 
+## 6.0 Three jobs, five shapes
+
+Viren's frame, 23 September 2026: every post is one of three things, educating, storytelling or
+selling, and the week needs all three. The five archetypes below are how each job gets done.
+
+| Job | Archetypes | Share of the fortnight | What it must do |
+|---|---|---|---|
+| Educating | the reference (6.1), the show-how (6.2) | four of six profile posts | the reader can use it on Monday without clicking |
+| Storytelling | the person (6.3), the proof (6.5) | one of six, more when a real photograph exists | a real room, a real line, a position he will defend |
+| Selling | the resource (6.4) | one of six | the whole method in the post, the working document behind an email, the only link of the fortnight |
+
+Selling never means an offer post. It means the one post a fortnight that gives the most away and
+happens to end with the document. If the fortnight has no selling post, nothing enters the funnel;
+if it has more than one, the profile reads as an advert.
+
 Five, not fourteen. A reader should recognise the shape before the first line. Each has one job,
 one stage, one renderer and one failure mode.
+
+### 6.0.1 The message, and the reader test (Viren, 23 September 2026, late)
+
+The message is that AI is for everyone, every company, every team. Not for the technical, not for
+the firms that can afford a consultant, not for the person with the licence budget. So the employee
+is the reader and the owner is the buyer: write the post for the person doing the task, so that
+anyone in an office with no budget and no title can use it today, and the manager who reads it sees
+their team in it. At least four of every six profile posts pass this test. The other two may be
+owner-only (a count of a firm's stack, the licence audit, the referral ask) and are judged on leads,
+not reach. Viren's current followers are largely finance and corporate people and the Convu rooms,
+not owners of 60-person firms; a post only an owner can use costs reach with them and earns nothing
+back unless it is the fortnight's Sell post. The gate scores "who is the reader" first, and a post
+that talks down to the reader, or assumes they are behind, fails it whatever else it does.
 
 ### 6.1 The reference (stage 2)
 One subject covered completely on one saveable artefact. The 25-card grid (`viren/grid.mjs`),
@@ -129,6 +159,18 @@ Fails when: the post teases instead of giving, or the document is not worth an e
 A room we ran, a call that happened, an honest no. Never before it is real, never invented, never
 a testimonial without written permission. Until there is delivery history this archetype does not
 run, and no placeholder stands in for it.
+
+## 6.6 The click rules (Viren, 23 September 2026)
+
+Each post fulfils its purpose on its own. A call to action is an extension or an addition, never
+the point. A click has to come from need (the document does the work this week), desire (the
+finished thing, not the idea of it) or a real scarcity (a fixed number of places, a dated
+resource, a count done this week). Traffic to the site for its own sake is not worth a post, so
+no card footer points at a page of prompt examples and no post stops short so a page can finish
+the thought. A post whose intention is save or share is independently useful with nothing clicked.
+
+The plan for 29 September to 23 October is `content-plan-2026-09-29.xlsx` at the repo root; the
+batch drafts from its Plan tab.
 
 ## 7. The week
 
@@ -197,6 +239,15 @@ These ten contradictions were live on 23 September 2026. Each is decided here.
 9. Fonts: profile cards use Instrument Sans as `viren/brand.json` says; page cards use
    Newsreader 500 for display as `docs/25` says. Two channels, two voices, one palette.
 10. Hashtags: none, either channel.
+11. Cards (24 September 2026, `docs/29`): intent at the top in named tool logos, file chips and a
+    category; one headline, when then what you get; hierarchy headline, prompt, attach; one mark
+    per post (wordmark on page prompt cards, photograph on profile cards, nothing on result
+    cards or interior slides); a save or share line in LinkedIn's words; every prompt card ships
+    with a "What comes back." result card; tables in one pass; every line passes the caption test.
+12. Media shape (24 September 2026): a prompt-and-result pair posts as a two-page PDF document
+    (`viren/pair.mjs`), never as two images, because LinkedIn crops a two-image post into a
+    collage and a document shows the first page whole with the result one swipe away. A lone card
+    posts as a single 4:5 image. A carousel posts as a PDF. Document title is the card headline.
 
 And the standing rules: no em dashes, no exclamation marks, no emoji, no engagement bait, no
 "Most people", no invented client, result, quote or headcount, every number with a source and a
@@ -237,7 +288,7 @@ Resend bookkeeping, metrics, the scorecard, the guard. The Sunday batch reads th
 |---|---|
 | This system | `SYSTEM.md` |
 | Voice and sourcing, above this file | `docs/01-voice.md`, `docs/10-sourcing-gate.md` |
-| Card system and the loop | `docs/25-card-system.md`, `docs/24-the-loop.md` |
+| Card system and the loop | `docs/29-cards-that-get-read.md` (the standard), `docs/25-card-system.md` (page tokens and templates), `docs/24-the-loop.md` |
 | Everything we learned from, with the reason | `references/` (creators, images, scoring, verified claims) |
 | The profile renderers and their inputs | `viren/` (`formats.md` is the evidence per renderer) |
 | The page bank, ledger, metrics, moments | `bank/` |

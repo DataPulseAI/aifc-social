@@ -1,5 +1,10 @@
 # 25. The card system
 
+> 24 September 2026: `docs/29-cards-that-get-read.md` is now the standard for any card in a post
+> and wins where the two disagree. In particular the typed mark below is replaced by the white
+> wordmark SVG on page prompt cards, and result cards carry no mark. Tokens, type and the page
+> templates in `bank/` still follow this file.
+
 Rebuilt 21 September 2026. This replaces the type decision in `docs/06` section 5 (sans only,
 bold, tight) and the house card (photograph under a gradient with a white sentence on it). Both
 were designed to look like a publication in the feed. The read of 21 creator accounts in
