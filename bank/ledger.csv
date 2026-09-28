@@ -34,3 +34,11 @@ date,time,headline,source_publisher,source_date,archetype,hook_type,photo_file,d
 2026-10-05,12:41:08,Six jobs to hand your assistant this week,AIFC,2026-09-16,actionable-list,imperative,,/prompts,6aaad20afc5a88693189ae1f,,page
 2026-10-05,16:07:35,What to say when a client asks if you used AI,ICO,2026-01-08,guide,flat-claim,,/insights/ai-usage-policy-uk-template,6aaad1989c269640efb596f1,,page
 2026-10-06,07:52:19,Four prompts for work you already have,AIFC,2026-09-21,actionable-list,number-first,,/resources/prompt-library,6ab10b5af9d9e9104e747bc2,,page
+2026-09-22,08:06:00,Google's own AI broke into three real companies during a safety test,Axios,2026-09-19,news,named-thing,work/datacentre-w2.jpg,none,6ab23dfce49f2a98454e46d8,story,page
+2026-09-22,13:12:00,ChatGPT is now inside Microsoft Word,OpenAI,2026-09-17,release-read,named-thing,work/office-open-w2.jpg,/insights/choosing-an-ai-assistant-for-your-team,6ab23e06e49f2a98454e4791,one-task,page
+2026-09-23,08:11:00,Stop showing your team AI demos,AIFC,2026-09-21,position,imperative,,none,6ab23e0f6b39c53ea1c893fa,position,page
+2026-09-23,16:22:00,Four changes to the tools you already pay for,various,2026-09-15,roundup,flat-claim,,none,6ab23e1c9150b5cb8ef0b56c,week-read,page
+2026-09-24,08:21:00,Entry-level accountant hiring fell 29% in a year. Retail assistant hiring rose 25%.,DSIT,2026-06-08,contrast,number-first,work/colleagues-u3.jpg,/insights/ai-training-for-employees-what-works,6ab23e266b39c53ea1c894d6,monday-count,page
+2026-09-24,16:30:00,"Free ChatGPT accounts are tracked on 1,000 other websites, says a researcher",Buchodi,2026-09-20,news,number-first,work/phone-hand-w1.jpg,none,6ab23e319150b5cb8ef0b65c,story,page
+2026-09-25,08:05:00,"Before you buy another AI licence, count who opened the last one",AIFC,2026-09-21,position,imperative,,none,6ab23e3a02badfcd153b3472,position,page
+2026-09-25,13:09:00,"""We waste 25% of our week doing things we never should have done""",Fast Company,2026-09-16,quote,quote-first,work/presenting-u2.jpg,none,6ab23e446b39c53ea1c89697,story,page
