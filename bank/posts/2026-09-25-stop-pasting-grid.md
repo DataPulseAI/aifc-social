@@ -11,5 +11,3 @@ The ICO's position is that the organisation stays responsible for what its AI do
 This is not legal advice.
 
 https://www.ncsc.gov.uk/blogs/the-hidden-risks-of-shadow-ai
-
-#AIforBusiness #DataProtection

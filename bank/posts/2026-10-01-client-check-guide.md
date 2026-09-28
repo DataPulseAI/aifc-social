@@ -13,5 +13,3 @@ For a retailer this matters most on the replies nobody senior sees: the returns,
 One more, and it is the one people skip. Whoever presses send owns what it says. That was true before any of this and it is the sentence that makes the other three stick.
 
 aiforcompanies.co.uk/industries/consumer-retail
-
-#AIforBusiness #CustomerService

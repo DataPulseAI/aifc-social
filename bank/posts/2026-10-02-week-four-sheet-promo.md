@@ -11,5 +11,3 @@ The reason to do this at four weeks rather than at six months is that four weeks
 One thing not to do: do not ask people whether they find it useful. You will get a satisfaction score, which is a measure of how much they like you. Ask how long one specific task took this time compared with the last time.
 
 The four page version, with a blank sheet to print, a worked example and what a bad result actually means, is free at aiforcompanies.co.uk/resources/week-four
-
-#AIforBusiness #AIAdoption

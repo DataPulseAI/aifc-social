@@ -13,5 +13,3 @@ Whatever you decide, the version that counts is the written one. An agent nobody
 https://www.ncsc.gov.uk/blogs/managing-the-cyber-risk-of-agentic-ai
 
 This is not legal advice.
-
-#AIforBusiness #AgenticAI

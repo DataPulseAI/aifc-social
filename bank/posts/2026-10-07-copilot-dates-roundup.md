@@ -15,5 +15,3 @@ The roadmap is worth ten minutes a month for one reason: it is the only place a 
 If you are mid-rollout: aiforcompanies.co.uk/insights/microsoft-365-copilot-rollout-plan
 
 Source: Microsoft 365 Roadmap, items 569928, 523223, 571637 and 570844, read 21 September 2026.
-
-#AIforBusiness #Microsoft365

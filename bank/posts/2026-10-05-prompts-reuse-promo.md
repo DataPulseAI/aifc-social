@@ -9,5 +9,3 @@ The impressive prompts, the long ones with roles and personas and step by step r
 So the useful exercise is not collecting prompts. It is writing down the five moments in your team's week where somebody is doing something dull with material that already exists, and then writing one prompt for each. Five is enough. Most teams that do this end up using two of the five heavily and quietly dropping the rest, which is the correct outcome.
 
 The longer version, with what to attach to each prompt and what good output looks like, is at aiforcompanies.co.uk/insights/prompts-your-team-will-reuse
-
-#AIforBusiness #Prompts

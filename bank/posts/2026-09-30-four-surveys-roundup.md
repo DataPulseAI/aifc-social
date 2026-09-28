@@ -14,5 +14,3 @@ Small Business Institute and Accio, 17 September 2026. 48% use AI regularly, fro
 They are not contradicting each other. They are counting different firms, asking different questions and using the word regularly to mean different things. The ONS number is the one with the method behind it and the narrowest question.
 
 None of which tells you anything about your own place. The number that decides whether the money was well spent is how many of your people opened the thing last week, and you can count that this afternoon.
-
-#AIforBusiness #UKBusiness

@@ -11,5 +11,3 @@ For a professional services firm this is the whole question, because the data is
 This is not legal advice.
 
 https://ico.org.uk/about-the-ico/research-reports-impact-and-evaluation/research-and-reports/technology-and-innovation/tech-horizons-and-ico-tech-futures/ico-tech-futures-agentic-ai/
-
-#AIforBusiness #DataProtection

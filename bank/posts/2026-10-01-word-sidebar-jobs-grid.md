@@ -13,5 +13,3 @@ For professional services firms this lands on the work that is the product, not 
 aiforcompanies.co.uk/industries/professional-services
 
 Source: OpenAI, ChatGPT release notes, 17 September 2026.
-
-#AIforBusiness #Microsoft365

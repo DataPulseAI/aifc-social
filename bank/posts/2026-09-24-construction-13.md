@@ -11,5 +11,3 @@ So for most firms nothing is in the way, and nothing is happening. That is not a
 We wrote about what this looks like in property and construction specifically: aiforcompanies.co.uk/industries/property-construction
 
 https://www.ons.gov.uk/businessindustryandtrade/business/businessservices/articles/artificialintelligenceinukbusinesses/2023to2026
-
-#AIforBusiness #Construction

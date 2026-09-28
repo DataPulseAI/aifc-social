@@ -9,5 +9,3 @@ We are posting somebody else's offer because of what usually happens next in our
 Bookings go through the Cyber Advisor scheme at iasme.co.uk/cyber-advisor/free-advice/
 
 https://www.ncsc.gov.uk/blogs/helping-small-businesses-with-free-hands-on-cyber-consultancy
-
-#AIforBusiness #CyberEssentials

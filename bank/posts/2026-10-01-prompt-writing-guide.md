@@ -13,5 +13,3 @@ Then use it again next week. A prompt that gets written once and never reused wa
 One test before you save it. Read the prompt and ask whether a new starter could follow it without asking you a question. If not, the assistant cannot either.
 
 Ours are free and ungated at aiforcompanies.co.uk/prompts
-
-#AIforBusiness #Prompts

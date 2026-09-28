@@ -9,5 +9,3 @@ The third is the one people find uncomfortable. Ask the same question in a new c
 None of this is an argument for distrust. It is the same discipline any competent analyst has always applied to a number somebody emailed them. The only thing that has changed is that the emails now arrive instantly and in complete sentences, which makes them feel more finished than they are.
 
 The rule to write down, if you write down only one: every number that leaves the building has been opened at its source by a person.
-
-#AIforBusiness #AIAdoption

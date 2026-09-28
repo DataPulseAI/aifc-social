@@ -11,5 +11,3 @@ The combinations are what tell you something. High on one and zero on two means 
 Week four is early enough that a bad answer is still cheap.
 
 The worked version, with a sheet you can print, is at aiforcompanies.co.uk/insights/measure-ai-adoption-three-numbers
-
-#AIforBusiness #AITraining

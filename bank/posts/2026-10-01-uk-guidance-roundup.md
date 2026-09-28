@@ -13,5 +13,3 @@ DSIT, 8 June 2026. A snapshot of entry-level hiring. 38 occupations, and a refus
 https://www.gov.uk/government/publications/entry-level-hiring-in-the-uk-a-snapshot/a-snapshot-of-entry-level-hiring-in-the-uk
 
 Between them that is about two hours of reading and it will make you better informed than most of the people selling to you.
-
-#AIforBusiness #UKBusiness

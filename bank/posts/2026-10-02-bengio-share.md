@@ -11,5 +11,3 @@ That inverts the thing most firms assume, which is that the problem gets smaller
 We have no view on the research agenda he proposes. We do think the practical reading is sound: if you are relying on an agent following an instruction not to do something, you are relying on the weakest control available.
 
 https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating
-
-#AIforBusiness #AgenticAI

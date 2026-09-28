@@ -53,6 +53,7 @@ here as noise: a page from a standing start produces almost no signal.
 |---|---|---|---|---|
 | To 16 Sep 2026 | 3 published, 8 scheduled | No data | No data | First weekly batch. 16 posts written, 18 banked ready, all 18 scheduled |
 | To 21 Sep 2026 | 9 published, 8 with data | NCSC shadow AI, 12 engagements on 156 impressions | Huang on slowing AI down, 2.63% on 152 impressions | Second batch. 18 posts written, 14 scheduled, 4 left ready. Six of fifteen cards needed a second pass |
+| To 28 Sep 2026 | Page: 8 published, no data reachable. Profile: 3 published, 1 with data | Profile, 25 prompts (23 Sep): 4.3% on 674 impressions, the highest rate in the profile's whole history | Profile, find-your-four (24 Sep) and undocumented (25 Sep): 0 reactions, 0 comments, no impressions row returned | Third batch. 10 page posts written, rendered, banked and pushed; **none scheduled**, the page's Buffer account was unreachable from the run |
 
 **Week to 16 September 2026: there are no numbers yet, and that is the finding.**
 All three published posts return impressions 0, reach 0, reactions 0, comments 0 and
@@ -75,6 +76,46 @@ What we can record instead, so next week has something to compare against:
 For each week the pass should record: impressions and engagement by **post type**, by
 **hook shape**, and by **destination**, plus the single best and worst post and a guess at
 why. The guess matters. A number with no hypothesis attached teaches nothing next week.
+
+**Week to 28 September 2026: the page's numbers were not reachable, and the profile's carry one
+real signal and one warning.**
+
+The page (`6ab23cf2ea19ca0bdeb2dce5`) sits in the Buffer-2 account, `viren@mydatapulse.co.uk`,
+org `68c9f323c0a1bc077ff50957`. The 28 September run had only the `Buffer` MCP server, which is
+`viren@aiforcompanies.co.uk`, org `6aa9bd84b82395c27e21a9f2`, and that organisation holds exactly
+one channel: Viren's profile. So there is no page breakdown by post type, hook shape or
+destination this week, and constructing one would be inventing a signal. Eight page posts
+published between 22 and 25 September and their metrics are still unread.
+
+**The plan correction that follows from it.** The "Essentials, 5,000 scheduled posts, no cap"
+line that several documents carry is true, and it is true of the *profile* account. `get_account`
+on org `6aa9bd84b82395c27e21a9f2` returns `scheduledPosts: 5000`. It is Buffer-2, the page's
+account, that is on the free plan with the ten-post cap and no first comment. Both statements in
+the archive are correct; they were never about the same account. `docs/28` is right about the
+page, `README` section 5 is right about the profile, and the two have been read as contradicting
+each other since 22 September.
+
+**By post type, on the profile, where data exists.** Personal and Convu posts (n=6, July to
+September) run 1.15% to 3.22% engagement on 1,200 to 3,700 impressions. The one AIFC utility post
+with data, the 25 prompts library card of 23 September, ran 4.3% on 674 impressions. That is the
+highest engagement rate of any post in the set on the smallest audience of any post in the set.
+
+The hypothesis, and it is a hypothesis on n=1: utility content converts attention at roughly twice
+the rate of the personal content but starts from a much smaller distribution, because it reaches
+the people who want the thing rather than the people who know Viren. If that holds, the reach
+problem and the engagement problem are different problems and should not be traded against each
+other. One more utility post with data either supports this or kills it. Do not move anything in
+section 1 on it yet.
+
+**The warning, and it needs a human.** Two profile posts published on 24 and 25 September,
+`6ab4f1a5a4337780696a891d` (find-your-four) and `6ab4f1b1d215fd434ff48ad3` (undocumented), return
+0 reactions and 0 comments with **no impressions or reach row at all**, while the 23 September post
+on the same channel returns a full metric set and `metricsUpdatedAt` on all three is the same
+timestamp, 27 September 15:32. Both posts show `status: sent`, a recorded `sentAt`, and a LinkedIn
+image URN against the asset, so they reached LinkedIn and the image was ingested. Both card URLs
+return 200. The asset was therefore not the fault. Either LinkedIn has returned no analytics for
+them, or they were distributed to almost nobody. This cannot be settled from the API and wants
+someone to open the two posts on LinkedIn and look.
 
 **What the analytics pass can now see.** The Essentials plan removed the 30-day history
 limit and added advanced analytics, so from 16 September the weekly pass has unlimited
@@ -198,6 +239,10 @@ it is full. A failure with a reason beats a success with none.
 | A batch whose tail is all our own material | 21 Sep 2026 | `lib/freshness.mjs` flagged "AIFC" as the source of six of the last ten posts | Five news posts went into the first four days and every own-material evergreen post landed behind them, so the last week of the queue had almost no outside sourcing. Fixed by returning three AIFC posts to the bank and scheduling a Microsoft-sourced roundup in their place, which brought it to four of ten. The guard counts AIFC as a source, and AIFC in that column means the opposite: no source at all. Either the guard should treat it specially or the batch should write more externally sourced evergreen. The second is the better answer |
 | Rendering cards before checking the card existed | 21 Sep 2026 | Two guide posts were banked with `card_url` values that returned 404, and `queue.mjs validate` passed them | `validate` checks that the column is populated, not that the file exists. Caught by the URL check after the push, which is why that step is in the run. Worth teaching `validate` to check the file is present on disk |
 | Assuming a photo tagged `uk` is a UK photograph | 21 Sep 2026 | Three separate re-rolls on one card returned a Sri Lankan shop, a Chinese street kiosk and a Bath tourist landmark, all tagged for UK small business | The `shop`, `retail` and `sme` tag pool was seeded with international street photography. See `docs/17`, fourth pass. Six entries removed and three re-tagged |
+| Running the weekly batch without the page's Buffer account | 28 Sep 2026 | Everything up to scheduling worked. Ten posts written, rendered, reviewed, banked, pushed, all ten card URLs verified 200. Then nothing could be scheduled, because the page channel lives in a Buffer organisation this session could not see | The run needs the `Buffer-2` MCP server and had only `Buffer`. Nothing in the task prompt or the run's own checks catches this: the prompt says to confirm the **Mac** is reachable and says nothing about confirming the **channel** is reachable. The batch should call `list_channels` on the page's organisation as its first action, before writing anything, and stop early if the channel is absent. Writing ten posts nobody can schedule is cheap compared with writing them and only finding out at the end |
+| Trusting the queue-state doc on what exists in Buffer | 28 Sep 2026 | The 25 September state doc says the profile's ten posts were "not created in Buffer yet". They were: ten are scheduled from 28 September to 9 October | The doc records what a run believed when it wrote it, and Viren or another session acted afterwards. Read the doc for intent and Buffer for state. Where they differ, Buffer wins |
+| Letting the photo matcher pick for a software story | 28 Sep 2026 | The Google Meet note-taking card came back with two men in suits looking at a phone by a window: not a meeting, not a screen, not note taking | Exactly the `docs/22` section 5 failure. The matcher scores tags, and `meeting` matched a photograph of two people rather than a meeting. Re-rendered text-only, which is the better card anyway. For a story about a software feature, do not go to the photo library at all unless the library holds a picture of the thing |
+| Writing "our clients" into a promo draft | 28 Sep 2026 | A first draft of the prompts promo opened "The six prompts our clients ask for first". AIFC has no clients | Caught on the self-check before rendering, not by any tool. The banned-phrase check in the pipeline looks for the `docs/01` vocabulary, not for invented delivery history. Worth adding "our clients", "we have seen", "in our experience" and "we have not met anyone" to the mechanical check, because the sourcing gate cannot catch a claim that cites nothing |
 | Writing a batch against a queue that is already full | 16 Sep 2026 | The `news` horizon in `docs/19` is three days. Every slot inside three days was already taken by the daily runs, so the earliest free slot was five days out | The batch and the drain were both filling the queue from the front. The batch should run before the drain tops up, or reserve the head of the queue for itself |
 
 ## 5. How this file gets updated

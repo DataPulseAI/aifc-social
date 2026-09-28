@@ -8,5 +8,3 @@ Nobody at a 40 person firm is buying a 100 page audit. But that is the same obje
 
 Reported by TechCrunch, 15 September 2026.
 https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/
-
-#AIforBusiness #AIGovernance

@@ -11,5 +11,3 @@ On accuracy, the useful discipline is narrow. Anything with a number, a name or 
 The one page policy that answers the security question in plain words: aiforcompanies.co.uk/insights/ai-usage-policy-uk-template
 
 Source: Simply Business, 8 September 2026. This is not legal advice.
-
-#AIforBusiness #SmallBusiness
