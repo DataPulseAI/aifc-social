@@ -97,7 +97,21 @@ Clean files cost nothing, so we ship clean files.
 
 Note also that none of our images are AI-generated in the first place. They are
 typography and procedural gradients rendered by a browser, plus licensed photography.
-There is no C2PA content credential to strip because no generative model touched them.
+
+**Corrected 5 October 2026.** This paragraph used to end "there is no C2PA content
+credential to strip because no generative model touched them". That is no longer true of
+what we publish. Since roughly 22 September, every card that reaches GitHub through the
+Mac transfer route carries a `caBX` chunk holding a C2PA manifest signed by "Anthropic
+Claude Content Signing", reading "Claude provided this file at the request of a user and
+may have created or modified the file contents". `clean.mjs` is not at fault and still
+produces clean output; the credential is added downstream, when the file is re-encoded in
+transfer. Cards pushed before that route came in, such as
+`2026-09-22-sme-barriers-grid`, are still clean.
+
+The credential is accurate, and removing a truthful provenance marker so that a platform
+cannot tell AI was involved is a different thing from stripping a generator string, which
+is all this section was ever arguing for. Treat it as an open editorial decision, recorded
+in `docs/21` section 4, not as a bug for a run to silently patch.
 
 ### The half that actually decides it
 

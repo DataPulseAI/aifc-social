@@ -54,6 +54,7 @@ here as noise: a page from a standing start produces almost no signal.
 | To 16 Sep 2026 | 3 published, 8 scheduled | No data | No data | First weekly batch. 16 posts written, 18 banked ready, all 18 scheduled |
 | To 21 Sep 2026 | 9 published, 8 with data | NCSC shadow AI, 12 engagements on 156 impressions | Huang on slowing AI down, 2.63% on 152 impressions | Second batch. 18 posts written, 14 scheduled, 4 left ready. Six of fifteen cards needed a second pass |
 | To 28 Sep 2026 | Page: 8 published, no data reachable. Profile: 3 published, 1 with data | Profile, 25 prompts (23 Sep): 4.3% on 674 impressions, the highest rate in the profile's whole history | Profile, find-your-four (24 Sep) and undocumented (25 Sep): 0 reactions, 0 comments, no impressions row returned | Third batch. 10 page posts written, rendered, banked and pushed; **none scheduled**, the page's Buffer account was unreachable from the run |
+| To 5 Oct 2026 | Page: unknown, unreachable for a sixth day. Profile: 3 AIFC posts, 1 with data | Profile, 25 prompts (23 Sep): 3.87% on 802 impressions, third-highest rate in 30 posts of profile history | Profile, find-your-four (24 Sep) and undocumented (25 Sep): still 0 reactions, 0 comments and no impressions row, ten days on | Fourth batch. 5 page posts written, rendered, banked and pushed; **none scheduled**, `Buffer-2` absent from the session entirely. Wrote to the band deficit rather than to volume |
 
 **Week to 16 September 2026: there are no numbers yet, and that is the finding.**
 All three published posts return impressions 0, reach 0, reactions 0, comments 0 and
@@ -205,6 +206,30 @@ Written down so we stop re-litigating them from vibes.
 
 ## 3. Outside evidence
 
+### The profile's own history disagrees with the no-building-in-public rule (5 October 2026)
+
+Read of all 30 posts on Viren's profile channel that Buffer holds metrics for, pulled
+5 October 2026. Sample is 30 posts, 27 of them Convu and personal content to 22 September,
+3 of them AIFC content from 23 September.
+
+The three highest engagement rates in the profile's entire history are building-in-public
+posts: "I disappeared for a month" at 5.11%, "I stopped building Convu this week" at 4.89%,
+and "Week 17 of building Convu" at 3.68%. `docs/26` section on the profile track says
+explicitly: no building in public. The profile's own numbers say that is the single best
+performing shape it has.
+
+The four worst are hiring and applicant-volume posts: 0.64%, 0.80%, 1.11% and 1.28%. Three
+of those four carried the profile's **highest** impressions (5,274, 4,240 and 6,094).
+LinkedIn distributes job posts hard and the audience does not engage with them, so they
+inflate reach and depress every rate they touch. Any comparison that uses profile
+impressions as a baseline should exclude them.
+
+This is 27 posts of history, not one week, so it is recorded here rather than left for the
+four-week rule in section 5. It is still a correlation on one account with no controls.
+The honest version is that the rule in `docs/26` was asserted rather than measured, and the
+only measurement available points the other way.
+
+
 Everything here is somebody else's measurement. Sample and date included or it does not go
 in.
 
@@ -225,6 +250,40 @@ in.
 | Link penalty on text posts | 18.8% measured, but LinkedIn says no intentional limiting | van der Blom 2026; LinkedIn Senior Director via Ordinal | Disputed, see `docs/20` |
 
 ## 4. Things we tried that did not work
+
+### Every card we publish carries a signed C2PA credential saying Claude made it (5 October 2026)
+
+`docs/07` section 5 states: "There is no C2PA content credential to strip because no
+generative model touched them." **That statement is now false, and has been since roughly
+22 September 2026.**
+
+Checked this run by downloading published cards from raw.githubusercontent.com and reading
+their PNG chunks. Cards pushed through the current Mac route carry a `caBX` chunk of about
+5.7KB holding a C2PA manifest signed by "Anthropic Claude Content Signing", with the
+description: "Claude provided this file at the request of a user and may have created or
+modified the file contents."
+
+- `2026-09-22-sme-barriers-grid`: clean, chunks `IHDR,pHYs,IDAT,IEND` as `docs/07` describes.
+- `2026-09-30-stop-banning-ai`, `2026-10-01-dsit-toolkit` and all five cards from this
+  batch: `caBX` present.
+
+`lib/clean.mjs` still does its job. The credential is added afterwards, when the file is
+transferred to the Mac through Claude's file delivery, which re-encodes the PNG. The image
+is pixel-identical either side of the transfer; only the metadata differs.
+
+Two things follow, and the second is the one that needs a person.
+
+**The technical claim in `docs/07` needs correcting**, which this run has done.
+
+**Whether it matters is an editorial question, not a technical one.** The credential is
+accurate: these cards are machine-produced, and the engine's whole design assumes that.
+LinkedIn has read and displayed Content Credentials since 2024, so the platform can see it.
+Stripping a truthful provenance marker so a platform cannot tell AI was involved is not a
+fix this engine should make on its own, and it is not what `docs/07` section 5 was arguing
+for: that section is about generator strings, EXIF and timestamps, written in the belief
+that no provenance credential existed. The options worth weighing are leaving it in place,
+or saying so plainly on the page, and both are Viren's call.
+
 
 Empty so far. It will not stay empty, and this is the most useful section in the file when
 it is full. A failure with a reason beats a success with none.
