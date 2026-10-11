@@ -55,6 +55,7 @@ here as noise: a page from a standing start produces almost no signal.
 | To 21 Sep 2026 | 9 published, 8 with data | NCSC shadow AI, 12 engagements on 156 impressions | Huang on slowing AI down, 2.63% on 152 impressions | Second batch. 18 posts written, 14 scheduled, 4 left ready. Six of fifteen cards needed a second pass |
 | To 28 Sep 2026 | Page: 8 published, no data reachable. Profile: 3 published, 1 with data | Profile, 25 prompts (23 Sep): 4.3% on 674 impressions, the highest rate in the profile's whole history | Profile, find-your-four (24 Sep) and undocumented (25 Sep): 0 reactions, 0 comments, no impressions row returned | Third batch. 10 page posts written, rendered, banked and pushed; **none scheduled**, the page's Buffer account was unreachable from the run |
 | To 5 Oct 2026 | Page: unknown, unreachable for a sixth day. Profile: 3 AIFC posts, 1 with data | Profile, 25 prompts (23 Sep): 3.87% on 802 impressions, third-highest rate in 30 posts of profile history | Profile, find-your-four (24 Sep) and undocumented (25 Sep): still 0 reactions, 0 comments and no impressions row, ten days on | Fourth batch. 5 page posts written, rendered, banked and pushed; **none scheduled**, `Buffer-2` absent from the session entirely. Wrote to the band deficit rather than to volume |
+| To 11 Oct 2026 | Page: 10 published 30 Sep to 6 Oct, all with data; 29 page posts with data in total. Profile: not reachable, no `Buffer` server in the run | Page, Jensen Huang quote (17 Sep): now 8,003 impressions, 5,967 reach, 117 reactions, 70 comments, 14 shares, refreshed 11 Oct | Page, two hours won't fix it (5 Oct): 4 impressions, 2 reach, nothing else | Fifth batch. **No posts written**: the page was already at ten scheduled (12 to 16 Oct, rebuilt under `docs/prompts` on 11 Oct). Reconciled 10 posted, 10 queued, 1 dropped |
 
 **Week to 16 September 2026: there are no numbers yet, and that is the finding.**
 All three published posts return impressions 0, reach 0, reactions 0, comments 0 and
@@ -190,6 +191,39 @@ pace of frontier models, and its own body says "none of which changes anything y
 does this month". That is honest and it is also an admission that there is nothing for the
 reader to do. If the actionable-beats-factual conclusion in section 1 is right, this is
 what the other end of it looks like.
+
+**Week to 11 October 2026: the page's reach fell by an order of magnitude, and last month's
+"worst" post is now the best post the page has ever had.**
+
+Page numbers read from Buffer-2 on 11 October 2026, 29 sent posts, metrics refreshed that
+morning. The profile was not reachable: the run had only `Buffer-2`.
+
+Median impressions per page post by publishing week: 16 to 18 September 133 (n=8), 21 to 25
+September 58 (n=11), 30 September to 2 October 13 (n=6), 5 to 6 October 32 (n=4). The page then
+published nothing from 7 to 11 October. Four posts in the last fortnight drew six impressions or
+fewer. The likely causes, none separable on this data: the account move on 22 September, a
+four-day gap from 26 to 29 September and a five-day gap from 7 to 11 October, and the old
+register (policy, ONS and government-toolkit posts with nothing to do today) that the owner
+rejected on 11 October.
+
+**Best: the Jensen Huang quote, 17 September.** Recorded here on 21 September as the worst post
+at 152 impressions; it now has 8,003 impressions, 70 comments and 14 shares, more than every
+other page post combined. Our guess: a famous name, a verbatim line and a live argument give
+people something to take a side on, and LinkedIn surfaced it late once comments started. That
+is not the reader we now write for, and 70 comments on a page this size should be read before
+anyone treats it as a lesson; some may be spam. It does not move the standing conclusion that
+actionable beats factual for this audience: one outlier, no conversions known.
+
+**Worst: two hours won't fix it, 5 October, 4 impressions.** An opinion with no step to try,
+published into the trough. It is the post the 11 October rewrite was written to stop.
+
+**By style, hook and destination (all 29, earlier taxonomy).** `stat-in-context` and `news`
+carried the highest medians (117 and 131 impressions) but almost all of them ran in the first
+fortnight, so the style effect cannot be separated from the decline. `actionable-list` and
+`position` ran at medians of 32 and 27, almost all in the trough. Hooks: `named-thing` median
+102, `number-first` 58, `imperative` 32, `flat-claim` 13, the same confound. Linked posts did no
+worse than unlinked ones (15 with no link, median 44). **Posts under `docs/prompts`: none
+published yet.** The first ten go out 12 to 16 October; the comparison starts next week.
 
 ### Questions we are trying to answer
 

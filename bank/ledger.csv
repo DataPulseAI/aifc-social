@@ -42,3 +42,13 @@ date,time,headline,source_publisher,source_date,archetype,hook_type,photo_file,d
 2026-09-24,16:30:00,"Free ChatGPT accounts are tracked on 1,000 other websites, says a researcher",Buchodi,2026-09-20,news,number-first,work/phone-hand-w1.jpg,none,6ab23e319150b5cb8ef0b65c,story,page
 2026-09-25,08:05:00,"Before you buy another AI licence, count who opened the last one",AIFC,2026-09-21,position,imperative,,none,6ab23e3a02badfcd153b3472,position,page
 2026-09-25,13:09:00,"""We waste 25% of our week doing things we never should have done""",Fast Company,2026-09-16,quote,quote-first,work/presenting-u2.jpg,none,6ab23e446b39c53ea1c89697,story,page
+2026-09-30,07:55:11,Google Meet started taking the minutes on 29 September. Three things to settle.,Google Workspace Updates,2026-09-22,release-read,named-thing,,/insights/choosing-an-ai-assistant-for-your-team,6abc5760d3050be9e37ae3c9,week-read,page
+2026-09-30,12:41:37,41% of UK businesses say no barrier is holding back their use of AI. The average one uses it for 1.6 things.,ONS,2026-07-20,stat-in-context,number-first,,/insights/measure-ai-adoption-three-numbers,6abc576a5df9296bd8d8ad51,story,page
+2026-10-01,08:07:07,Most UK businesses using AI report no change to their headcount,ONS,2026-07-20,correction,flat-claim,,none,6abc5770d3050be9e37ae4bf,correction,page
+2026-10-01,16:12:52,Stop trying to ban the AI tools your team is already using,NCSC,2026-09-07,position,imperative,,none,6abc57765df9296bd8d8adae,position,page
+2026-10-02,07:47:22,Four changes to tools you already pay for,various,2026-09-29,roundup,number-first,,/prompts,6abc5783bc79f721888e8bd0,week-read,page
+2026-10-02,12:59:07,"Three free AI tools for employers, already on gov.uk",Skills England via GOV.UK,2026-06-10,actionable-list,named-thing,,/resources/week-four,6abc57893b1eb12e6e3cd858,library,page
+2026-10-05,08:13:51,Six things in the government’s new AI risk toolkit,DSIT,2026-09-08,actionable-list,number-first,,/insights/ai-usage-policy-uk-template,6abc57945df9296bd8d8b022,library,page
+2026-10-05,16:37:37,Two hours of training will not move your team past one use of AI. And we sell training.,ONS,2026-07-20,position,flat-claim,,none,6abc579bd3050be9e37ae6e7,position,page
+2026-10-06,08:05:24,Your team has one use for the assistant. Here are eight more.,ONS,2026-07-20,actionable-list,imperative,,/resources/prompt-library,6abc57a43b1eb12e6e3cda0c,one-task,page
+2026-10-06,12:24:23,Give it a real document. Tell it what to do when it does not know.,AIFC,2026-09-28,actionable-list,imperative,,/insights/prompts-your-team-will-reuse,6abc57acd3050be9e37ae833,library,page
