@@ -1,11 +1,11 @@
-54% of UK firms using AI say skills are what's holding them back.
+54% of UK firms using AI say limited skills have held them back.
 
-That's from AI Adoption Research, published by the Department for Business, Innovation, Science and Trade on 28 January 2026. It surveyed 3,500 UK businesses with five or more staff by phone. Of the 700 already using AI, 54% said limited AI skills had held them back from using it more widely.
+That's from AI Adoption Research, published by the Department for Business, Innovation, Science and Trade on 28 January 2026. It interviewed 3,500 UK private sector businesses with at least five staff, by phone. Of the 700 already using AI, 54% said limited AI skills, expertise or knowledge had hindered them in adopting it more widely.
 
-Line up four firms your size that have already started. Two of them say what is in the way is what their people know, not the software.
+Line up four firms your size that have already started. Two of them say limited AI skills have got in the way.
 
-The software is the part everyone budgets for. Our read is that the cheapest move is not another licence.
+Tools matter too, and the same research puts a lack of them close behind. Our read is that the skills half is the cheaper half to fix, and it's the half nobody budgets for.
 
 Pick one job your team repeats every week: the chaser, the handover note, the weekly update. Show two people how to do it with the assistant you already pay for, and give it a month.
 
-Source: Dept for Business, Innovation, Science and Trade, AI Adoption Research, 28 January 2026. 3,500 telephone interviews, fieldwork February to May 2025; the 54% is based on the 700 businesses using AI. https://www.gov.uk/government/publications/ai-adoption-research/ai-adoption-research/
+Source: Dept for Business, Innovation, Science and Trade, AI Adoption Research, 28 January 2026. 3,500 telephone interviews, fieldwork 12 February to 2 May 2025; the 54% is Figure 23, based on the 700 businesses using AI. https://www.gov.uk/government/publications/ai-adoption-research/ai-adoption-research/

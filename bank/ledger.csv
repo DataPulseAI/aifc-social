@@ -52,3 +52,13 @@ date,time,headline,source_publisher,source_date,archetype,hook_type,photo_file,d
 2026-10-05,16:37:37,Two hours of training will not move your team past one use of AI. And we sell training.,ONS,2026-07-20,position,flat-claim,,none,6abc579bd3050be9e37ae6e7,position,page
 2026-10-06,08:05:24,Your team has one use for the assistant. Here are eight more.,ONS,2026-07-20,actionable-list,imperative,,/resources/prompt-library,6abc57a43b1eb12e6e3cda0c,one-task,page
 2026-10-06,12:24:23,Give it a real document. Tell it what to do when it does not know.,AIFC,2026-09-28,actionable-list,imperative,,/insights/prompts-your-team-will-reuse,6abc57acd3050be9e37ae833,library,page
+2026-10-12,07:52:00,"Six jobs you'd do anyway, and the exact words to type",AIFC,2026-10-11,cheatsheet,flat-claim,,none,6acb539db07d37ac979f3579,library,page
+2026-10-12,16:07:00,1 in 4 firms using AI have anything in place for its risks,DSIT and DCMS,2026-04-30,stat,number-first,,none,6acb53a8f91f772d45c106b2,monday-count,page
+2026-10-13,07:47:00,One-star review this morning. A calm reply to post by lunch.,AIFC,2026-10-11,prompt-result,flat-claim,,/prompts,6acb53b3ed92ed8fa5f9baec,one-task,page
+2026-10-13,12:38:00,"You don't need an AI strategy, you need one person who tries it on Tuesday",AIFC,2026-10-11,position,flat-claim,,none,6acb53bded92ed8fa5f9bc41,position,page
+2026-10-14,08:11:00,"An invoice is 30 days late. Three chasers, each one firmer.",GOV.UK,2026-10-05,prompt-result,number-first,,none,6acb53c5c4de2d2b12565b8c,one-task,page
+2026-10-14,16:43:00,"AI is a keen new starter: quick, confident, and now and then it makes things up",AIFC,2026-10-11,relatable,flat-claim,,none,6acb53cded92ed8fa5f9befc,story,page
+2026-10-15,08:18:00,Your first 15 minutes with ChatGPT at work,AIFC,2026-10-11,carousel,number-first,,/prompts,6acb53d6bba9419ccb2e3d48,one-task,page
+2026-10-15,12:24:00,"What you typed, and what you meant",AIFC,2026-10-11,relatable,named-thing,,none,6acb53dfc4de2d2b12566041,story,page
+2026-10-16,07:58:00,Three changes to the AI you already pay for,"Microsoft, OpenAI, Google",2026-10-01,roundup,number-first,,none,6acb53e9b07d37ac979f4563,week-read,page
+2026-10-16,13:06:00,Is the team actually using AI? Count these three at week four.,AIFC,2026-09-03,ours,flat-claim,,/insights/measure-ai-adoption-three-numbers,6acb53f1b07d37ac979f45ef,library,page
