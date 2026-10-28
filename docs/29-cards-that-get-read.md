@@ -81,6 +81,10 @@ per post with account, channel, dueAt, text, assets and a note, built from the p
 checked for the banned list before anything reaches Buffer. Assets must return 200 from
 `raw.githubusercontent.com` before a post is created, which means the cards are pushed first.
 
+## Copy under the card
+
+Moved to `VOICE.md` (24 September 2026). This file is the visual standard only.
+
 ## The pairs in the library, 24 September 2026
 
 | Post | Prompt card | Result card | Category | Save or share |

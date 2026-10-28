@@ -6,7 +6,7 @@ the strings `score.mjs` prints; a file's status is set here instead.
 
 | Doc | Status | Where its live content is now |
 |---|---|---|
-| 01 voice | live, above SYSTEM.md | itself |
+| 01 voice | superseded, moved to `superseded/` | `VOICE.md` at the repo root |
 | 02 playbook | history | SYSTEM.md sections 2 to 7 |
 | 03 sources, 12 compiled sources | live, reference | themselves; `bank/sources.md` |
 | 04 runbook, 19 batch and drain, 05 daily task | live, operations | themselves; cadence per SYSTEM.md section 5 |
@@ -29,4 +29,5 @@ the strings `score.mjs` prints; a file's status is set here instead.
 In `viren/`: `formats.md` stays as the evidence per renderer; `plan.md` and `platform-2026.md`
 are superseded and say so at the top. In `bank/`: `formats.md` keeps the page templates; its
 cadence lines are superseded by SYSTEM.md.
-- `29-cards-that-get-read.md`  the card standard, 24 September 2026. Current.
+- `29-cards-that-get-read.md`  the card standard, visuals only, 24 September 2026. Current.
+- `../VOICE.md`  how we write, 24 September 2026. Current. 01-voice.md moved to `superseded/`.

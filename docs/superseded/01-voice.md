@@ -1,5 +1,9 @@
 # AI for Companies: voice, on the page and on LinkedIn
 
+> Superseded 24 September 2026 by `VOICE.md` at the repo root, which folds this file, the copy
+> rules in `docs/29` and the voice lines in SYSTEM.md section 10 into one document. Kept for the
+> research behind the banned list. Where the two disagree, `VOICE.md` wins.
+
 Written 15 September 2026. This governs everything the content engine publishes.
 If a draft breaks a rule here, the rule wins.
 

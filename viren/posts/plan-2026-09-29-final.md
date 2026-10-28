@@ -6,49 +6,48 @@ Second-pass gate: run `aifc-post-gate` on this file before anything goes into th
 
 ---
 
+
+> Bodies rewritten 24 September 2026, 11:00 UK: first 90 characters carry the outcome, the card is never repeated in the copy, one CTA per post, under 1,100 characters. The Buffer drafts carry these versions.
+
 ## Tue 29 Sep 07:45, Profile, Educate. Card: find-your-four.png
 
-Your four are already in your calendar.
+Your four are already in your calendar. Twenty minutes finds them, and you stop shopping for tools.
 
-My read is that everybody has about four things they actually use these tools for, and almost nobody can say what their four are, so they keep shopping for tools instead of getting better at the ones they have.
+Everybody has about four things they use these tools for. Almost nobody can say what theirs are, so they keep trying new tools instead of getting better at the ones they have.
 
-The card has the twenty minutes that fixes it. Three reasons it works.
+The card is the twenty minutes. Three things make it work.
 
-Start from your own calendar and sent items, not a list of use cases, because they are the only honest record of what your week actually contains.
+Your own calendar and sent items, not a list of use cases. They are the only record of what your week actually contains.
 
-Frequency beats difficulty. A ten-minute job you do daily is worth more than an afternoon you spend twice a year, and it is the one you will build the habit on.
+Frequency over difficulty. A ten-minute job you do daily is worth more than an afternoon twice a year, and it is the one you will build the habit on.
 
-Title the note by the job, not by the tool, so it survives you changing tools. Then review it in a month and delete what you never opened. A list that gets shorter and sharper beats a list that grows.
+Titled by the job, not the tool, so the note survives you changing tools. Review it in a month and delete what you never opened.
 
-What you have at the end is one note, four prompts, in your own words. The first thing about your job that has ever been written down, and the next person in your role can pick it up on day one.
+What you end up with is one note, four prompts, in your own words. The first thing about your job that has ever been written down, and the next person in your role can pick it up on day one.
 
 How many rows did you get on step one? Fifteen to twenty is normal. Forty means the calendar is the problem, not the tools.
-
-(898 characters. Ends on the one direct question the fortnight is allowed.)
 
 ---
 
 ## Tue 29 Sep 08:15, Page, Educate. Two images: 2026-09-30-two-quotes-page.png (the prompt), 2026-09-30-two-quotes-result.png (what comes back)
 
-Two quotes on your desk. Every gap identified, clause by clause, in one table.
+Two supplier quotes, one table, every gap marked. Fifteen minutes before you sign, so you ask the questions before the invoice does.
 
-Comparing two supplier quotes usually means two PDFs open side by side and an exit fee you did not see on page 24 until year two.
+The first page is the prompt. The second is what comes back on an illustrative pair: eight rows, the clause quoted for each, and not stated wherever a proposal goes quiet.
 
-Do not ask for a summary. Ask for the gaps. The prompt is on the first image; the second shows what comes back on an illustrative pair.
+Three instructions do the work.
 
-Three things in it do the work.
+Quote the clause. You are told where to look, not asked to trust a table, and anything the model cannot point at is the model filling a gap.
 
-Quote the clause for each. You are not trusting a table, you are being told where to look. Anything that cannot point at a clause is the model filling a gap, and you will see it immediately.
+Where one is silent, write not stated. An uncapped uplift, an undefined notice period, an exit cost nobody mentioned. Without this line you get a tidy table that hides every gap.
 
-Where one is silent, write not stated. Silence in a proposal is not neutral. An uplift that is not capped, a notice period that is not defined, an exit cost nobody mentioned. Without that instruction you get a tidy table that hides every gap, which is worse than no table at all.
+Attach the originals, PDF or Word, not your summary of them. Your summary is already an interpretation.
 
-Attach the originals. Both proposals as they were sent, PDF or Word, not your own summary of them. Your summary is already an interpretation, and that is where most wrong answers start.
+Once the table is back, one more sentence: "Below the table, list the three items most likely to cost us money, using only the quoted clauses."
 
-Once the table is back, one more sentence gets you the short version: "Below the table, list the three items most likely to cost us money, using only the quoted clauses."
+Then read those clauses yourself. This tells you where to look, not what to sign. This is not legal advice. Works the same in Copilot, ChatGPT, Gemini or Claude.
 
-Then read those clauses yourself. This tells you where to look. It does not tell you what to sign. This is not legal advice.
-
-Works the same in Copilot, ChatGPT, Gemini or Claude. Nothing to install.
+---
 
 ## Wed 30 Sep 07:45, Profile, Storytell. WAITING: photograph, headcount, the line, next date. Fallback card: undocumented.png
 
@@ -66,15 +65,13 @@ Next one: [date]. Same rules.
 
 ### Fallback: Nobody is behind on AI.
 
-That word gets used to sell things and I think it is the wrong diagnosis. The companies I see struggling with these tools are not slow. They are undocumented.
+Almost nothing about how a company works has ever been written down. How we price an unusual job. What we check before a proposal goes out. What makes a good handover. Which numbers we trust and which we quietly recalculate. It lives in four people's heads, and two of them are on holiday.
 
-Almost nothing about how a company actually works has ever been written down. How we price an unusual job. What we always check before a proposal goes out. The three things that make a good handover. Which numbers we trust and which we quietly recalculate. All of it lives in four people's heads, and two of them are on holiday.
+A tool cannot copy a way of working that has never been said out loud, so it produces something generic. The technology was never the missing part.
 
-A tool cannot copy a way of doing things that has never been said out loud. So it produces something generic. The technology was never the missing part.
+The ones I have seen get real value did one boring thing first. They wrote down how they do the job. Not a policy. The actual steps, in their own words, in the order they happen.
 
-The ones I have seen get real value did one boring thing first. They wrote down how they do the job. Not a policy document. The actual steps, in their own words, in the order they happen.
-
-That is a fortnight of unglamorous work and it pays for itself whether or not you ever open one of these tools again.
+A fortnight of unglamorous work, and it pays for itself whether or not you ever open one of these tools again.
 
 The least written-down part of most firms is pricing.
 
@@ -122,35 +119,35 @@ Between them that is about two hours of reading and it will make you better info
 
 ## Tue 6 Oct 07:45, Profile, Educate. Card: asked-vs-answered.png (no footer link)
 
-Same file, same tool, two answers.
+Same file, same tool, two answers. The second one you can send, and the only thing that changed was one clause.
 
-I have watched people decide these tools are useless on the strength of an answer they asked for in four words. Thirty seconds apart, and the only thing that changed was what they typed.
+I have watched people decide these tools are useless on the strength of an answer they asked for in four words.
 
-The card has six pairs. The right-hand side of each is a line you can paste today. Here is why each one works.
+The card has the six pairs. This is the why, so you can write your own seventh.
 
-The summary. Name who is reading and how long they have. That one clause changes the answer more than anything else you will ever type.
+Name the reader and how long they have. That clause changes the answer more than anything else you will type.
 
-The meeting. Ask it to mark any action where no owner was named. That clause finds the work nobody has picked up.
+Ask it to mark any action with no owner named. That finds the work nobody picked up.
 
-The contract. Ask for the ten hardest questions, not a summary, each quoting the clause it comes from. That is what a document costs you, not what it says.
+Ask for the ten hardest questions, each quoting its clause, not a summary. That is what a document costs you, not what it says.
 
-The rewrite. Ask it to list what it removed that the reader might still need. That is the safety net everyone leaves off.
+Ask what it removed that the reader might still need. The safety net everyone leaves off.
 
-The gaps. Tell it to write [GAP] where your notes run out rather than something plausible. Asked to mark its guesses, it marks them.
+Tell it to write GAP where your notes run out. Asked to mark its guesses, it marks them.
 
-The file. Attach the real spreadsheet, mess and all. The version you clean up first is already an interpretation.
+Attach the real file, mess and all. The version you tidy first is already an interpretation.
 
-None of that is clever. It is the difference between an answer you rewrite and one you send. Almost everyone I watch still types the left-hand side for at least four of the six.
+None of it is clever. It is the difference between an answer you rewrite and one you send, and almost everyone I watch still types the left-hand side.
 
 ---
 
 ## Tue 6 Oct 08:15, Page, Educate. Card: 2026-10-06-the-thread-page.png (the prompt), 2026-10-06-the-thread-result.png (what comes back)
 
-The thread you were copied into, in 120 words.
+Copied into forty messages at ten to five. Four lines back, so you know what is being decided and what is yours to do.
 
-Forty messages, three of them relevant, and somewhere in there is a decision someone is waiting on you for.
+The first page is the prompt. The second is what comes back on an invented thread: the decision, who is waiting on whom, the dates, your one action.
 
-The prompt is on the first image. The second is what comes back, on an invented thread: four lines. It asks for four named things, and the fourth is the point. The decision being asked for, not the topic. Who is waiting on whom, which is what a thread hides best. Any dates, including the ones mentioned in passing halfway down. And the one thing you need to do, because a summary of a thread is still a thread and a sentence telling you what to do is an answer.
+It asks for four named things, and the fourth is the point. A summary of a thread is still a thread. A sentence telling you what to do is an answer.
 
 Forward the whole message, quoted replies and all. The mess at the bottom is what tells it who was speaking to whom.
 
@@ -170,17 +167,15 @@ That is the problem Convu exists for. People you meet and then lose.
 
 ### Fallback: Most of the AI features I pay for, I have never opened.
 
-I use about four things, most weeks.
+Summarise a long thread so I know what is being asked. Turn messy notes into owners and dates. Compare two documents and tell me what differs. Draft a first version so I am editing instead of staring.
 
-Summarise a long thread so I know what is actually being asked. Turn a messy set of notes into owners and dates. Compare two documents and tell me what differs. Draft the first version of something so I am editing instead of staring.
+That is it.
 
-That is it. That is the whole list.
+There are agents I have not built, voice modes I have not enabled, integrations I set up once and never opened, and a category of features I could not name if you asked me.
 
-There are agents I have not built, voice modes I have not enabled, integrations I set up once and never opened again, and an entire category of features I could not name if you asked me.
+Four things done every week beats forty things tried once. Everybody I know getting real value from these tools is running a short list they are slightly bored of.
 
-Four things done every week beats forty things tried once, and everybody I know who is getting real value out of these tools is running a short list they are slightly bored of.
-
-The anxiety in this industry is manufactured. Not by the tools, mostly by people selling things to fix it. The actual skill is noticing which four things map onto work you already do, and then being disciplined enough not to go shopping for a fifth.
+The anxiety in this industry is manufactured, mostly by people selling things to fix it. The skill is noticing which four things map onto work you already do, and then not going shopping for a fifth.
 
 If you have found your four, you are done. Go and do the work.
 
@@ -188,7 +183,9 @@ If you have found your four, you are done. Go and do the work.
 
 ## Thu 8 Oct 07:45, Profile, Educate, document post. File: ten-seconds.pdf (8 slides)
 
-Caption: You met twelve people. By Friday you can name two. Forty seconds after each conversation fixes it. Six things, in order.
+You met twelve people. By Friday you can name two. Forty seconds after each conversation fixes it.
+
+Six things, in order, one a slide. A pen works.
 
 ---
 
@@ -200,15 +197,15 @@ Written at batch from that week's sourcing, gated before scheduling, every sourc
 
 ## Tue 13 Oct 07:45, Profile, Storytell, the origin, once. WAITING: photograph of Viren at an event, talking, unposed. Fallback card: origin.png
 
-I kept forgetting people worth remembering.
+I kept forgetting people worth remembering. So I built two things, and this is the only time I will tell the story.
 
 Five years in a bank, and the pattern was always the same. Meet someone sharp on a Tuesday. A proper conversation, the kind you think about on the way home. By Friday I had their card and none of the reasons I wanted to speak to them again.
 
 I tried notebooks. I tried a spreadsheet, which tells you everything about how I was trained. Nothing survived the second week.
 
-So I left and built two things because of it. Convu, which does the remembering from a voice note on the walk to the station. And AIforCompanies, because inside firms the same thing happens to tools: bought on a Tuesday, unexplained by Friday, and nobody can say what they were for.
+Convu does the remembering from a voice note on the walk to the station. AIforCompanies exists because inside firms the same thing happens to tools: bought on a Tuesday, unexplained by Friday, and nobody can say what they were for.
 
-That is the whole origin. I will not tell it again; from here the posts are about now.
+From here the posts are about now.
 
 Who did you meet this year and lose by Friday?
 
@@ -218,13 +215,13 @@ Who did you meet this year and lose by Friday?
 
 ## Tue 13 Oct 08:15, Page, Educate. Card: 2026-10-09-the-update-page.png (the prompt), 2026-10-09-the-update-result.png (what comes back) (moved forward; the actions card follows a week later so it does not repeat the 6 October comparison sheet)
 
-"Write this week's update for [client] from the attached notes. Three headings: What moved. What is blocked. What we need from you. Then one line on next week. Under 200 words. Keep every number exactly; where the notes are unclear, write [CHECK]."
+Friday, 4pm. The client update in 200 words, with what you need from them, so Monday's call is not a chase.
 
-That is the whole prompt, and Friday at four is when you need it. The second image shows what comes back from a week of invented notes. Last thing on the list, and it is the one piece of writing the client reads every week.
+The first page is the prompt. The second is what comes back on a week of invented notes: three headings, one line on next week, and CHECK wherever the notes were unclear.
 
 The third heading is the one that gets dropped. Updates report progress and ask for nothing. The client feels vaguely informed and does nothing, and in a fortnight you are the one chasing. Naming what you need turns an update into a piece of work with their name on it.
 
-Under 200 words, because nobody reads the fourth paragraph of a status email. And [CHECK] wherever your own notes were unclear, so you find out what you do not know on Friday afternoon rather than in Monday's call.
+Under 200 words, because nobody reads the fourth paragraph of a status email. CHECK wherever your own notes were unclear, so you find out what you do not know on Friday afternoon rather than in Monday's call.
 
 Attach the week's notes in whatever state they are in. Bullet fragments are fine. That is what notes look like.
 
@@ -232,27 +229,27 @@ Attach the week's notes in whatever state they are in. Bullet fragments are fine
 
 ## Wed 14 Oct 07:45, Profile, Educate. Card: 2026-10-12-the-board-paper.png (the prompt), 2026-10-12-the-board-paper-result.png (what comes back)
 
-Everybody proofreads. Almost nobody stress-tests.
+Everybody proofreads. Almost nobody stress-tests. Eight questions before the meeting, so none of them is new in the room.
 
 After three drafts you cannot see your own paper any more. You are checking commas while the thing that gets it sent back sits in paragraph four.
 
-The prompt is on the first image, and the second shows the eight questions that came back on an invented paper: a sceptical non-executive with a finance background, eight questions in order, each tied to the paragraph it comes from, then every claim without a number, every risk without a mitigation, every recommendation whose cost is not stated.
+The first page is the prompt. The second is what came back on an invented paper.
 
-The second half is the part I would not skip. A claim without a number: improved, strengthened, significant, each one a question waiting to be asked in the room. A risk without a mitigation reads as awareness and is actually an open question with your name on it. A recommendation whose cost is not stated is the one that ends the meeting early.
+The second half of the prompt is the part I would not skip. A claim without a number: improved, strengthened, significant, each one a question waiting in the room. A risk without a mitigation reads as awareness and is actually an open question with your name on it. A recommendation whose cost is not stated is the one that ends the meeting early.
 
-None of the three is a style problem, which is why rereading never catches them. They are structural, and you can only see them by being asked.
+None of the three is a style problem, which is why rereading never catches them. They are structural, and you only see them by being asked.
 
-You will not agree with all eight questions. The value is being asked them on Thursday rather than on Tuesday in the room.
+You will not agree with all eight. The value is hearing them on Thursday rather than on Tuesday in the room.
 
 ---
 
 ## Thu 15 Oct 07:45, Profile, Sell, the ask. Card: the-ask.png. No link.
 
-If the team does not leave using it, we do not invoice.
+If the team does not leave using it, we do not invoice. One day, one team, their own files, so what they learn is already their job.
 
-That is the whole commercial model of AIforCompanies, and I want to say plainly what the day is, once, because most people who follow me have only seen the rooms.
+That is the whole commercial model of AIforCompanies. I want to say plainly what the day is, once, because many of you have only seen the rooms.
 
-One day, one team, their own work, their own files, in the assistant their company already pays for. By the afternoon each person has three tasks they run themselves, the team has a shared library of what works, and there is one page of rules everyone agreed to in the room. We come back at week four and check whether it stuck.
+One team, their own work, in the assistant their company already pays for. By the afternoon each person has three tasks they run themselves, the team has a shared library of what works, and there is one page of rules everyone agreed to in the room. We come back at week four and check whether it stuck.
 
 It is for firms of 10 to 250 people that have bought the licences and are not getting much back.
 
@@ -270,25 +267,25 @@ I checked the [N] tools one [sector] firm already pays for. [M] have an AI assis
 
 ### Fallback: The second answer is the one that matters.
 
-Almost every person who has told me these tools do not work described the same thing to me: they asked once, read what came back, decided it was mediocre, and closed the tab. Which is fair. The first answer usually is mediocre.
+Almost everyone who has told me these tools do not work described the same thing: they asked once, read what came back, decided it was mediocre, and closed the tab. Fair. The first answer usually is mediocre.
 
-The first answer is not the product. It is the tool showing you what it understood. Read it that way and it becomes useful immediately, because now you can see exactly which part of your question it got wrong.
+The first answer is not the product. It is the tool showing you what it understood. Read it that way and you can see exactly which part of your question it got wrong.
 
-Too general means you did not say who it was for. Confidently wrong on detail means you described the file instead of attaching it. Missing the point entirely usually means you asked for the wrong artefact, a summary when what you wanted was a list of problems.
+Too general means you did not say who it was for. Confidently wrong on detail means you described the file instead of attaching it. Missing the point means you asked for the wrong artefact, a summary when you wanted a list of problems.
 
 So say the one sentence back. Not the whole prompt again. The three on the card are the ones I use most.
 
-It takes ten seconds and it is most of the difference.
+Ten seconds, and it is most of the difference.
 
 ---
 
 ## Tue 20 Oct 08:15, Page, Educate. Card: 2026-10-07-the-actions-page.png (the prompt), 2026-10-07-the-actions-result.png (what comes back)
 
-The meeting nobody wrote up.
+Every meeting has an action nobody owns. This finds it while the room is still warm, so it is not the reason something is late in three weeks.
 
-Every meeting has an action nobody owns. It is agreed in the room, everyone nods, and it never reaches a list because no name was attached to it. Three weeks later it is the reason something is late.
+The first page is the prompt. The second is what comes back on an invented meeting: six actions, two with nobody's name on them.
 
-The prompt is on the first image. The second is what comes back, on an invented meeting: six actions, two with nobody's name on them. Three clauses, three jobs. In their own words: a paraphrased action is already a decision you did not make. Mark any action where no owner was named: this is the one that turns a write-up into management information. Do not add actions that were only discussed: without it you cannot tell a commitment from a thought.
+Three clauses, three jobs. In their own words: a paraphrased action is already a decision you did not make. Mark any action where no owner was named: the line that turns a write-up into management information. Do not add actions that were only discussed: without it you cannot tell a commitment from a thought.
 
 Do not tidy your notes first. Half sentences carry who was speaking. A cleaned-up version loses exactly that.
 
@@ -296,15 +293,15 @@ Do not tidy your notes first. Half sentences carry who was speaking. A cleaned-u
 
 ## Wed 21 Oct 07:45, Profile, Educate. Card: 2026-10-08-the-spreadsheet.png (the prompt), 2026-10-08-the-spreadsheet-result.png (what comes back) (brought forward from November for the finance followers)
 
-Somebody else built the model you rely on.
+Somebody else built the model you rely on. This tells you what every column does and where it does not add up, and changes nothing.
 
 They have left, or it was 2019 and nobody remembers. It works, mostly, and everybody is slightly afraid of it.
 
-The prompt is on the first image: explain what each column means and which cells are inputs, then list anything inconsistent, and change nothing. The second image is what came back on an invented workbook.
+The first page is the prompt. The second is what came back on an invented workbook.
 
-The explanation is useful. The audit is the point. Totals that do not match the range they are summing. A number typed straight into a formula so it never updates. A column formatted as text so it silently drops out of a sum. Those are not exotic errors. They are the ordinary ones, they survive years of use, and nobody finds them by looking because the sheet still returns a number.
+The explanation is useful. The audit is the point. Totals that miss a row. A number typed straight into a formula so it never updates. A column formatted as text so it silently drops out of a sum. Not exotic errors. The ordinary ones, and they survive years of use because the sheet still returns a number.
 
-Change nothing is deliberate. You do not want a tidied version handed back, because then you have two sheets and no idea which is right. You want to know what you are standing on.
+Change nothing is deliberate. A tidied version handed back means two sheets and no idea which is right. You want to know what you are standing on.
 
 Attach the whole workbook, every tab. The tab nobody uses is usually where the problem is.
 

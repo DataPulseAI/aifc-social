@@ -5,7 +5,7 @@
 verified platform figures in `references/claims.md`. It replaces `docs/22`, `docs/23`,
 `docs/26`, `docs/27`, `viren/plan.md`, `viren/platform-2026.md` and the cadence in
 `bank/formats.md` and `README.md` section 5. Where an older document disagrees with this one,
-this one wins. `docs/01` (voice) and `docs/10` (the sourcing gate) sit above it and are not
+this one wins. `VOICE.md` (voice) and `docs/10` (the sourcing gate) sit above it and are not
 repeated here.
 
 Living file. Rewrite it in place; do not fork it.
@@ -228,12 +228,15 @@ These ten contradictions were live on 23 September 2026. Each is decided here.
 3. Weekends: the AIforCompanies track never posts at the weekend. Convu may, Saturday only.
 4. Profile shapes: the five in section 6. The `docs/26` shapes (room, desk, correction, position,
    resource, person) fold into them; the `viren/plan.md` week is retired.
-5. Links: none in a reference, show-how or person post. One, last line of the body, with UTM, in
-   a resource post. Never in the first comment.
+5. Links and the CTA (rewritten 24 September 2026): one call to action per post, in the first
+   comment, useful on its own (copyable prompt, note template, the one question) and carrying
+   one UTM link where a link earns its place. The body carries a link only in a resource post,
+   last line. Never a link on a card. Never "comment X for the guide".
 6. Question closes: none. End on the hard sentence. A closing question moves median engagement by
    0.07 of a point (AuthoredUp, 310,000 posts).
-7. Approval: every profile post is `schedulingType: notification`. No exceptions, including the
-   fourteen already scheduled.
+7. Approval (rewritten 24 September 2026): Buffer's API refuses notification scheduling for
+   LinkedIn, so every profile post is created as a draft carrying its date and time, and Viren
+   moves it to the queue himself. Nothing publishes to the profile without that click.
 8. Company mentions on the profile: at most one post a week names AIforCompanies, as a fact about
    what Viren is building, never as an offer. The resource post counts as that one.
 9. Fonts: profile cards use Instrument Sans as `viren/brand.json` says; page cards use
@@ -249,9 +252,8 @@ These ten contradictions were live on 23 September 2026. Each is decided here.
     collage and a document shows the first page whole with the result one swipe away. A lone card
     posts as a single 4:5 image. A carousel posts as a PDF. Document title is the card headline.
 
-And the standing rules: no em dashes, no exclamation marks, no emoji, no engagement bait, no
-"Most people", no invented client, result, quote or headcount, every number with a source and a
-date, first person allowed on the profile and nowhere else.
+And the voice: `VOICE.md` at the repo root, one document, read before writing a word. It
+carries the reader, the four tests, the shape, the comment, the banned list and the check.
 
 ## 11. What is measured, weekly, in this order
 
@@ -280,14 +282,15 @@ week plus the daily twenty minutes, most of it talking to real people.
 Sourcing, drafting to the five archetypes, cards from the renderers, scheduling into the approval
 queue, UTM, the resource build from an approved outline, the fortnightly note draft, HubSpot and
 Resend bookkeeping, metrics, the scorecard, the guard. The Sunday batch reads this file, then
-`docs/01`, `docs/10`, `bank/scorecard.md` and `bank/moments.md`, and writes the week.
+`VOICE.md`, `docs/10`, `bank/scorecard.md` and `bank/moments.md`, and writes the week.
 
 ## 14. Where things live
 
 | Thing | Path |
 |---|---|
 | This system | `SYSTEM.md` |
-| Voice and sourcing, above this file | `docs/01-voice.md`, `docs/10-sourcing-gate.md` |
+| Sourcing | `docs/10-sourcing-gate.md` |
+| How we write | `VOICE.md` |
 | Card system and the loop | `docs/29-cards-that-get-read.md` (the standard), `docs/25-card-system.md` (page tokens and templates), `docs/24-the-loop.md` |
 | Everything we learned from, with the reason | `references/` (creators, images, scoring, verified claims) |
 | The profile renderers and their inputs | `viren/` (`formats.md` is the evidence per renderer) |

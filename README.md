@@ -1,4 +1,4 @@
-> **Read `SYSTEM.md` first.** Since 23 September 2026 it is the one operating document for both channels. This README is the page's mechanics (runs, ledger, photos, Buffer); where it states a cadence, SYSTEM.md wins.
+> **Read `SYSTEM.md` first, then `VOICE.md` before writing a word.** Since 23 September 2026 it is the one operating document for both channels. This README is the page's mechanics (runs, ledger, photos, Buffer); where it states a cadence, SYSTEM.md wins.
 
 # AI for Companies: the LinkedIn content engine
 
@@ -83,7 +83,7 @@ npm install
 node lib/freshness.mjs bank/ledger.csv    # what is at risk of repeating
 ```
 
-Read, in this order: this file, `docs/01-voice.md`, `docs/06-editorial-model.md`,
+Read, in this order: `SYSTEM.md`, `VOICE.md`, this file, `docs/06-editorial-model.md`,
 `docs/08-what-makes-it-interesting.md`, `docs/17-photo-quality-rules.md`. Everything else
 is reference, pulled in when the task calls for it.
 
@@ -489,7 +489,7 @@ resources/            the gated documents, one folder each (see resources/README
 
 | File | What it settles |
 |---|---|
-| `01-voice.md` | Brand voice, LinkedIn voice, banned vocabulary, the structural AI tells |
+| `../VOICE.md` | How we write. The reader, the four tests, the shape, the comment, the banned list, the check |
 | `02-playbook.md` | Nine archetypes, the daily pattern, engagement mechanics, the funnel |
 | `03-sources.md` | UK statistical sources, the research calendar, image licensing |
 | `04-runbook.md` | How the engine runs, queue logic, the weekly analytics pass |
