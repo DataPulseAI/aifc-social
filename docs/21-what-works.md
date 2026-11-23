@@ -56,6 +56,7 @@ here as noise: a page from a standing start produces almost no signal.
 | To 28 Sep 2026 | Page: 8 published, no data reachable. Profile: 3 published, 1 with data | Profile, 25 prompts (23 Sep): 4.3% on 674 impressions, the highest rate in the profile's whole history | Profile, find-your-four (24 Sep) and undocumented (25 Sep): 0 reactions, 0 comments, no impressions row returned | Third batch. 10 page posts written, rendered, banked and pushed; **none scheduled**, the page's Buffer account was unreachable from the run |
 | To 5 Oct 2026 | Page: unknown, unreachable for a sixth day. Profile: 3 AIFC posts, 1 with data | Profile, 25 prompts (23 Sep): 3.87% on 802 impressions, third-highest rate in 30 posts of profile history | Profile, find-your-four (24 Sep) and undocumented (25 Sep): still 0 reactions, 0 comments and no impressions row, ten days on | Fourth batch. 5 page posts written, rendered, banked and pushed; **none scheduled**, `Buffer-2` absent from the session entirely. Wrote to the band deficit rather than to volume |
 | To 11 Oct 2026 | Page: 10 published 30 Sep to 6 Oct, all with data; 29 page posts with data in total. Profile: not reachable, no `Buffer` server in the run | Page, Jensen Huang quote (17 Sep): now 8,003 impressions, 5,967 reach, 117 reactions, 70 comments, 14 shares, refreshed 11 Oct | Page, two hours won't fix it (5 Oct): 4 impressions, 2 reach, nothing else | Fifth batch. **No posts written**: the page was already at ten scheduled (12 to 16 Oct, rebuilt under `docs/prompts` on 11 Oct). Reconciled 10 posted, 10 queued, 1 dropped |
+| To 1 Nov 2026 | Page: 18 published under `docs/prompts` (12 to 16 Oct, 27 to 30 Oct), all with data, 400 impressions in total, median 8.5. Profile: not reachable, no `Buffer` server in the run | Page, price-rise note (try this, 29 Oct): 152 impressions, 125 reach, 15.1% engagement | Page, one-star review and late-invoice chasers (try this, 13 and 14 Oct): 2 impressions each | Batch eight. Eight written for 3 to 6 Nov, all cards first pass except one roundup fix. Not scheduled: GitHub token returned 401, cards not pushed |
 
 **Week to 16 September 2026: there are no numbers yet, and that is the finding.**
 All three published posts return impressions 0, reach 0, reactions 0, comments 0 and
@@ -191,6 +192,30 @@ pace of frontier models, and its own body says "none of which changes anything y
 does this month". That is honest and it is also an admission that there is nothing for the
 reader to do. If the actionable-beats-factual conclusion in section 1 is right, this is
 what the other end of it looks like.
+
+**Week to 1 November 2026: the new prompts have not lifted reach yet, and one post shows what can.**
+
+Read on Buffer-2 on 1 November 2026, 28 page posts from 30 September with metrics (refreshed daily,
+so up to 24 hours stale). Ten posts before `docs/prompts` (30 Sep to 6 Oct): 173 impressions, median
+14.5, 3 reactions. Eighteen under `docs/prompts` (12 to 16 Oct and 27 to 30 Oct): 400 impressions,
+median 8.5, 5 reactions, 0 comments, 0 shares. The mean rose (17.3 to 22.2) only because of one post;
+the median fell. A ten-day gap with nothing published (17 to 26 Oct) sits inside the comparison.
+
+**By style, under `docs/prompts`.** Try this (n=4) 177 impressions, median 11.5, carried by one post.
+Stat (n=2) median 32.5, the steadiest. Ours (n=2) 27. Cheat sheet (n=1) 23. Roundup (n=2) 17.
+Relatable (n=4) 7.5. Carousel (n=2) 6, but the 28 October carousel drew the highest engagement rate
+on the page (Buffer reports 175% on 8 impressions; our guess is that it counts clicks through the document pages). Position (n=1) 5. **Hooks:** flat-claim median
+16 (n=8), number-first 4 (n=7). **Destination, all 28:** linked median 12, unlinked 10; no penalty for
+a link at this size.
+
+**Best: the price-rise note, 29 October, 152 impressions and 125 reach**, ten times the median. Guess:
+the most universal moment we have published (every owner has put prices up), on a Thursday morning,
+with money in the first line. **Worst: the review reply and invoice chasers, 13 and 14 October, 2
+impressions each.** Same style as the best, so the style is not the cause; our guess is distribution
+on a page that had posted twice a day for a fortnight to almost no followers.
+
+Nothing in section 1 moves: this is three weeks of data at single-digit medians, and the bar is a
+month that disagrees.
 
 **Week to 11 October 2026: the page's reach fell by an order of magnitude, and last month's
 "worst" post is now the best post the page has ever had.**

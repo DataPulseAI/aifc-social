@@ -62,3 +62,11 @@ date,time,headline,source_publisher,source_date,archetype,hook_type,photo_file,d
 2026-10-15,12:24:00,"What you typed, and what you meant",AIFC,2026-10-11,relatable,named-thing,,none,6acb53dfc4de2d2b12566041,story,page
 2026-10-16,07:58:00,Three changes to the AI you already pay for,"Microsoft, OpenAI, Google",2026-10-01,roundup,number-first,,none,6acb53e9b07d37ac979f4563,week-read,page
 2026-10-16,13:06:00,Is the team actually using AI? Count these three at week four.,AIFC,2026-09-03,ours,flat-claim,,/insights/measure-ai-adoption-three-numbers,6acb53f1b07d37ac979f45ef,library,page
+2026-10-27,08:09:22,The notes are a mess. A job advert you’d actually post.,AIFC,2026-10-20,prompt-result,flat-claim,,/prompts,6adff0ca0565644c9481ae30,one-task,page
+2026-10-27,16:13:23,"Five things we all say, and the words that actually do them",AIFC,2026-10-20,relatable,quote-first,,none,6adff0d03bff354cec6a016b,story,page
+2026-10-28,07:43:22,"Site notes to a written quote, in about 10 minutes",AIFC,2026-10-21,carousel,named-thing,,/prompts,6adff0d25837b0fb9bfb42f9,one-task,page
+2026-10-28,12:52:24,54% of UK firms using AI say limited skills have held them back,"Dept for Business, Innovation, Science and Trade",2026-01-28,stat,number-first,,none,6adff0d714a7789a82fa6fc6,monday-count,page
+2026-10-29,08:18:22,Prices go up on the first. A note customers won’t mind getting.,AIFC,2026-10-22,prompt-result,flat-claim,,/prompts,6adff0db3bff354cec6a0395,one-task,page
+2026-10-29,16:38:25,Nobody has ever remembered exactly what was agreed on a phone call,AIFC,2026-10-22,relatable,flat-claim,,none,6adff0def266a5f7e10681e3,story,page
+2026-10-30,07:51:23,Three changes to ChatGPT and Google worth trying,"OpenAI, Google",2026-10-21,roundup,number-first,,none,6adff0e43bff354cec6a05b5,week-read,page
+2026-10-30,12:26:22,A day of AI training has five jobs to do. Here are all five.,AIFC,2026-09-13,ours,number-first,,/insights/ai-training-for-employees-what-works,6adff0e85837b0fb9bfb4823,library,page
